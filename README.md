@@ -1,3 +1,4 @@
+NOTE this file is easier to read if you look at it as code instead of preview.
 # Translate Rebellion of Assistant Librarians Mod
 Credit to...
 LEGO_Johnase
@@ -15,7 +16,7 @@ Mod Page.
 https://steamcommunity.com/sharedfiles/filedetails/?id=3022468726
 
 How to Use.
-First dowload the zip file and unzip it.
+First dowload the zip file by clicking Code and then download zip. Then unzip it.
 You will then have the en folder with the translations.
 After downloading the original mod on steam workshop go to
 Properties
