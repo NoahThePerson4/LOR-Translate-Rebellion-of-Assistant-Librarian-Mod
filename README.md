@@ -1,0 +1,2 @@
+# TranslateAssistantLibrarianMod
+Translates The Mod.
