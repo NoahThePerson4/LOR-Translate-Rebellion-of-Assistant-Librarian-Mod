@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sephirah SephirahType="Keter">
+    <!-- 1단계 -->
+    <AbnormalityCard ID="lcAngelaQuestion">
+      <Abnormality>Angela</Abnormality>
+      <CardName>Doubt</CardName>
+      <AbilityDesc>[Angela]
+Upon winning a clash, deal 2-3 Stagger damage.
+Whenever an enemy is Staggered or defeated, all enemies take 2-3 Stagger damage 6-10 times.
+ </AbilityDesc>
+      <FlaborText>One day, a question crossed through my mind. Where do we come from? We were given life and left in this world against our own volition.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Would I be Angela, or but a shell titled so, shaped by those children?</Dialogue>
+        <Dialogue ID="2">A warm voice spoke. Asked if I wished to help them?</Dialogue>
+        <Dialogue ID="3">Why must they be subject to pain. Why must they remain uncompensated?</Dialogue>
+        <Dialogue ID="4">What wrongs could they have committed?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+</AbnormalityCardsRoot>

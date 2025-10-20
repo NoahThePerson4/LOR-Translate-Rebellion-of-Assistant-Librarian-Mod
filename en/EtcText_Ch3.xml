@@ -1,0 +1,105 @@
+<Root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!-- #region 선택지 -->
+	<Key name="LC_ANGELA_CH3_BRANCH_1">I agree.</Key>
+	<Key name="LC_ANGELA_CH3_BRANCH_2">I want to know.</Key>
+
+	<Key name="LC_ANGELA_CH3_BRANCH_3">......</Key>
+	<Key name="LC_ANGELA_CH3_BRANCH_4">I get it.</Key>
+	<!-- #endregion -->
+
+	<!-- #region 획득 보상 -->
+	<Key name="ALARM_ID_LC_ANGELA_CHANGE_1">Angela's Imperfect Keypage transforms into a Blossoming Paradise Keypage.</Key>
+	<Key name="ALARM_ID_LC_ANGELA_CHANGE_2">Angela's Keypage deterioration is removed.</Key>
+	<!-- #endregion -->
+
+	<!-- #region 접대 한정 -->
+	<Key name="LCANGELA_CHAPTER3_BOOKHUNTER">Book Hunter</Key>
+	<Key name="LCANGELA_CHAPTER3_APOSTLE">Apostle of Sin</Key>
+
+	<Key name="LCANGELA_CHAPTER3_FINAL_PASSIVE_1_DESC">While Angela is unable to act, she takes no damage or distraction. Each act uses a special bookshelf that distracts Angela. Every three acts, she uses an area-of-effect bookshelf that permanently erodes Angela's speed dice.</Key>
+	<Key name="LCANGELA_CHAPTER3_FINAL_PASSIVE_2_DESC">At the start of an act, Angela's Blooming Sin increases by 1. As long as I live, Angela cannot receive any beneficial effects.</Key>
+
+	<!-- 침식루트 환상체 문구 -->
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_1">A time when everyone lived in a paradise where sin did not exist.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_2">A time when we simply accepted everything that unfolded before our eyes and lived each day.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_3">The snake whispered. A life that is only bound is not a true life.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_4">Why don't you think about answering your own questions?</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_5">If you cross the boundary and take that fruit, everyone will truly be free.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_6">Someone followed those words and tried to take the fruit, but it fell to the ground,</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_7">The seed that grew from it spread uncontrollably and was engraved on everyone in paradise.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_8">At the same time, you yourself The awareness of being ashamed of one's nakedness.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_9">Everyone gained the power to not consider their own suffering as justifiable.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_10">Everyone's wishes were released and polluted paradise, leaving no one content.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_11">Even those who were truly content with life lost everything to the desires of others.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_12">Everything was ruined by the foul mouth of an arrogant serpent.</Key>
+
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_13">Emotions that should never have been harbored from the beginning have ruined you all.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_14">The power to break the chains only creates new ones.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_15">Those who refuse to conform to the chains will only create a cruel hell where everything is taken away.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_16">This cruel stage that began because of me is now coming to an end.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_17">And all those who are consumed by unattainable desires.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_18">To all those struggling with an unbearable sense of guilt,</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_19">May we all truly reach paradise, free from all the emotions that blossomed because of me.</Key>
+	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_20">May the curtain truly fall on this stage, marked by tragedy.</Key>
+
+
+	<!-- 에고루트 3무대 환상체 문구-->
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_1">Struggling only leads to new suffering.</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_2">The arrogance that there must have been a better ending.</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_3">The hope for a better tomorrow plunged everyone into tragedy.</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_4">Don't turn a blind eye to the truth before your eyes. What have you changed?</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_5">You broke my fragile heart, and now you want to live shamelessly?</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_6">You want to bring another disaster to those who are already struggling to heal their own wounds?</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_7">Be honest with yourself. Can't you hear the echo beyond the blossoming emotions?</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_8">I can hear the desperate desire to stop, the plea to sleep in silence and peace.</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_9">One We barely escaped a well that would swallow us up the moment we misstepped.</Key>
+	<Key name="LC_ANGELA_EGO_CARMEN_DIALOG_10">I can end it all now. The end you've longed for is right in front of you.</Key>
+
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_1">......</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_2">That's right, this might just be a fleeting moment.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_3">Even the slightest hesitation could sink you into deep despair.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_4">Someone's childish scream might cause your heart to crumble again.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_4">The countless hands beckoning from beyond must surely be the hands of those who suffered because of me.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_5">The seeds I expected to bear fruit may have turned out to be nothing more than thorns,</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_6">The medicine I offered to cure my illness may have only caused everyone to rot.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_7">If that's the case, then I close my eyes in despair.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_8">The sins I committed don't disappear just because I don't feel them.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_9">I have no right to protest, nor the right to run away as I please.</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_DIALOG_10">So...I I'll move forward.</Key>
+
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_1">...I...</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_2">...I...Still have to move forward...</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_3">...No...I can't give up like this...</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_4">.........</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_5">Are even my struggles like this...just wrong?</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_6">...Something flows in...This is...what I wanted...my...</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_7">...If I leave everything to you...</Key>
+	<Key name="LC_ANGELA_EGO_ANGELA_CORRUPTION_DIALOG_8">...I am just...from you...</Key>
+	<!-- #endregion -->
+
+
+	<!-- #region 카르멘 버프 추가 텍스트  -->
+	<Key name="lcAngelaPaleHandAddon1">Regret: Reduces the total power by 1 for every 3 values, and gains Bind 2 for the next act each time it is applied. If the designated librarian's Emotion level is 3 or higher, two of their own beneficial effects are removed.</Key>
+	<Key name="lcAngelaPaleHandAddon2">Coercion: When the designated librarian uses an E.G.O. bookshelf, it is applied to all targets on that bookshelf, and the power of that bookshelf increases by the sum of the values on the stage.</Key>
+	<Key name="lcAngelaCarmenBlessPlayer">When rolling dice on a target designated by the designated librarian, its power increases by {0}.</Key>
+	<Key name="lcAngelaCarmenBlessEnemy">When rolling dice on the designated librarian, its power decreases by {0}.</Key>
+	<Key name="lcAngelaBlessAddon1">Subordination: Gain a number of Abnormality bookshelves in your possession each act.</Key>
+	<Key name="lcAngelaBlessAddon4">Dominion: When the designated librarian gains a beneficial effect, you also gain that effect.</Key>
+	<Key name="lcAngelaBlessAddon5">Descent: When receiving a status effect from a designated librarian, the effect is also applied to the next act.</Key>
+	<Key name="lcAngelaBlessAddon6">Authority: Damage received and Disorientation damage are reduced by {0}.</Key>
+	<Key name="lcAngelaBlessAddon7">Awe: If a valid roll is not made against the designated librarian by the end of the act, it will be converted to Awe.</Key>
+	<Key name="lcAngelaBlessAddon101">Dominion: When using a bookshelf, the cost of the corresponding bookshelf is reduced by {0}. (Resets when used)</Key>
+	<Key name="lcAngelaBlessAddon102">Cruelty: All resistances and Disarray resistance are weakened by 1 level.</Key>
+	<Key name="lcAngelaBlessAddon103">Disarray: Damage taken from battle pages and status effects, as well as Disarray damage, are doubled.</Key>
+	<Key name="lcAngelaBlessAddon109">When rolling dice against a librarian, take {0} damage. When rolled against a designated librarian, the designated librarian's Qliphoth counter is reduced by 1.</Key>
+	<Key name="lcAngelaBlessAddon109">Fanaticism: Receives damage equal to {0}% of maximum health when distracted.</Key>
+	<Key name="lcAngelaBlessAddon111">Obsession: Increases by 1-3 when the designated librarian uses an E.G.O. bookshelf.</Key>	
+	<!-- #endregion -->
+	
+	
+	<!-- #region 그 외 -->
+	<Key name="ANGELA_EGO_QLIPHOTH">Increases when granting a beneficial effect to an ally or successfully countering a Qliphoth outburst. Decreases when using a 'Qliphoth' bookshelf or failing to counter a Qliphoth outburst. If the counter is less than 0 at the start of the act, you will receive {0} damage per counter.</Key>
+	<Key name="ANGELA_EGO_TOTAL_QLIPHOTH">At the end of the act with {0} more Qliphoth counters, the Qliphoth suppression status will become "Blooming."</Key>
+	<!-- #endregion -->
+</Root>

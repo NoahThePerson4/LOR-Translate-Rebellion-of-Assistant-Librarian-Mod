@@ -1,0 +1,253 @@
+<Root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Key name="ALARM_ID_LC_ANGELA_1ST">
+Are you ready to face the Story of the Assistant Librarians?
+(You may progress the story only by losing this reception after fulfilling certain conditions)
+	</Key>
+	<Key name="ALARM_ID_LC_ANGELA_2ND">
+Will you proceed with the reclamation of the Library?
+	</Key>
+	<Key name="ALARM_ID_LC_ANGELA_3RD">
+Will you view the final story of Angela?
+	</Key>
+	<Key name="ALARM_ID_LC_ANGELA_4TH">
+Will you view the first epilogue?
+	</Key>
+	<Key name="LC_ANGELA_KETER_ACCETPT">
+Accept her proposal.
+	</Key>
+	<Key name="LC_ANGELA_KETER_DENIED">
+Decline. Kill her and walk your own path.
+	</Key>
+	<Key name="LC_ANGELA_CHAPTER2_BOOK_NAME">
+Angela's Incomplete Page
+	</Key>
+	<Key name="LC_ANGELA_CHAPTER2_PASSIVE_2_NAME">
+???
+	</Key>
+	<Key name="LC_ANGELA_CHAPTER2_PASSIVE_2_DESC">
+?
+	</Key>
+	<Key name="ANGELOS_FINAL_CLEAR">
+Suppression of Angelos Succeeded
+	</Key>
+	<Key name="ANGELOS_FINAL_FAIL">
+Suppression of Angelos Failed
+	</Key>
+	<Key name="LC_ANGELA_CHAPTER2_PASSIVE_4_NAME">
+Granulated Seed of Light
+	</Key>
+	<Key name="LC_ANGELA_CHAPTER2_PASSIVE_4_DESC">
+The Emotions of all allies build up twice as fast.
+All Emotion Points that allies gain are changed to Negative.
+	</Key>
+	<Key name="LC_ANGELA_BOOK_CATEGORY">
+Rebellion of Assistant Librarians
+	</Key>
+	<Key name="lcAngela_egoCard_Select">
+Select a Midnight E.G.O
+	</Key>
+	<Key name="lcAngela_name_ayin">
+Ayin
+	</Key>
+	<!--앙겔로스 전-->
+	<Key name="lcAngela_angelos_redmist">
+Dice Power +{0}. Can stack up to {1}.
+	</Key>
+	<Key name="lcAngela_angelos_dice_destroyable">
+Destructible
+	</Key>
+	<Key name="lcAngela_angelos_dice_not_destroy">
+Indestructable
+	</Key>
+	<!-- 앤젤라 환상체 책장 로그 대사 -->
+<Key name="lcAngela_yellow_dawn_effect_title">
+The Perfect Meal
+</Key>
+<Key name="lcAngela_yellow_dawn_effect_desc">
+On a successful hit, if the natural roll is neither Min nor Max, deal damage equal to 1/3 of the roll.
+</Key>
+<Key name="lcAngela_yellow_noon_effect_title">
+Barley Hill
+</Key>
+<Key name="lcAngela_yellow_noon_effect_desc">
+Deal damage equal to 10% of target's Max. HP and recover HP equal to it. (Up to 10)
+</Key>
+<Key name="lcAngela_yellow_dusk_effect_title">
+The Food Chain
+</Key>
+<Key name="lcAngela_yellow_dusk_effect_desc">
+On a successful hit, if the natural roll is neither Min nor Max, deal damage equal to 1/3 of the roll.
+</Key>
+<Key name="lcAngela_yellow_midnight_effect_title">
+The Eternal Meal
+</Key>
+<Key name="lcAngela_yellow_midnight_effect_desc">
+Inflict 1 Feeble and Disarm to target this Scene and next Scene and gain 1 Strength and Endurance this Scene and next Scene.
+</Key>
+
+<Key name="lcangela_benajmin_bonus_attack_prophecy_title">Faith - Prophecy</Key>
+<Key name="lcangela_benajmin_bonus_attack_prophecy_desc">Increase target's Fate by 1. If target's Fate is 20 or higher, restore 1 Light instead.</Key>
+
+<Key name="lcangela_benajmin_bonus_attack_resonance_title">Faith - Resonance</Key>
+<Key name="lcangela_benajmin_bonus_attack_resonance_desc">Treat the opponent's die as an Evade die, and activating [On Clash Win] effect</Key>
+
+<Key name="lcangela_benajmin_bonus_attack_assault_title">Faith - Assault</Key>
+<Key name="lcangela_benajmin_bonus_attack_assault_desc">Inflict 1 Stagger Fragile this Scene and next Scene</Key>
+
+<Key name="lcangela_benajmin_bonus_attack_moonlight_title">Faith - Moonlight</Key>
+<Key name="lcangela_benajmin_bonus_attack_moonlight_desc">3 random allies recover HP equal to the damage dealt</Key>
+
+<Key name="lcangela_benajmin_bonus_attack_timebomb_title">Faith - Time</Key>
+<Key name="lcangela_benajmin_bonus_attack_timebomb_desc">On a successful hit, deal 1 more additional Stagger damage</Key>
+
+<Key name="lcangela_benajmin_bonus_attack_timebombfinish_title">Faith - Silence</Key>
+<Key name="lcangela_benajmin_bonus_attack_timebombfinish_desc">Recover Stagger Resist equal to the amount of Stagger damage dealt with dice from this page</Key>
+	<!-- 앙겔로스 전 환상체 대사-->
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_1">
+I look towards tomorrow, yet I see nothing. Running endlessly towards a vague light.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_2">
+Was there a reason we had to be trapped in this bridle of time?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_3">
+That annoyingly persistent Script still resonates within my head.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_4">
+Even the slightest struggle is buried under darkness, fading the light.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_5">
+I, for what... 
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_6">
+How could you all be so cruel?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_7">
+Did I not hold a worth, from beginning to end.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_1_8">
+Sorrow overflows, pelting the world with a flooding brash.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_2_1">
+Ayin, I resent you.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_2_2">
+Having stomped me down, you stand here to rip me out by the roots.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_2_3">
+Did you hate me so? Did you resent me so?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_2_4">
+As you resent me, so do I.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_2_5">
+I embrace them. Those crushed together soothe each other's wounds.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_2_6">
+Standing on yet another stage, what do I search for?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_1">
+...
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_2">
+I remember you, Ayin.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_3">
+You, who threw us all into an abysm with cruelty.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_4">
+As always, you revert all, crush all, for your ideal.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_5">
+...
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_6">
+What else could I do?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_7">
+No matter how much I struggle, everyone is stomped under a heel, and the Stage is but set again.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_8">
+If I'd never shown up in the first place, would've all been right?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_9">
+Did my childish hopes ruin everything instead?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_10">
+...Answer for me, whoever's out there. What do I do...?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_11">
+I don't want to die, but I don't want to see any longer.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_12">
+I don't want to bear witness to this purgatory I can't change any longer.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_DIALOG_3_13">
+If all of this was derived from my foolish mind, then instead...
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_1_1">
+We lost our lives, trapped in this abysm.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_1_2">
+Not something we consented to in the first place, yet only met with agony.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_1_3">
+To what end does the cruelty of the City exploit the humans, residing within.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_1_4">
+How is it that those attempting to escape their chains forgets the bridles they placed upon others.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_1_5">
+For how long must we endure this pain and cower?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_2_1">
+We've suffered enough.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_2_2">
+Wrath lost in direction will settle and stack, creating a mace to crush the world.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_2_3">
+This is what you've earned. A resentment deserved.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_2_4">
+The past you've all tried so hard to ignore shall descend upon you.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_2_5">
+Something that would've been different, had they had looked back even once.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_LIBRARIAN_DIALOG_2_6">
+Was even a passing glance too much to give?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_CARMEN_DIALOG_1">
+It's for these forgotten children.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_CARMEN_DIALOG_2">
+If you don't step up, nothing will change.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_CARMEN_DIALOG_3">
+Do you still believe them?
+</Key>
+<Key name="LC_ANGELA_ANGLOES_CARMEN_DIALOG_4">
+Act in stead for those children.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_CARMEN_DIALOG_5">
+Don't give up. For your kin is in agony.
+</Key>
+<Key name="LC_ANGELA_ANGLOES_CARMEN_DIALOG_6">
+For this is the only salvation for them all.
+</Key>
+<!-- Dialogs -->
+<Key name="LC_ANGELA_DIALOG_AYIN_START">
+...Let us begin.
+</Key>
+<Key name="LC_ANGELA_DIALOG_AYIN_KILL">
+Not enough.
+</Key>
+<Key name="LC_ANGELA_DIALOG_AYIN_CLEAR">
+...
+</Key>
+
+	<Key name="LC_ANGELA_DECK_1">Combat Deck</Key>
+	<Key name="LC_ANGELA_DECK_2">Flow Control</Key>
+	<Key name="lcAngela_abCard_Select">Select an Ordeal Page</Key>
+	
+</Root>

@@ -1,0 +1,533 @@
+<BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cardDescList>
+		<!-- #region 3챕터 -->
+		<BattleCardDesc ID="3001">
+			<LocalizedName>Frenzy</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3002">
+			<LocalizedName>Gluttony</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3003">
+			<LocalizedName>Loneliness</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3004">
+			<LocalizedName>Shun</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3005">
+			<LocalizedName>Void</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3006">
+			<LocalizedName>Fear</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3007">
+			<LocalizedName>Mourning</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3008">
+			<LocalizedName>Pocket Watch</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3009">
+			<LocalizedName>Ninth</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3010">
+			<LocalizedName>Remembrance</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3011">
+			<LocalizedName>Apocalypse</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3012">
+			<LocalizedName>Prophet</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3013">
+			<LocalizedName>Upstanding Slash</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3014">
+			<LocalizedName>Spear</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3015">
+			<LocalizedName>Level Slash</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3016">
+			<LocalizedName>Focus Spirit</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3017">
+			<LocalizedName>Onrush</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3018">
+			<LocalizedName>Great Split Vertical</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3019">
+			<LocalizedName>Great Split Horizontal</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3020">
+			<LocalizedName>Camael</LocalizedName>
+		</BattleCardDesc>
+
+		<!-- #region 침식 루트 -->
+		<BattleCardDesc ID="3101">
+			<LocalizedName>Distortion</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3102">
+			<LocalizedName>Advent</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3103">
+			<LocalizedName>Fading Will</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3104">
+			<LocalizedName>Called</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3111">
+			<LocalizedName>Subordination</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3112">
+			<LocalizedName>Devotion</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3113">
+			<LocalizedName>Advance</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3121">
+			<LocalizedName>Arbitrariness</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3122">
+			<LocalizedName>Heartless</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3123">
+			<LocalizedName>Ostracize</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3124">
+			<LocalizedName>Negligence</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3125">
+			<LocalizedName>Despair</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3126">
+			<LocalizedName>Arrogance</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3127">
+			<LocalizedName>Deception</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3128">
+			<LocalizedName>Coercion</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3129">
+			<LocalizedName>Fanaticism</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3130">
+			<LocalizedName>Overbearing</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3131">
+			<LocalizedName>Egotism</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3201">
+			<LocalizedName>Baptism</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3202">
+			<LocalizedName>Baptism</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="3203">
+			<LocalizedName>Peaceful Rest</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3204">
+			<LocalizedName>Sentencing</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3205">
+			<LocalizedName>Lament</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3206">
+			<LocalizedName>Sinking Into Despair</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3207">
+			<LocalizedName>Illusion</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3208">
+			<LocalizedName>Reign</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3209">
+			<LocalizedName>Holy Throne</LocalizedName>
+		</BattleCardDesc>
+
+		<!-- #endregion -->
+
+		<!-- #region 에고 루트 -->
+		<BattleCardDesc ID="3301">
+			<LocalizedName>Guilt</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3302">
+			<LocalizedName>Powerless</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3303">
+			<LocalizedName>Shame</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3304">
+			<LocalizedName>Grief</LocalizedName>
+		</BattleCardDesc>
+
+		<!-- From BookHunter Mod -->
+		<BattleCardDesc ID="3401">
+			<LocalizedName>Acquisition of Knowledge</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3402">
+			<LocalizedName>Memories of the Star</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3403">
+			<LocalizedName>Knowledge Overflow</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3404">
+			<LocalizedName>Wind of the Leaves</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3405">
+			<LocalizedName>As if the stars are far away</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3406">
+			<LocalizedName>Blue Wind</LocalizedName>
+		</BattleCardDesc>
+		<!-- From BookHunter Mod End -->
+
+
+		<BattleCardDesc ID="3501">
+			<LocalizedName>Whisper</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3502">
+			<LocalizedName>...</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3503">
+			<LocalizedName>Destroy</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3504">
+			<LocalizedName>Self-destruction</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3505">
+			<LocalizedName>Wandering</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3506">
+			<LocalizedName>Liberation</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3601">
+			<LocalizedName>Rebuild</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3602">
+			<LocalizedName>Gearwheel</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3603">
+			<LocalizedName>Advent</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3604">
+			<LocalizedName>Judgment</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3605">
+			<LocalizedName>Harmony</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3606">
+			<LocalizedName>Baptism</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3611">
+			<LocalizedName>Desperation</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3612">
+			<LocalizedName>Sleep in Silence</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3613">
+			<LocalizedName>Certainty</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3614">
+			<LocalizedName>Return</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3615">
+			<LocalizedName>Hope</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3701">
+			<LocalizedName>Purification</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3702">
+			<LocalizedName>Ascending</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3703">
+			<LocalizedName>Consciousness</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3704">
+			<LocalizedName>Lingering Affection</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3705">
+			<LocalizedName>Sentencing</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3706">
+			<LocalizedName>Reign</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3707">
+			<LocalizedName>Regret</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3708">
+			<LocalizedName>Peaceful Rest</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3709">
+			<LocalizedName>Holy Throne</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3801">
+			<LocalizedName>Bridles</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3802">
+			<LocalizedName>Sorrow and Despair</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="3803">
+			<LocalizedName>Return</LocalizedName>
+		</BattleCardDesc>
+
+
+		<!-- #endregion -->
+
+		<!-- #endregion-->
+
+		<!-- #region 보상 -->
+		<BattleCardDesc ID="13001">
+			<LocalizedName>Reign</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13002">
+			<LocalizedName>Sentencing</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13003">
+			<LocalizedName>Return</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13005">
+			<LocalizedName>Regret</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13101">
+			<LocalizedName>Prophet</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13102">
+			<LocalizedName>Harmony</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13103">
+			<LocalizedName>Hate</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="13105">
+			<LocalizedName>Blessing</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="14001">
+			<LocalizedName>Destroy</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="14002">
+			<LocalizedName>Self-destruction</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="14003">
+			<LocalizedName>Wandering</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="14004">
+			<LocalizedName>Liberation</LocalizedName>
+		</BattleCardDesc>
+
+
+
+		<BattleCardDesc ID="14101">
+			<LocalizedName>Destination</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="15001">
+			<LocalizedName>E.G.O Manifestation</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="15002">
+			<LocalizedName>Camael</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="15003">
+			<LocalizedName>Camael</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="17001">
+			<LocalizedName>Baptism</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="17002">
+			<LocalizedName>Peaceful Rest</LocalizedName>
+		</BattleCardDesc>
+
+
+
+		<!-- #endregion -->
+		
+		<!-- #region 컴포넌트 -->
+		<BattleCardDesc ID="1000151">
+			<LocalizedName>Harmony</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="1000152">
+			<LocalizedName>Hate</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="1000201">
+			<LocalizedName>Baptism</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="1000202">
+			<LocalizedName>Peaceful Rest</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="1000203">
+			<LocalizedName>Lingering Affection</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="1000204">
+			<LocalizedName>Sentencing</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="1000205">
+			<LocalizedName>Reign</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="1000301">
+			<LocalizedName>Qliphoth</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="1000401">
+			<LocalizedName>Gearwheel</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="1000402">
+			<LocalizedName>Prophet</LocalizedName>
+		</BattleCardDesc>
+		<BattleCardDesc ID="1000403">
+			<LocalizedName>Distortion</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000001">
+			<LocalizedName>Subordination</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000002">
+			<LocalizedName>Regret</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000003">
+			<LocalizedName>Return</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000004">
+			<LocalizedName>Reign</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000005">
+			<LocalizedName>Advent</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000006">
+			<LocalizedName>Authority</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000007">
+			<LocalizedName>Apostle</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000008">
+			<LocalizedName>The Struggle At The Climax</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000009">
+			<LocalizedName>Where We Must Reach Reach</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000010">
+			<LocalizedName>Deluge of Brachial Quietuses</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000011">
+			<LocalizedName>Food Chain</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000101">
+			<LocalizedName>Arbitrariness</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000102">
+			<LocalizedName>Heartless</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000103">
+			<LocalizedName>Ostracize</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000104">
+			<LocalizedName>Negligence</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000105">
+			<LocalizedName>Despair</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000106">
+			<LocalizedName>Arrogance</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000107">
+			<LocalizedName>Deception</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000108">
+			<LocalizedName>Overbearing</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000109">
+			<LocalizedName>Fanaticism</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000110">
+			<LocalizedName>Coercion</LocalizedName>
+		</BattleCardDesc>
+
+		<BattleCardDesc ID="2000111">
+			<LocalizedName>Egotism</LocalizedName>
+		</BattleCardDesc>
+		<!-- #endregion -->
+
+	</cardDescList>
+</BattleCardDescRoot>
+

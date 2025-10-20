@@ -1,0 +1,812 @@
+<BattleCardAbilityDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!-- Chapter 1 - Chapter 2 Enemy Only-->
+	<BattleCardAbility ID="lcAngela_enemy_copy">
+		<Desc>[Combat Start] Replace all dice on this page with ones on the targeted page
+[On Use] Offensive dice on this page lose 3 Power and deal 50% less damage on hit</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support1">
+		<Desc>[On Use] Target gains 1 Strength and Endurance this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support2">
+		<Desc>[On Use] Target gains 1 Protection and Stagger Protection this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support3">
+		<Desc>[On Use] All assistant librarians recover 10% HP and Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support4">
+		<Desc>[Combat Start] All allies recover 10 HP and Stagger Resist, and gain 3 Protection and Stagger Protection this Scene
+If user's HP is 50 or higher, take 10 damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support5">
+		<Desc>[Combat Start] If target is an ally, they gain 3 Strength, Endurance, Protection and Stagger Protection this Scene
+If user's HP is 50 or higher, take 10 damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support6">
+		<Desc>[Combat Start] Add 2 Blunt dice (Roll: 4-5) to the dice queue of all pages of all allies this Scene
+Each time these dice lose a clash or are destroyed, take 1 damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_enemy_support7">
+		<Desc>[Combat Start] If target is an ally, dice on their pages gain +20 Power when clashing against 'Execution'
+Each time target rolls a die against a page other than 'Execution', take 1 damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosPhase1Speical">
+		<Desc>[Qliphoth]</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosPhase1ShadowSpeical">
+		<Desc>[Qliphoth] If targeting the same target, Angelos gains an effect corrosponding to the current Scene's Stage Effect</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosAsiyahDice">
+		<Desc>[On Hit] Target becomes unable to clash for the next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosAllBinding2">
+		<Desc>[On Hit] Inflict 2 Bind to all enemies next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosAtsilutDice">
+		<Desc>Gain +(Speed x 5) Power</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="anglosLastDicePower">
+		<Desc>[On Hit] Boost max roll value of last die by +3</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosWeakDisarm">
+		<Desc>[On Hit] Inflict 2 Feeble, Disarm and Bind next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinding1">
+		<Desc>[On Hit] Inflict 1 Bind next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinding2">
+		<Desc>[On Hit] Inflict 2 Bind next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosWeak2">
+		<Desc>[On Hit] Inflict 2 Feeble next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosDisarm2">
+		<Desc>[On Hit] Inflict 2 Disarm next Scene</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosHeal10">
+		<Desc>[On Clash Lose] Recover 10 HP</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosTear1">
+		<Desc>[Combat Start] Give 2 Strength this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosTear2">
+		<Desc>[Combat Start] Give 3 Protection this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosTear3">
+		<Desc>[Combat Start] Target recovers 15 Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosTear4">
+		<Desc>[Combat Start] Target deals 50% more Stagger damage for this Scene</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosShadowBleeding1">
+		<Desc>[Combat Start] Take 3 damage; when inflicting Bleed this Scene, inflict 1 additional stack</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBleeding2">
+		<Desc>[On Use] Take 10 damage; last die on this page gains +5 Power</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowFire1">
+		<Desc>[On Use] Take 3 damage; when inflicting Burn this Scene, inflict 1 additional stack</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowFire2">
+		<Desc>[On Use] Take 5 damage and inflict 5 Burn to self; all dice on this page gain +3 Power</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowPower1">
+		<Desc>[Combat Start] Take 5 damage; all dice of target lose 1 Power for this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowPower2">
+		<Desc>[Start of Clash] Take 10 damage; all dice of target are affected by Power Reduction effects x2 for this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowDecay1">
+		<Desc>[Combat Start] Take 5 damage; when inflicting Erosion this Scene, inflict 1 additional stack</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowDecay2">
+		<Desc>[On Use] Take 10 damage; [On Hit]effects of dice on this page activate twice</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBleedingDice1">
+		<Desc>[On Hit] Inflict 2 Bleed next Scene; if target has Bleed, inflict 4 Bleed next Scene instead</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBleedingDice2">
+		<Desc>[On Hit] Inflict 2 Bleed next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBleedingDice3">
+		<Desc>[On Hit] Inflict 2 Bleed this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBleedingDice4">
+		<Desc>[On Hit] Inflict 3 Bleed this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBleedingDice5">
+		<Desc>[On Hit] Deal damage equal to target's Bleed (Including Bleed that target will gain next Scene)</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowFireDice1">
+		<Desc>[On Hit] Inflict 2 Burn</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowFireDice2">
+		<Desc>[On Hit] Inflict 4 Burn</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowFireDice3">
+		<Desc>[On Hit] Inflict 6 Burn</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowFireDice4">
+		<Desc>[On Hit] Deal damage equal to 2x target's Burn then purge all Burn from target</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowPowerDice1">
+		<Desc>[On Hit] Inflict 1 Power Down next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowPowerDice2">
+		<Desc>[On Hit] Inflict 1 Power Down this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowPowerDice3">
+		<Desc>[On Hit] Inflict 2 Power Down this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowPowerDice4">
+		<Desc>[One-Sided] Deal 200% more damage
+[On Clash Win] If the opponent's roll is lower than this by 7 or more, deal 100% more damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowDecayDice1">
+		<Desc>[On Hit] Inflict 1 Erosion</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowRush">
+		<Desc>[On Clash] If the opponent's die is Evade, gain Power equal to the opponent's natural roll</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelos3rdPhaseMalkuth">
+		<Desc>All dice on this page have '[On Clash Lose] Gain 1 Strength and Endurance for every 5 points of difference betwen rolls'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseMalkuthDice">
+		<Desc>[On Hit] Gain 2 Strength and Endurance next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseYesod">
+		<Desc>[On Hit] Lower 1 random Stagger damage resistance of target by 1 grade (Cannot go below "Fatal")</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseYesodDice">
+		<Desc>Power affects this dice x2
+This dice is rolled 8 times</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseHod">
+		<Desc>[On Hit] Steal a random positive status from target</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseHodDice">
+		<Desc>[On Hit] Purge all positive statuses from target</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseNetzach">
+		<Desc>Dice on this page deal no damage on hit
+[On Hit] Target recovers HP equal to damage that would've been dealt</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseNetzachDice">
+		<Desc>[On Hit] If the 2 previous dice hit, deal (HP recovered through this page x 5) damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseTipherith">
+		<Desc>[Start of Clash] If the original Cost of opponent's page is 3 or higher, inflict 2 Feeble and Disarm to all librarians next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseTipherithDice">
+		<Desc>[On Hit] Increase the Cost of the page with the highest Cost in target's hand by 1</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseGebura">
+		<Desc>This page is used before any other pages, excluding Mass Attacks</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseBinah">
+		<Desc>[On Clash] If the opponent's die is affected by Power gain or loss, win the clash</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseBinahDice">
+		<Desc>[On Hit] Inflict Nullify Power next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseHokma">
+		<Desc>This page is used after all other pages</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseHokmaDice1">
+		<Desc>[One-Sided] Change the roll to (the roll x 1.5)</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseHokmaDice2">
+		<Desc>[One-Sided] Change the roll to (the roll x 2)</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseNormal1">
+		<Desc>[On Use] Inflict 1 Feeble and Disarm next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseNormal2">
+		<Desc>All dice on this page have '[On Clash Win] Inflict 2 Fragile next Scene; [On Clash Lose] Inflict 2 Fragile to self next Scene'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseNormal3">
+		<Desc>All dice on this page have '[On Clash Win] Gain 1 Haste and Damage Up next Scene; [On Clash Lose] Give 1 Haste and Damage Up to the opponent next Scene'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos3rdPhaseNormalDice">
+		<Desc>[On Hit] Deal 5 damage</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelos4rdPhaseFake1">
+		<Desc>Can only target Ayin (or Carmen?)
+[On Use] Kill target</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelos4rdPhaseFake2">
+		<Desc>Can only target Carmen (or Ayin?)
+[On Use] Kill target...?</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosPurpleMidnight">
+		<Desc>Dice on this page use the sum of the rolls of all targets to determine the result of a clash</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGreenMidnightDice">
+		<Desc>[On Hit] If target does not have Protection, deal damage equal to 200% of damage dealt (Min. 1)</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosProphesyAsiyah">
+		<Desc>[On Play] Gain 'Asiyah'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosProphesyYetsirah">
+		<Desc>[On Play] Gain 'Yetzirah'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosProphesyBeriah">
+		<Desc>[On Play] Gain 'Briah'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHourCard">
+		<Desc>[Combat Start] For this Scene, take half of damage and Stagger damage that would be dealt to other allies and become unable to become Staggered</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosMinuteCard">
+		<Desc>[Combat Start] For this Scene, all allies take 20% less damage and Stagger damage, and HP and Stagger Resist recovered by user is evenly divided with other allies</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosSecondCard">
+		<Desc>[Combat Start] For this Scene, when using a page against the target that user has already targeted in the Scene, boost Power of all dice on the page by +1 and deal 15% more damage on hit (Can stack)</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaOverload">
+		<Desc>[On Play] Gain 1 'Amplify'
+For this Scene, become unaffected by Power Reduction effects</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosAyinScenario">
+		<Desc>[Combat Start] At the end of the Scene, all pages user used this Scene return to hand (Excluding this page)</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosDefinition">
+		<Desc>[On Use] If target is Angelos, deal 100% more Stagger damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosExecution">
+		<Desc>[On Use] If Speed is higher than the target's, all dice on this page gain +2 Power</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosSynchro1">
+		<Desc>This page can redirect any page regardless of Speed
+Clashing with this page does not affect Deterrence</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosJudgement1">
+		<Desc>[On Use] Double Deterrence on self</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosSephiroth1">
+		<Desc>[On Use] Fully restore Light; give 2 Haste to all allies next Scene
+[Resonance] Dice of all allies gain Power equal to the amount of pages in [Resonance]in this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaClock">
+		<Desc>[On Use] Restore 3 Light and draw 1 page
+If hand is full, restore 2 additional Light instead of drawing a page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaSave">
+		<Desc>[On Use] If target is Angelos, Offensive dice on this page gain +2 Power
+Otherwise, Defensive dice on this page gain +2 Power</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaMessage">
+		<Desc>[On Use] Gain 2 Protection and Stagger Protection next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaOracle">
+		<Desc>[On Use] If target has Fate, the ability on the first die is changed to '[On Clash Win] Destroy all of opponent's dice'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaOracleDice">
+		<Desc>[On Hit] Inflict Fate</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaProphet">
+		<Desc>[Combat Start] Double the Deterrence on self
+At the start of the next Scene, give Protection and Stagger Protection to all allies equal to 1/4 of Deterrence on self</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaLaziel">
+		<Desc>[On Use]
+[Resonance] For the next Scene, reduce the threshold for target's Fate increasing by the amount of pages in [Resonance]in this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosHokmaLazielDice">
+		<Desc>[On Clash Win] Destroy all of opponent's dice
+[On Hit] Spend all target's Fate to deal damage equal to the amount spent x5</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahFairy">
+		<Desc>[On Use] Restore 1 Light
+If user's Deterrence 10 or higher, restore 2 instead
+If this page restores user's Light to full, gain 2 Haste next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahChain">
+		<Desc>[On Use] Gain 1 Haste next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahPillar">
+		<Desc>If 2 or more attacks connect, lower this page's Cost by 1
+[On Hit] Inflict 3 Fairy</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahLock">
+		<Desc>[On Use] If target is not Angelos, restore 1 Light</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahShockwave">
+		<Desc>[On Use] Give 3 Protection and Stagger Protection to all allies this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahZapkhiel1">
+		<Desc>[On Use] Increase a random Stagger damage resistance of all alies by 1 grade for this Scene
+[Resonance] Increase (Pages in [Resonance]in this Scene) random physical damage resistances of all allies by 1 grade for this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahLockDice">
+		<Desc>[On Hit] For the next Scene, all dice on target's page and all of its copies have their abilities removed, cannot gain any ability, and are unaffected by any dice-changing effects</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahShockwaveDice1">
+		<Desc>[On Hit] Inflict 2 Fairy</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosBinahShockwaveDice2">
+		<Desc>[On Hit] Inflict 1 Feeble this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosShadowBinding1">
+		<Desc>[On Hit] Inflict 1 Bind next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosStrength1">
+		<Desc>[On Hit] Gain 1 Strength next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosEndurance1">
+		<Desc>[On Hit] Gain 1 Endurance next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaJ">
+		<Desc>If 8 or more damage was dealt with this page, restore 2 Light and reduce the Cost of all other 'Level Slashes' by 1
+If this page restores user's Light to full, recover 10 Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaH">
+		<Desc>If 8 or more damage was dealt with this page, draw 1 page and reduce the Cost of all other 'Upstanding Slashse' by 1
+If a page could not be drawn, deal 20% more damage next Scene instead</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaZ">
+		<Desc>If 8 or more damage was dealt with this page, draw 1 page and reduce the Cost of all other 'Spears' by 1
+If a page could not be drawn, gain 1 Strength and Endurance next Scene instead</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaBuf">
+		<Desc>[On Use] Gain 1 Strength next Scene
+If Deterrence is 15 or higher, gain 2 Strength next Scene instead</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaRush1">
+		<Desc>If target is defeated or Staggered, use this page again on a random enemy
+Defeating enemy гыштп this page does not increase Deterrence</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGeburaKamael1">
+		<Desc>[On Use] Take no Stagger damage from 'Red Mist' effect at the end of this Scene
+[Resonance] Gain 1 'Red Mist'; if 'Red Mist' is at maximum amount, increase the maximum amount by 1 instead</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosAllProtect1">
+		<Desc>[On Hit] Give 1 Protection to all allies next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosAllBreakProtect1">
+		<Desc>[On Hit] Give 1 Stagger Protection to all allies next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosProtect1">
+		<Desc>[On Hit] Gain 1 Protection next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosRecoverHp4">
+		<Desc>[On Hit] Recover 4 HP</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosRecoverHpBreak5">
+		<Desc>[On Hit] Recover 5 HP and Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosRecoverBreak5">
+		<Desc>[On Hit] Recover 5 Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosRecoverBreak6">
+		<Desc>[On Hit] Recover 6 Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosWeak1">
+		<Desc>[On Hit] Inflict 1 Fragile next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosFairy2">
+		<Desc>[On Hit] Inflict 2 Fairy next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosDisarm1">
+		<Desc>[On Hit] Inflict 1 Disarm next Scene</Desc>
+	</BattleCardAbility>
+	<!-- #endregion -->
+
+	<!-- Chapter 2 Rewards -->
+	<BattleCardAbility ID="angelosBinahPillarDice">
+		<Desc>[On Clash Lose] Change result to draw</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosSephirothDice1">
+		<Desc>[On Hit] Inflict Feeble and Disarm next Scene equal to half of target's Bind</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosGreenMidnight">
+		<Desc>All dice on this page deal damage divided between 50 rolls</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardBinahSpecialFake">
+		<Desc>This page is moved to the alternative hand at the start of the Act
+[Combat Start] For this Scene, Fairy on enemies additionally activate when they are hit by a one-sided attack</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardBinahSpecial">
+		<Desc>[Combat Start] For this Scene, Fairy on enemies additionally activate when they are hit by a one-sided attack</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardBinahSpecialDice">
+		<Desc>[On Hit] For this Scene, whenever target is inflicted with Fairy, the amount inflicted increases by 1</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaBinahSmallBird">
+		<Desc>[On Play,][Return to Hand] Take 5% of Max. HP as damage; lower the Cost of pages in hand whose Cost is 1 or higher by 1 until they're used</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="lcAngelaRewardPaperFake">
+		<Desc>At the start of the Act, exhaust all other [Single-use]pages from deck, and add this page to hand
+Dice of all pages exhausted this way are added to this page (Types of added dice cannot repeat)
+[On Use] Activate all [On Play]and [On Use]effects of all pages exhausted by this page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardPaper">
+		<Desc>[On Use] Activate all [On Play]and [On Use]effects of all pages exhausted by this page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardCommon1">
+		<Desc>[On Use] Restore 1 Light and draw 1 page at the start of the next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardCommon2">
+		<Desc>[Qliphoth 1]
+[Combat Start] All allies restore 1 Light at the end of the Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardCommon3">
+		<Desc>[Cannot Win Clashes;][Deflect Nullify]
+If dice on this page were rolled 3 or more times, all allies restore 1 Light and draw 1 page at the end of the Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardCommon1Dice">
+		<Desc>[On Clash Win] Recycle this die</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardCommon2Dice1">
+		<Desc>[On Clash Win] Draw 1 page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardCommon3Dice">
+		<Desc>[On Clash Lose] All other allies recover HP and Stagger Resist equal to half of opponent's roll (Min. 1, Rounded down)</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="lcAngelaRewardHokmaClock">
+		<Desc>[On Use] Restore 1 Light</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaClockDice">
+		<Desc>[On Clash Win] Draw 1 page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaMessage">
+		<Desc>[On Use] Give 2 Endurance to all allies next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaMessageDice">
+		<Desc>[On Clash Win] Restore 1 Light</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaSearchDice1">
+		<Desc>[On Clash Win] Recycle this die</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaSearchDice2">
+		<Desc>[One-Sided] Draw 1 page and deal 50% more Stagger damage</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaApocalypse">
+		<Desc>If target has Fate, the ability of the first die on this page changes to '[On Clash Win] Destroy all dice on opponent's page'</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaApocalypseDice1">
+		<Desc>[On Hit] Inflict Fate</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaApocalypseDice2">
+		<Desc>[On Clash Win] If target has Fate, recover 4 Stagger Resist</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaProphecyFake">
+		<Desc>This page is moved to the alternative hand at the start of the Act
+Can only be used on targets with 10 or more Fate
+All dice on this page are considered as Block dice for Power gain or loss</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaProphecy">
+		<Desc>Can only be used on targets with 10 or more Fate
+All dice on this page are considered as Block dice for Power gain or loss</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaProphecyDice">
+		<Desc>[On Hit] If target has Fate, spend all target's Fate to deal damage and Stagger damage equal to the amount spent x3</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaProphet">
+		<Desc>[Combat Start] Draw 2 pages at the start of the next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaRewardHokmaProphetDice">
+		<Desc>[On Clash Win] If target has Fate, recover 2 HP and Stagger Resist</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="lcAngelaSin">
+		<Desc>This page changes depending on the current floor
+By selecting a specific Combat Page, the effect of this page can be locked regardless of the current floor</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaMalkuthSin">
+		<Desc>[Qliphoth 1]
+[Combat Start] Dice of all other allies gain 'Boost max value by +1~2; [On Hit] Inflict 1 Burn to each other' when they are rolled against target of this page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaMalkuthSinDice">
+		<Desc>[On Hit] Inflict Burn equal to target's Bind</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaYesodSin">
+		<Desc>[Qliphoth 2]
+Whenever dice from this page are recycled, lower a random resistance of target or another random ally by 1 for this Scene
+[After Use] Restore resistances of target changed by this page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaYesodSinDice">
+		<Desc>[On Hit] Deal damage to another random character equal to the damage dealt and recycle this die (Up to 5 times)</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaHodSin">
+		<Desc>[Qliphoth 4]
+Can only be used against targets with 5 or more status ailments
+Offensive dice on this page deal +1 more additional damage and Stagger damage each time they are recycled</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaHodSinDice1">
+		<Desc>[On Clash Win] Destroy all of opponent's dice
+[On Clash Lose] Destroy the next die on this page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaHodSinDice2">
+		<Desc>[On Hit] Transfer 1 stack of a random status ailment from target to 1 random ally and recycle this die (Up to 20 times)</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="lcAngelaNetzachSin">
+		<Desc>[Qliphoth 3]
+[Combat Start] All pages that target user will be redirected to other random characters
+For this Scene, all characters deal +2~4 additional damage with attacks</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaTipherithSin">
+		<Desc>[Qliphoth 2]
+[Combat Start] At the end of the Scene, all allies convert their Positive Emotion Points to Negative Emotion Points, and take damage equal to 3x the number converted</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaGeburaSin">
+		<Desc>[Qliphoth 5]
+[Combat Start] Move pages set on the last Speed dice of target and all allies other than Patron Librarian to user's use queue</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaChesedSin">
+		<Desc>[Qliphoth 2]
+[Combat Start] For this Scene, allies without Protection take 1-4 more damage from attacks, and whenever an ally with Protection wins a clash, 2 random allies other than the previous one recover 1-5 HP</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaBinahSin">
+		<Desc>[Qliphoth 8]
+[Combat Start] For this Scene, target's Power gain or loss are reversed</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaHokmaSin">
+		<Desc>[Qliphoth 6]
+[Combat Start] For the rest of the Act, whenever user uses Instant Combat Page on ally, ally takes 8 damage and gains 1 Strength
+If targeted ally does not have any Abnormality pages, additionally they gain 1 Damage Up</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaKeterSin">
+		<Desc>[Qliphoth 0]
+[Combat Start] Lower Qliphoth Counter by the absolute value of number by which the Cost of this page is changed, and gain additional effects</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaKeterSinDice1">
+		<Desc>[On Hit] Restore 1 Light</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaKeterSinDice2">
+		<Desc>[On Hit] Gain 1 Strength next Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDaatSin">
+		<Desc>[Qliphoth 4]
+Only usable if there are 2 or more other allies with Emotion Level 1 or higher
+[On Use] Raise user's Emotion Level
+Lower Emotion Level of 2 random other allies by 1, and they will not restore Light at the end of the Scene</Desc>
+	</BattleCardAbility>
+	
+	<BattleCardAbility ID="angelosRewardGreenMidnight">
+		<Desc>[Qliphoth 10]
+Targets all characters
+All dice on this page deal damage divided between 50 rolls</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosRewardYellowMidnight">
+		<Desc>[Qliphoth 4]
+Targets all characters
+[On Hit] Destroy targeted page
+After a random ally uses a page, that ally will additionally use a destroyed page (Once per page)</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="angelosRewardPurpleMidnight">
+		<Desc>[Qliphoth 13]
+Targets all characters
+[Combat Start] Roll all dice on the stage (Including dice in counter queues), add 4 dice of each type (Slash, Pierce, Blunt, Block) to the dice queue, copy all abilities of dice of corresponding types, and copy 25% of Power, min value boost, max value boost, damage increase, and Stagger damage increase of dice of corresponding types</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngela_reward_director_copy_ability">
+		<Desc>[Target Ally] Can only target an ally who does not have the corresponding Abnormality page (Targeting an enemy is considered as targeting self)
+[On Use] Give the corresponding Abnormality page to target</Desc>
+	</BattleCardAbility>
+
+
+	<!-- Chapter 2 Easter Egg -->
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard1">
+		<Desc>[Combat Start] For this Scene, target gains 1-2 Burn every time they roll a die or take damage from attack
+[On Use] All pages of all allies cost 1 less for the next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard2">
+		<Desc>All dice on this page are rolled 8 times
+[Combat Start] For this Scene, all resistances of all characters are set to "Fatal"</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard3">
+		<Desc>[Combat Start] For this Scene, all status ailments' infliction is doubled and all damage from page abilities is doubled</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard4">
+		<Desc>[On Use] Restore 3 Light and draw 1 page at the start of the next Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard5">
+		<Desc>[Combat Start] Inflict 2 Fragile, Stagger Fragile, and Erosion to all other characters this Scene</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard6">
+		<Desc>[On Use] Deal 7 damage to all other characters; all dice on this page gain +3 Power</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard7">
+		<Desc>[On Play] For this Scene, all Power Increase effects on target are applied as Power Reduction effects instead</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard8">
+		<Desc>[On Play] All allies recover 6 HP and Stagger Resist
+At the end of the Scene, all other allies restore 3 Light and draw 2 pages</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard9">
+		<Desc>Can only target a Speed die that is targetting user
+[On Play] Choose a random page from another random ally to clash with said page instead (Prioritize librarians that do not clash with target)
+Target's page's ability and dice are replaced with the ones from the ally's page</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard1Dice1">
+		<Desc>[On Hit] Double target's Burn</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard1Dice2">
+		<Desc>[On Hit] Deal (target's Burn x2) damage and Stagger damage, then purge all Burn from target</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="lcAngelaSinWhiteCarmenCard1Dice3">
+		<Desc>[On Clash Win] Give (opponent's roll / 5) Strength and Endurance to all allies next Scene</Desc>
+	</BattleCardAbility>
+
+<!--check-->
+
+	<!-- Carmen Apostles -->
+	<BattleCardAbility ID="lcAngelaCarmenParadiseLost">
+		<Desc>Only usable by Patron Librarians
+[End of Scene] All assistant librarians fully recover HP and Stagger Resist and are synchronized with Apostles (Including dead librarians)
+For every assistant librarian to whom this effect was applied, increase Qliphoth Counter by 3 at the end of each Scene
+When Qliphoth Counter reaches 0 or higher, cancely Apostle Synchronization</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleSythePage1">
+		<Desc>[On Use] All dice deal additional damage equal to target's Blessing</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleSythePage2">
+		<Desc>[Start of Clash] All dice on this page gain +2 Power</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleSpearPage1">
+		<Desc>[Start of Clash] Gain Damage Up and Fragile this Scene equal to the number of dice in opponent's queue</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleSpearPage2">
+		<Desc>[On Hit] If target's current die is not Block or target is Staggered, use this page again on another random enemy (Up to 2 times)</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleEscortPage1">
+		<Desc>[Start of Clash] If oppoennet's page is a Melee Combat Page, all dice on opponent's page lose 2 Power</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleEscortPage2">
+		<Desc>[On Use] All dice on this page gain '[On Hit] Deal damage equal to (target's Blessing)% of target's Max HP (Max. 40)'</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleSpearDice1">
+		<Desc>[On Hit] Destroy opponent's next die, and transfer Fragile this Scene from self to them</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleSpearDice2">
+		<Desc>[On Hit] Destroy all dice on opponent's page, and inflict Fragile next Scene equal to target's Blessing</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleWandDice1">
+		<Desc>[On Hit] Inflict 2 Fragile this Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleWandDice2">
+		<Desc>[On Hit] Inflict 1 Paralysis this Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleWandDice3">
+		<Desc>[On Hit] Give 1 Strength to 2 other assistant librarians this Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleWandDice4">
+		<Desc>[On Hit] Inflict 1 Feeble to 3 random enemies this Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleWandDice5">
+		<Desc>[On Hit] Give 1 Strength to all assistant librarians this Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleWandDice6">
+		<Desc>[On Hit] At the end of the Scene, inflict target's status ailments to them next Scene</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleEscortDice1">
+		<Desc>[On hit] Deal damage equal to 5% of target's Max HP (Max. 30)</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaSinApostleEscortDice2">
+		<Desc>Boost min and max values by user's Blessing</Desc>
+	</BattleCardAbility>
+
+	<!-- Angela Second Deck -->
+	<BattleCardAbility ID="lcAngelaDeckComponent1">
+		<Desc>Gain Qliphoth Deterrence effect, strengthening self or other allies depending on whether Qliphoth Counter exceeds 0.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent2">
+		<Desc>Allies who meet certain conditions become uncontrollable. This character and other allies are strengthened depending on the ration of allies under this effect and this character's Emotion Level. (Does not activate if no other allies are alive)
+
+If Key page is equipped on Floor of Religion, some Abnormality pages will change.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent3">
+		<Desc>At the start of each Scene, Qliphoth Counter is lower than 0, take Stagger damage equal to 2.5x Qliphoth Counter. If Staggered, do not recover from it until Qliphoth Counter becomes 1 or higher.
+
+Upon reaching Emotion Level 5 while meeting certain conditions...</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent4">
+		<Desc>One ally that uses a Combat Page on the smae target as this character will enter Qliphoth Overload state next Scene. (A random ally is selected at the start of the Act)
+Additional effects are obtained depending on the number of times this page is put to the deck.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent5">
+		<Desc>One random target against which this character has used a Combat Page will enter Qliphoth Overload state next Scene. (If no characters were targeted, a random enemy will be selected)
+Additional effects are obtained depending on the number of times this page is put to the deck.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent6">
+		<Desc>Increase Qliphoth Counter by 1 for every 2 Abnormality pages selected. (Rounded up)
+Additional effects are obtained depending on the number of times this page is put to the deck.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent7">
+		<Desc>At the start of the Act, lower Qliphoth Counter by 2.
+
+At the start of each Scene, all allies gain 1 Damage Up, Protection, and Stagger Protection. (Max. 2)
+Additional effects are obtained depending on the number of times this page is put to the deck.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent8">
+		<Desc>[Ordeal]
+
+Gain an Abnormality page that accelerates enemies Emotion Level raising. When the effect is strengthened, Emotion Level of all characters with the effect is adjusted to the highest among them.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent9">
+		<Desc>[Ordeal]
+
+Gain an Abnormality page that activates [On Hit]effects of ally's Combat Pages an additional time. When the effect is strengthened, other effects such as [On Clash Win]can also be activated.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent10">
+		<Desc>[Ordeal]
+
+Gain an Abnormality page that nullifies effects of enemy's Combat Page. When the effect is strengthened, nullified effects can be absorbed by this character.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent11">
+		<Desc>[Ordeal]
+
+Gain an Abnormality page that makes an ally use Assist Attack after this character uses a page set in the first Speed die. When the effect is strengthened, activation conditions for Assist Attack are eased.</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent12">
+		<Desc>[Midnight E.G.O., Cost 7]
+[Mass-Summation, Qliphoth 10]
+Targets all characters
+All dice on this page deal damage divided between 50 rolls</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent13">
+		<Desc>[Midnight E.G.O., Cost 4]
+[Mass-Individual, Qliphoth 4]
+Targets all characters
+[On Hit] Destroy targeted page
+After a random ally uses a page, that ally will additionally use a destroyed page (Once per page)</Desc>
+	</BattleCardAbility>
+
+	<BattleCardAbility ID="lcAngelaDeckComponent14">
+		<Desc>[Midnight E.G.O., Cost 6]
+[Mass-Individual, Qliphoth 13]
+Targets all characters
+[Combat Start] Roll all dice on the stage (Including dice in counter queues), add 4 dice of each type (Slash, Pierce, Blunt, Block) to the dice queue, copy all abilities of dice of corresponding types, and copy 25% of Power, min value boost, max value boost, damage increase, and Stagger damage increase of dice of corresponding types</Desc>
+	</BattleCardAbility>
+	<!-- #endregion -->
+
+</BattleCardAbilityDescRoot>

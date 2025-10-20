@@ -1,0 +1,52 @@
+<BattleDialogRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <GroupName>LCAngela</GroupName>
+	<!-- 카르멘 - 보상 -->
+	<Character ID="1">
+		<Type ID="START_BATTLE">
+			<BattleDialog ID="0">... Another day, repeats itself.</BattleDialog>
+		</Type>
+		<Type ID="BATTLE_VICTORY">
+			<BattleDialog ID="0">...Hopefully this is the end.</BattleDialog>
+		</Type>
+		<Type ID="DEATH">
+			<BattleDialog ID="0">...With this...</BattleDialog>
+		</Type>
+		<Type ID="COLLEAGUE_DEATH">
+			<BattleDialog ID="0">...She doesn't even blink an eye.</BattleDialog>
+		</Type>
+		<Type ID="KILLS_OPPONENT">
+			<BattleDialog ID="0">Rest in peace.</BattleDialog>
+		</Type>
+		<Type ID="SPECIAL_EVENT">
+			<BattleDialog ID="CLEAR_WAVE">...Are there still more of the blind ones left?</BattleDialog>
+		</Type>
+	</Character>
+
+	<!-- 앤젤라 - 보상 -->
+	<Character ID="2">
+		<Type ID="START_BATTLE">
+			<BattleDialog ID="0">Let's begin.</BattleDialog>
+			<BattleDialog ID="1">Let's each do our best to achieve our goals.</BattleDialog>
+			<BattleDialog ID="2">If I can be of any help to you, even in a small way...</BattleDialog>
+		</Type>
+
+		<Type ID="BATTLE_VICTORY">
+			<BattleDialog ID="0">Everyone worked hard.</BattleDialog>
+		</Type>
+		<Type ID="DEATH">
+			<BattleDialog ID="0">... I still have work to do...</BattleDialog>
+		</Type>
+		<Type ID="COLLEAGUE_DEATH">
+			<BattleDialog ID="0">...I guess I just have to endure it.</BattleDialog>
+			<BattleDialog ID="1">I have to protect at least those left...</BattleDialog>
+		</Type>
+		<Type ID="KILLS_OPPONENT">
+			<BattleDialog ID="0">Rest in peace.</BattleDialog>
+		</Type>
+		<Type ID="SPECIAL_EVENT">
+			<BattleDialog ID="CLEAR_WAVE">Let's try a little harder.</BattleDialog>
+		</Type>
+	</Character>
+
+</BattleDialogRoot>

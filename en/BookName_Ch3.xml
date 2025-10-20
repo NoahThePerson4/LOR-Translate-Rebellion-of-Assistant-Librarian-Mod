@@ -1,0 +1,65 @@
+<BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <bookDescList>
+
+    <!-- 3챕터 및 보상 -->
+    <BookDesc BookID="3001">
+      <BookName>Angela...?'s Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3002">
+      <BookName>Maddened Assistant Librarian's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3003">
+      <BookName>Gebura's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3004">
+      <BookName>Hokma's Page</BookName>
+    </BookDesc>
+
+    <!-- 침식 -->
+    <BookDesc BookID="3021">
+      <BookName>Gebura's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3022">
+      <BookName>Hokma's Page</BookName>
+    </BookDesc>
+
+    <!-- 에고 -->
+    <BookDesc BookID="3025">
+      <BookName>Angela's Broken Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3026">
+      <BookName>Book Hunter's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3027">
+      <BookName>Gebura's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3028">
+      <BookName>Hokma's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3101">
+      <BookName>Angela's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3102">
+      <BookName>Book Hunter's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="3103">
+      <BookName>???</BookName>
+    </BookDesc>
+    <BookDesc BookID="3104">
+      <BookName>Scales of Sin's Page</BookName>
+    </BookDesc>
+
+    <BookDesc BookID="1">
+      <BookName>Blooming Paradise's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2">
+      <BookName>Angela's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="13">
+      <BookName>Red Mist's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="14">
+      <BookName>Assistant Librarian's Page</BookName>
+    </BookDesc>
+  </bookDescList>
+</BookDescRoot>

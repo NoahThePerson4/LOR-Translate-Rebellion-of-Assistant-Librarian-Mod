@@ -1,0 +1,34 @@
+<BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <bookDescList>
+    <BookDesc BookID="8">
+      <BookName>Angela's Incomplete Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="11">
+      <BookName>An Arbiter's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="12">
+      <BookName>A Recordkeeper's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="1001">
+      <BookName>Angela's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2001">
+      <BookName>Angela's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2002">
+      <BookName>Ayin's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2004">
+      <BookName>Ayin's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2005">
+      <BookName>Hokma's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2006">
+      <BookName>Binah's Page</BookName>
+    </BookDesc>
+    <BookDesc BookID="2007">
+      <BookName>Gebura's Page</BookName>
+    </BookDesc>
+  </bookDescList>
+</BookDescRoot>

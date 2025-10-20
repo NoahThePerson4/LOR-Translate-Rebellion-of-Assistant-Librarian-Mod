@@ -1,0 +1,556 @@
+<BattleCardDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cardDescList>
+    <BattleCardDesc ID="1001">
+      <LocalizedName>Illusion</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1002">
+      <LocalizedName>Support Code - Strength</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1003">
+      <LocalizedName>Support Code - Protection</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1004">
+      <LocalizedName>Support Code - Recovery</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2001">
+      <LocalizedName>Support Code - Recovery</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2002">
+      <LocalizedName>Support Code - Strength</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2003">
+      <LocalizedName>Support Code - Assault</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2004">
+      <LocalizedName>Support Code - Insight</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2008">
+      <LocalizedName>Execution</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="50001">
+      <LocalizedName>Furioso</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="50002">
+      <LocalizedName>Great Split: Vertical</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2201">
+      <LocalizedName>Asiyah</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2202">
+      <LocalizedName>Briah</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2203">
+      <LocalizedName>Atziluth</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2204">
+      <LocalizedName>Resentment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2205">
+      <LocalizedName>Scar</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2206">
+      <LocalizedName>Manifest Qliphoth</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2207">
+      <LocalizedName>Resentment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2208">
+      <LocalizedName>Agony</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2214">
+      <LocalizedName>Helix of the End</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2215">
+      <LocalizedName>The Eternal Meal</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2216">
+      <LocalizedName>The God Delusion</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2221">
+      <LocalizedName>Red Tear</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2222">
+      <LocalizedName>Blue Tear</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2223">
+      <LocalizedName>White Tear</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2224">
+      <LocalizedName>Dark Tear</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2225">
+      <LocalizedName>Pierce</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2226">
+      <LocalizedName>Pierce Through</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2227">
+      <LocalizedName>Singe</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2228">
+      <LocalizedName>Searing</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2229">
+      <LocalizedName>Frailty</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2230">
+      <LocalizedName>Infirmity</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2231">
+      <LocalizedName>Rust</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2232">
+      <LocalizedName>Liquify</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2233">
+      <LocalizedName>Frenzy</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2241">
+      <LocalizedName>Nehemoth</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2242">
+      <LocalizedName>Gamaliel</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2243">
+      <LocalizedName>Samael</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2244">
+      <LocalizedName>Harab Serapel</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2245">
+      <LocalizedName>Tagirion</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2246">
+      <LocalizedName>Golab</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2248">
+      <LocalizedName>Sathariel</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2249">
+      <LocalizedName>Chaigidel</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2281">
+      <LocalizedName>Resentment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2282">
+      <LocalizedName>Scream</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2283">
+      <LocalizedName>Shriek</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2288">
+      <LocalizedName>Neverending Hate</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2289">
+      <LocalizedName>Meaningless Virtue</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2301">
+      <LocalizedName>Asiyah</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2302">
+      <LocalizedName>Yetzirah</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2303">
+      <LocalizedName>Briah</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2304">
+      <LocalizedName>Guarding Hour Hand</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2305">
+      <LocalizedName>Benedicting Minute Hand</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2306">
+      <LocalizedName>Revivifying Second Hand</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2307">
+      <LocalizedName>E.G.O Amplification</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2311">
+      <LocalizedName>Scenario</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2312">
+      <LocalizedName>Declaration</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2313">
+      <LocalizedName>Execution</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2314">
+      <LocalizedName>Arbitration</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2315">
+      <LocalizedName>Judgement</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2316">
+      <LocalizedName>Sephirot</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2321">
+      <LocalizedName>Pocket Watch</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2322">
+      <LocalizedName>Ninth</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2323">
+      <LocalizedName>Remembrance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2324">
+      <LocalizedName>Apocalypse</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2325">
+      <LocalizedName>Prophet</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2326">
+      <LocalizedName>Raziel</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2331">
+      <LocalizedName>Fairy</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2332">
+      <LocalizedName>Chain</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2333">
+      <LocalizedName>Pillar</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2334">
+      <LocalizedName>Lock</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2335">
+      <LocalizedName>Shockwave</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2336">
+      <LocalizedName>Zaphkiel</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="2341">
+      <LocalizedName>Upstanding Slash</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2342">
+      <LocalizedName>Spear</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2343">
+      <LocalizedName>Level Slash</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2344">
+      <LocalizedName>Focus Spirit</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2345">
+      <LocalizedName>Onrush</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2346">
+      <LocalizedName>Camael</LocalizedName>
+    </BattleCardDesc>
+	
+	
+	
+    <BattleCardDesc ID="10001">
+      <LocalizedName>Rebuild</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10002">
+      <LocalizedName>Advent</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10003">
+      <LocalizedName>Judgement</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10004">
+      <LocalizedName>Gearwheel</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10006">
+      <LocalizedName>Book of Revelation</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="10010">
+      <LocalizedName>Memory of Torment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10011">
+      <LocalizedName>Arbitrariness</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10012">
+      <LocalizedName>Heartless</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10013">
+      <LocalizedName>Ostracism</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10014">
+      <LocalizedName>Negligence</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10015">
+      <LocalizedName>Despair</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10016">
+      <LocalizedName>Arrogance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10017">
+      <LocalizedName>Deception</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10018">
+      <LocalizedName>Overbearment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10019">
+      <LocalizedName>Fanaticism</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10020">
+      <LocalizedName>Coercion</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="10021">
+      <LocalizedName>Egotism</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="11001">
+      <LocalizedName>Fairy</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="11002">
+      <LocalizedName>Chain</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="11003">
+      <LocalizedName>Pillar</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="11004">
+      <LocalizedName>Lock</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="11005">
+      <LocalizedName>Shockwave</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="11006">
+      <LocalizedName>Sink</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="11007">
+      <LocalizedName>Sink</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="12001">
+      <LocalizedName>Pocket Watch</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12002">
+      <LocalizedName>Remembrance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12003">
+      <LocalizedName>Ninth</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12004">
+      <LocalizedName>Apocalypse</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12005">
+      <LocalizedName>Prophet</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12006">
+      <LocalizedName>Oracle</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12007">
+      <LocalizedName>Oracle</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="12008">
+      <LocalizedName>Deity</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="20001">
+      <LocalizedName>Despair</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="20002">
+      <LocalizedName>Arrogance</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="22001">
+      <LocalizedName>Helix of the End</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="22002">
+      <LocalizedName>The Eternal Meal</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="22003">
+      <LocalizedName>The God Delusion</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="66661">
+      <LocalizedName>Arbitrariness</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66662">
+      <LocalizedName>Heartless</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66663">
+      <LocalizedName>Ostracism</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66664">
+      <LocalizedName>Negligence</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66665">
+      <LocalizedName>Despair</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66666">
+      <LocalizedName>Arrogance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66667">
+      <LocalizedName>Overbearment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66668">
+      <LocalizedName>Fanaticism</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="66669">
+      <LocalizedName>Coercion</LocalizedName>
+    </BattleCardDesc>
+
+
+
+
+
+    <!-- REQUIRE RE_TRANSLATE -->
+
+    <!-- #region 카르멘 사도-->
+    <BattleCardDesc ID="66666600">
+      <LocalizedName>Paradise Lost</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666601">
+      <LocalizedName>Obey</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666602">
+      <LocalizedName>Slay</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666603">
+      <LocalizedName>Behead</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666604">
+      <LocalizedName>Obey</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666605">
+      <LocalizedName>Slay</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666606">
+      <LocalizedName>Behead</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666607">
+      <LocalizedName>Obey</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666608">
+      <LocalizedName>Slay</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666609">
+      <LocalizedName>Behead</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666610">
+      <LocalizedName>Obey</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666611">
+      <LocalizedName>Slay</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="66666612">
+      <LocalizedName>Behead</LocalizedName>
+    </BattleCardDesc>
+    <!-- #endregion -->
+
+    <!-- #region 앤젤라 컴포넌트 덱 -->
+
+    <BattleCardDesc ID="1000001">
+      <LocalizedName>The Seed</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000002">
+      <LocalizedName>Terminus</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000003">
+      <LocalizedName>Unstable Ego</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000004">
+      <LocalizedName>Asiyah</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000005">
+      <LocalizedName>Briah</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000006">
+      <LocalizedName>Atziluth</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000007">
+      <LocalizedName>Amplification</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000008">
+      <LocalizedName>The Struggle at the Climax</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000009">
+      <LocalizedName>Where We Must Reach</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000010">
+      <LocalizedName>Deluge of Brachial Quietuses</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000011">
+      <LocalizedName>Food Chain</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000012">
+      <LocalizedName>Helix of the End</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000013">
+      <LocalizedName>Eternal Meal</LocalizedName>
+    </BattleCardDesc>
+
+    <BattleCardDesc ID="1000014">
+      <LocalizedName>The God Delusion</LocalizedName>
+    </BattleCardDesc>
+	
+    <BattleCardDesc ID="1000101">
+      <LocalizedName>Arbitrariness</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000102">
+      <LocalizedName>Heartless</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000103">
+      <LocalizedName>Ostracism</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000104">
+      <LocalizedName>Negligence</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000105">
+      <LocalizedName>Despair</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000106">
+      <LocalizedName>Arrogance</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000107">
+      <LocalizedName>Deception</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000108">
+      <LocalizedName>Overbearment</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000109">
+      <LocalizedName>Fanaticism</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000110">
+      <LocalizedName>Coercion</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="1000111">
+      <LocalizedName>Egotism</LocalizedName>
+    </BattleCardDesc>
+    <!-- #endregion -->
+
+  </cardDescList>
+</BattleCardDescRoot>

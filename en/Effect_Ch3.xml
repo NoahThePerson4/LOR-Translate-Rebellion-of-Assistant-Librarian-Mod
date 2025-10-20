@@ -1,0 +1,316 @@
+<BattleEffectTextRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <effectTextList>
+
+	  <BattleEffectText ID="keyword_lcangela_ch3_gebura_page">
+		  <Name>Instinct</Name>
+		  <Desc>This effect activates when this card deals 8 or more damage.</Desc>
+	 </BattleEffectText>
+
+    <!-- #region 침식 루트-->
+    <BattleEffectText ID="lcangelaDistortCarmenBufPhase1">
+      <Name>Mark</Name>
+      <Desc>Speed and power increase by {0}. Effects vary depending on whether the Librarian is present at the phase transition.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcangelaDistortCarmenBufPhase2Ally">
+      <Name>Brand</Name>
+      <Desc>Dice power for Blooming Paradise is reduced by {0}, and Blooming Paradise takes damage and Disarray damage split evenly. At the end of an act, if Blooming Paradise has no stored dice, it is reduced by 1.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcangelaDistortCarmenBufPhase2Enemy">
+      <Name>Brand</Name>
+      <Desc>Dice power increases by {0} and Blooming Paradise takes damage and Stagger damage divided equally. At the end of an act, if Blooming Paradise has no stored dice, it is reduced by 1.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaDistortCarmenEnemyWhisper">
+      <Name>Whisper</Name>
+      <Desc>Each time you are granted, you receive 1-2 damage and Stagger damage. (For Apostles, this applies as Recovery.) When this value reaches 40, it disappears and you gain 1 Brand. When the Blooming Paradise's stored dice are no longer present at the end of the battle, they disappear.</Desc>
+    </BattleEffectText>
+
+    <!-- #endregion -->
+
+
+    <!-- #region 에고 루트 -->
+    <BattleEffectText ID="lcangelaInvitationEgoCollapse">
+      <Name>E.G.O. Collapse</Name>
+      <Desc>At the start of each stage of the Book Hunters' Stage, Angela takes {0}% of her maximum Stagger Resistance as Stagger damage. If this value reaches 100, she loses the encounter.
+Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationPanic1">
+      <Name>Panic - Fortitude</Name>
+      <Desc>Attacks allies other than Cocoon. Gain {0} Strength at the start of the act and increase damage dealt with attack dice by {1}%. </Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationPanic2">
+      <Name>Panic - Prudence</Name>
+      <Desc>Uses a bookshelf on a random character. Each time the dice is rolled, inflicts {0} Disorientation damage to all characters. If Disorientation Resistance is less than {1} at the end of the act, inflict {2} Disorientation damage to all Assistant Librarians and they die.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationPanic3">
+      <Name>Panic - Temperance</Name>
+      <Desc>Uses a bookshelf on a random character. When using a bookshelf, inflicts {0} Disorientation damage to the target. At the end of the act, inflict Disorientation damage to Angela equal to the number of dice remaining * {1}.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationPanic4">
+      <Name>Panic - Justice</Name>
+      <Desc>Attacks the cocoon. When combined with a non-cocoon target, the dice power increases by {0}.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationEgoLight">
+      <Name>Blooming Light</Name>
+      <Desc>When it becomes 0, you lose the reception, and if it is less than 5, you lose control of the speed dice by the difference. At the start of the game, all allies recover {0}% of their health.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationEgoSin">
+      <Name>Blooming Sin</Name>
+      <Desc>When Angela dies, the value is granted to Angela. If Angela has this effect, the Light of Blooming decreases by the value of this effect at the start of the act, and when responding to the ???'s Bookshelf, the dice value becomes 0. (This effect triggers up to the maximum number per act.)</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaInvitationEgoCorruption">
+      <Name>E.G.O. Corruption</Name>
+      <Desc>Don't be afraid. You'll be at ease soon.</Desc>
+    </BattleEffectText>
+
+    <!-- #endregion -->
+
+
+    <!-- #region 보상 -->
+	  <BattleEffectText ID="lcAngelaOrdealRedCheer2">
+		  <Name>March</Name>
+		  <Desc>If the Emotion Coins are full when the bookshelf is used, immediately raise the Emotion level and grant March 2 to two random characters. (Priority given to non-march targets) Reduces by 1 at the end of an act.</Desc>
+	  </BattleEffectText>
+
+		<BattleEffectText ID="onlypage_lcangela_angela_stable">
+			<Name>Angela's Exclusive</Name>
+			<Desc>Can only be equipped on Angela (Secretary)'s core bookshelf.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="onlypage_lcangela_carmen_angela">
+			<Name>Angela's Exclusive (Blooming Paradise)</Name>
+			<Desc>Can only be equipped on Angela (Secretary)'s core bookshelf in Blooming Paradise.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="onlypage_lcangela_carmen">
+			<Name>Blooming Paradise's Exclusive</Name>
+			<Desc>Can only be equipped on the core bookshelf in Blooming Paradise.</Desc>
+		</BattleEffectText>
+
+    <BattleEffectText ID="lcangelaCarmenSinBloom">
+      <Name>Blooming Sin</Name>
+      <Desc>The sum of the "Stagger Damage" effects activated by the Flow Control pages. If you are not Staggered at the end of an act, your Qlipoth Counter increases by the amount.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaQlipothCounterCarmen">
+      <Name>Qlipoth Counter</Name>
+      <Desc>Reduced by Battle Page usage or persistent abilities. If it is 1 or higher at the start of an act, you become Staggered for the duration of that act.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="keywordLcAngelaCarmenBless">
+      <Name>Mark</Name>
+      <Desc>Gains additional effects based on the Flow Control settings of the designated librarian. Destroys at the end of the act.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="keywordLcAngelaCarmenPaleHand">
+      <Name>Pale Hands</Name>
+      <Desc>Speed is reduced and damage taken from dice and Disorientation is increased (once per die). Destroys at the end of the act.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaCarmenObedience">
+      <Name>Obedience</Name>
+      <Desc>Uncontrollable. When acquiring an emotion coin, share that emotion with the designated librarian and one other ally with this effect. It merges with a compatible bookshelf, and otherwise attacks the last target attacked by the designated librarian. If the designated librarian dies, you die.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaCarmenBless">
+      <Name>Token</Name>
+      <Desc/>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaCarmenAwe">
+      <Name>Awe</Name>
+      <Desc>Each time you make a valid roll (total win/hit) against the designated librarian, decrease by 1. At the start of an act, reduce the designated librarian's Qliphoth counter by {0}, and you take {0}% of your maximum Stagger Resistance as Stagger damage.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangelaCarmenPaleHand">
+      <Name>Pale Hands</Name>
+      <Desc>This hand has a value equal to its reduced speed in this act, and its damage taken from dice and Stagger increases by {0}. It disappears at the end of the act.</Desc>
+    </BattleEffectText>
+
+
+		<BattleEffectText ID="lcAngelaQliphothSuppression_stable">
+			<Name><![CDATA[Qliphoth Suppression : <color=#00ff00>Stable</color>]]></Name>
+			<Desc>Maximum light increases by 1. When Staggered, all Qliphoth Counters are lost.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcAngelaQliphothSuppression_overclock">
+			<Name><![CDATA[Qlipoth Suppression : <color=#ff0000>Overload</color>]]></Name>
+			<Desc>At the start of the act, take Stagger damage equal to 2.5 times the number of Qliphoth Counters held.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcAngelaQliphothSuppression_ego">
+			<Name>Qliphoth Suppression : Blooming</Name>
+			<Desc>Maximum Light increases by 1, and applies the "Protection" effect to all allies at the start of the act. Qliphoth Counters are reduced by the number of allies affected by the Protection effect.
+If the Qliphoth Counter is 0 or higher when Staggered, it is reduced to 0 and this ability is lost. If the Qliphoth Counter is less than 0 when Staggered...</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcAngelaQliphothSuppression_distort">
+			<Name><![CDATA[Qliphoth Suppression : <color=#ff0000>Distortion</color>]]></Name>
+			<Desc>Cannot be acted upon. Unspecified. When an ally ends using a Battle Page, if no invalid rolls (sum draw/defeat) occur, the Qliphoth Counter increases by 1. For each ally's sum loss/hit, the Qliphoth Counter decreases by 1.
+This effect disappears if your Qliphoth Counter is 1 or higher at the end of an act. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
+At the end of an act when this effect reaches 3...</Desc>
+		</BattleEffectText>
+
+    <BattleEffectText ID="keywordLcAngelaAngelaBlessStack1">
+      <Name>Purged 1 or more cards</Name>
+      <Desc>Remove 2 status ailments from the target and reroll the speed die.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="keywordLcAngelaAngelaBlessStack2">
+      <Name>Purged 2 or more cards</Name>
+      <Desc>Recovery and Strength bonuses are doubled.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="keywordLcAngelaAngelaBlessStack3">
+      <Name>Purged 3 or more cards</Name>
+      <Desc>Recover 1 Light to yourself and the target.</Desc>
+    </BattleEffectText>
+
+	  <BattleEffectText ID="keywordLcAngelaAngelaBinahSin1">
+		  <Name>Big Eyes</Name>
+		  <Desc>Gain 2 Counter Dice (Blunt, 4-8)</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="keywordLcAngelaAngelaBinahSin2">
+		  <Name>Small Beak</Name>
+		  <Desc>Increase damage by the cost of the cards used in this act.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="keywordLcAngelaAngelaBinahSin3">
+		  <Name>Long Arms</Name>
+		  <Desc>At the end of an act, apply status effects to all targets and yourself using the cards in the next act.</Desc>
+	  </BattleEffectText>
+
+
+		<BattleEffectText ID="lcAngelaEgoBless">
+			<Name>Blessing</Name>
+			<Desc>Restore 1 Light and draw a Bookshelf. Reduce damage taken and Disorientation damage by 2, and increase damage dealt and Disorientation damage by 2. (Applies only once per die.) Disappears at the end of the act.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcAngelaMultiDeckComponentQlipothOverloadAlly">
+			<Name>Qlipoth Meltdown (Ally)</Name>
+			<Desc>Angela triggers a success or failure response effect based on the number of times she uses the Bookshelf on the target she designates.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcangela_qlipoth_meltdown_ally_1">
+			<Name>Qlipoth Meltdown: Dawn (Ally)</Name>
+			<Desc>When Angela uses a Bookshelf on a target (all targetable when using an area-of-effect Bookshelf), the value decreases by 1, and when she uses a Bookshelf on any other target, the value increases by 1.
+If this effect is 0 at the end of the act, Angela's Qlipoth counter increases by 2 and the cost of a random Bookshelf with a cost of 3 or more is reduced by 1.
+			</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcangela_qlipoth_meltdown_ally_2">
+			<Name>Qlipoth Meltdown: Noon (Ally)</Name>
+			<Desc>When Angela uses a Bookshelf on a target (all targets that can be designated when using an area-of-effect Bookshelf), the value decreases by 1, and when she uses a Bookshelf on any other target, the value increases by 1.
+At the end of the act, if this effect is 0, Angela's Qlipoth Counter is increased by 2, and the cost of a random Bookshelf with a cost of 3 or higher is reduced by 1. (Resets when used)
+If this effect is 1 or higher, Angela's Qlipoth Counter is reduced by 5, and you gain 1 Strength.
+			</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcangela_qlipoth_meltdown_ally_3">
+			<Name>Qlipoth Meltdown: Dusk (Ally)</Name>
+			<Desc>When Angela uses a bookshelf on a target (all targets that can be designated when using an area-of-effect bookshelf), the value decreases by 1, and when she uses a bookshelf on any other target, the value increases by 1.
+At the end of the act, if this effect is 0, Angela's Qlipoth Counter increases by 2 and the cost of 2 random bookshelves with their original cost of 3 or more is reduced by 1. (Resets when used.)
+If this effect is 1 or more, Angela's Qlipoth Counter decreases by 10 and she gains 2 Strength.
+			</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcangela_qlipoth_meltdown_midnight">
+			<Name>Qlipoth Meltdown: Midnight (Ally)</Name>
+			<Desc>When activated, marks are applied to two random bookshelves. If no invalid judgment (draw/joint loss) occurs when the target bookshelf is finished using, its value decreases by 1. (If the bookshelf is "Triggered When Equipped," the value decreases upon use.)
+If this value is 0 at the end of the act, Angela's Blooming Sin decreases by 1. If it is 1 or higher, Angela's Blooming Sin increases by 1.
+If Angela is distracted or dies while under this effect, Angela's Blooming Sin is fixed at 3.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcAngelaMultiDeckComponent4_Add2">
+			<Name>When equipped with 2 or more copies</Name>
+			<Desc>The number of targets increases by 1.</Desc>
+		</BattleEffectText>
+
+		<BattleEffectText ID="lcAngelaMultiDeckComponent4_Add3">
+			<Name>When equipped with 3 copies</Name>
+			<Desc>he number of bookshelves that reduce the cost when a response is successful increases, and the number of Qliphoth counters that decrease when a response is unsuccessful increases.</Desc>
+		</BattleEffectText>
+
+    <!-- #endregion -->
+
+    <!-- #region 컴포넌트 -->
+    <BattleEffectText ID="lcAngelaMultiDeckComponentCarmen">
+      <Name>Distortion - Flow Control Card</Name>
+      <Desc>If your Emotion Level is greater than or equal to the cost of the card, gain the corresponding effect. Does not activate if you are Staggered.</Desc>
+    </BattleEffectText>
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentQliphothParadox">
+		  <Name>Paradox X</Name>
+		  <Desc>If the Emotion Level at the end of the act is higher than the cost of the corresponding card, the Qliphoth Counter increases by that amount.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal1_1">
+		  <Name>Noon</Name>
+		  <Desc>If all enemies are granted March, paralyze them.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal1_2">
+		  <Name>Dusk</Name>
+		  <Desc>If all enemies are granted March, empower allies.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal1_3">
+		  <Name>Midnight</Name>
+		  <Desc>If all enemies are granted March, gain Emotion Coins regardless of Emotion Level.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal2_1">
+		  <Name>Noon</Name>
+		  <Desc>The limit on the number of times a duplicate effect can be triggered is removed.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal2_2">
+		  <Name>Dusk</Name>
+		  <Desc>The "Total Clash Win" effect is triggered twice for speed dice with this effect applied.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal2_3">
+		  <Name>Midnight</Name>
+		  <Desc>The "On Use" effect for the Speed Dice with the effect applied is triggered twice.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal3_1">
+		  <Name>Noon</Name>
+		  <Desc>The "On Use" effect and the effect applied to the Dice among the nullified effects are triggered as your own effect.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal3_2">
+		  <Name>Dusk</Name>
+		  <Desc>The "On Combat Start" effect among the nullified effects is triggered as your own effect.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal3_3">
+		  <Name>Midnight</Name>
+		  <Desc>The effect applies to all speed dice slots, not just the first.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal4_1">
+		  <Name>Noon</Name>
+		  <Desc>Additional attacks are triggered even when using a card with a Qliphoth effect.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal4_2">
+		  <Name>Dusk</Name>
+		  <Desc>The original cost limit of a card is increased when using an additional attack.</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal4_3">
+		  <Name>Midnight</Name>
+		  <Desc>The additional attack activation limit is removed.</Desc>
+	  </BattleEffectText>
+
+    <!-- #endregion -->
+  </effectTextList>
+</BattleEffectTextRoot>

@@ -1,0 +1,365 @@
+<PassiveDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Conditions -->
+	<PassiveDesc ID="1001">
+		<Name>Binah</Name>
+		<Desc>Can only be equipped by the following librarians:
+- Patron Librarian of Philosophy
+- Assistant Librarian of Gen. Works if Patron Librarian is Ayin</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="1002">
+		<Name>Hokma</Name>
+		<Desc>Can only be equipped by the following librarians:
+- Patron Librarian of Religion
+- Assistant Librarian of Gen. Works if Patron Librarian is Ayin</Desc>
+	</PassiveDesc>
+
+<!-- Stage 1 -->
+	<PassiveDesc ID="10001">
+		<Name>Secretary of the Assistant Librarians</Name>
+		<Desc>At the start of the Act, gain special effect depending on the current Floor.
+At the start of each Scene, all allies restore 3 Light and draw 3 pages.
+If there are other allies present that can be targeted, become untargetable.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10002">
+		<Name>Memories of the Beginning</Name>
+		<Desc>When all other allies are defeated, proceed to the next phase.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10003">
+		<Name>Memories of the Collapse</Name>
+		<Desc>When selecting Abnormality Pages this Act, use only Gebura's Emotion Level as a condition.
+If no librarians other than Gebura are present, proceed to the next phase.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10004">
+		<Name>Memories of the Apocalypse</Name>
+		<Desc>Cannot act.
+Hokma's HP cannot drop below 1. When his HP drops to 1, proceed to the next phase.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10005">
+		<Name>Revenge</Name>
+		<Desc>All dice gain +2 Power against a Patron Librarian. The amount increases by 1 every time the following effect of this passive activates.
+When Staggered, recover from Stagger and fully recover Stagger Resist.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10006">
+		<Name>Resentment</Name>
+		<Desc>Deal 100% more damage with one-sided attacks against the Patron Librarian.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10007">
+		<Name>Frenzy</Name>
+		<Desc>At the start of the Act, replace all Instant pages in hand and deck with 'Frenzy'.
+When using a Combat Page, if the number of Offensive dice on it is less than half of the total number of dice on it, change random Defensive dice on the page to random Offensive dice until the number of Offensive dice is higher than the half of the total number.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10009">
+		<Name>Last Dance</Name>
+		<Desc>HP cannot drop below 1. Upon taking damage from an attack, deal damage equal to the amount taken to the attacker.
+If HP is 1 at the start of the Scene, add 'Furioso' to hand and destroy this passive.</Desc> <!-- treated as the attack damage, not passive-->
+	</PassiveDesc>
+	<PassiveDesc ID="10011">
+		<Name>Unwavering Prowess</Name>
+		<Desc>At the start of the Act, if the character does not have 'The Strongest' and 'Myo's Prowess' passives, gain them.
+On combat start, gain a Counter dice (Slash, 4-8) equal to the amount of enemies.
+When rolling the dice, if the opponent's Speed is slower, gain Power equal to Power Gain of their dice.
+When Staggered, recover from Stagger and fully recover Stagger Resist. (Up to 3 times per Act)
+
+When Emotion Level reaches 5...</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="10012">
+		<Name>Torn Prowess</Name>
+		<Desc>Destroy all other passives.
+HP cannot drop below 1. Upon taking damage from an attack, deal damage equal to the amount taken to the attacker.
+If HP is 1 at the start of the Scene, add 'Great Split: Vertical' to hand and destroy this passive.</Desc> <!-- treated as the attack damage, not passive-->
+	</PassiveDesc>
+
+<!-- Stage 2 -->
+  <!-- Act 1 -->
+	<PassiveDesc ID="20001">
+		<Name>Secretary of the Assistant Librarians</Name>
+		<Desc>At the start of each Scene, all allies restore 3 Light and draw 3 pages.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20002">
+		<Name>Resistance</Name>
+		<Desc>At the start of the Act, summon random assistant librarians from entire Library until the amount of allies is 12.
+At the start of the Scene, if there are other allies alive, all resistances become "Immune".
+If HP is at 50 or lower at the start of the Scene, destroy this passive.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20003">
+		<Name>Shaken Determination</Name>
+		<Desc>As long as this character has "Resistance", HP cannot drop below 50.
+If HP drops to 1 and this character does not have "Resistance"...</Desc>
+	</PassiveDesc>
+	<!-- Ayin -->
+	<PassiveDesc ID="20004">
+		<Name>Architect of the Stage</Name>
+		<Desc>At the start of each Scene, discard all pages from hand; draw pages until hand is full. Their Cost becomes 0.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20005">
+		<Name>Scenario</Name>
+		<Desc>Speed Dice Slot +6.
+Respond to one-sided attacks with 'Execution' (Slash Counter, 6-10).</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20006">
+		<Name>Skipping Beats</Name>
+		<Desc>When using a Combat Page, if target is not the same as the previous one, all dice gain +1 more Power and deal 2 more additional damage and Stagger damage for the Scene.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20007">
+		<Name>Cognition Filter</Name>
+		<Desc>Upon staggering an assistant librarian, instantly kill them and deal Stagger damage to all other assistant librarians equal to 10% of their Max Stagger Resist.</Desc>
+	</PassiveDesc>
+  <!-- Act 2, Phase 1 -->
+	<PassiveDesc ID="20101">
+		<Name>Mechanical Angel</Name>
+		<Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.
+If HP is at 1000 or lower at the end of the Scene, proceed to the next phase.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20102">
+		<Name>Struggle</Name>
+		<Desc>At the start of the Act, summon 3 Shimmering Shades.
+Each Scene, apply 1 out of 3 effects that affect the clashing process for the Scene. (Current effect is displayed at the top center of the screen and can be checked by hovering the cursor over it)
+If Angelos' and Shade's [Qliphoth] pages are used on the same target, current effect is applied for the rest of the reception.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20103">
+		<Name>Concentrated Hatred</Name>
+		<Desc>Prioritize the character with the highest Deterrence.
+On a successful hit, deal 50% more damage if target is the original target.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20104">
+		<Name>Stacking Resentment</Name>
+		<Desc>In a clash, if the opponent is not the original target, all dice on the page lose 1 Power.
+If previous effect is activated 3 or more times in a single Scene, become unable to gain Haste for the next Scene.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20105">
+		<Name>Mingling Grudges</Name>
+		<Desc>At the start of each Scene, gain 3 Haste.
+If the character has 4 or more Haste, all dice gain +2 Power.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20106">
+		<Name>Shade</Name>
+		<Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20107">
+		<Name>Draping</Name>
+		<Desc>Prioritize the same character as the one Angelos is targeting.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20108">
+		<Name>Distorted</Name>
+		<Desc>If Angelos' abd Shade's [Qliphoth] pages are used on the same target, all dice on the page gain +3 Power.
+If HP is at 30% or lower, all dice on the page lose 1 Power instead.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20109">
+		<Name>Clumped</Name>
+		<Desc>On a successful hit, Angelos recovers 2 HP and Stagger Resist.
+If HP is at 20% or lower, deal 2 damage and Stagger damage to Angelos instead.</Desc>
+	</PassiveDesc>
+  <!-- Act 2, Phase 2 -->
+	<PassiveDesc ID="20201">
+		<Name>Mechanical Angel</Name>
+		<Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.
+If HP is at 500 or lower at the end of the Scene, proceed to the next phase.
+When this phase ends, purge all status ailments from all librarians, and they recover 30% of their Max HP and Stagger Resist.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20202">
+		<Name>Uncontrollable Rage</Name>
+		<Desc>A Speed die becomes unavailable for every ally that targets random characters.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20203">
+		<Name>Speaker</Name>
+		<Desc>All dice of all other allies that do not target random characters gain +3 Power.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20204">
+		<Name>Yet Another Cycle</Name>
+		<Desc>If an ally is defeated or all allies are targeting random characters, become Staggered until HP drops to 500.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20205">
+		<Name>Shade</Name>
+		<Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.
+Instead of becoming Staggered, a random damage resistance becomes "Normal".</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20206">
+		<Name>Fluctuating Form</Name>
+		<Desc>If HP is higher than 30%, target the character with the highest Deterrence.
+If HP is at 30% or lower, target random characters instead, indlucing allies, and all dice gain +2 Power.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20207">
+		<Name>Ostracize Us Not</Name>
+		<Desc>In a one-sided attack, deal 200% more damage.
+In a clash against a Counter die, reduce Power of the opponent's die by 5.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20208">
+		<Name>Melting Emotions</Name>
+		<Desc>On a successful hit, if target is not Angelos, take damage equal to 1/4 of the roll.
+When inflicting status ailments through Combat Pages, inflict the same status effect to self.</Desc>
+	</PassiveDesc>
+  <!-- Act 2, Phase 3 -->
+	<PassiveDesc ID="20301">
+		<Name>Mechanical Angel</Name>
+		<Desc>Each Scene, use a random page with its Cost set to 0.
+If all Speed dice except last one are destroyed, or this character's HP is at 1 at the end of the Scene...</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20302">
+		<Name>Tree of Qliphoth</Name>
+		<Desc>All Speed dice of this character have unique effects.
+Each Scene, 3 not destroyed Speed dice become destroyable. These Speed dice use special Combat Pages, and, if the Destruction Condition is fulfilled, the Speed die becomes destroyed for the rest of the reception.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20303">
+		<Name>Collapsing Horizon</Name>
+		<Desc>While the character has at least 1 undestroyed Speed die, take no Stagger damage, and all resistances are increased by 1 grade.
+Every 3 Scenes, use a powerful Combat Page on the last Speed die.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="20400">
+		<Name>...</Name>
+		<Desc>Should I even choose anyone?</Desc>
+	</PassiveDesc>
+	<!-- Ayin -->
+	<PassiveDesc ID="21001">
+		<Name>Architect of the Stage</Name>
+		<Desc>Speed Dice Slot +2. The Emotions of all allies build up twice as fast.
+If the player quits the reception, reentering the reception starts the reception from the current phase.
+(Checkpoint stays until the game is closed).
+		</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="21002">
+		<Name>Abnormality Suppression</Name>
+		<Desc>At the start of the Act, all allies gain 0 'Deterrence' and draw 2 pages.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="21003">
+		<Name>Reign</Name>
+		<Desc>At the start of the Act, draw 3 Prophecy pages and gain a random 'Prophecy' effect. Only one of the Prophecy pages can be used in a Scene.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="21004">
+		<Name>Tacit</Name>
+		<Desc>If no Prophecy page was used in a Scene, become able to redirect pages regardless of Speed for the next Scene.</Desc>
+	</PassiveDesc>
+	<!-- Hokma -->
+	<PassiveDesc ID="22001">
+		<Name>Moderator of the Stage</Name>
+		<Desc>Speed Dice Slot +2. At the start of each Scene, all allies draw 2 more pages.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="22002">
+		<Name>Follow</Name>
+		<Desc>When this character's Deterrence is lower than Ayin's, gain 1 Strength and 2 Haste, and gain Deterrence twice as fast.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="22003">
+		<Name>Pocket Watch</Name>
+		<Desc>At the start of the Act, draw 3 Time pages. Only one of the Time pages can be used in a Scene.</Desc>
+	</PassiveDesc>
+	<!-- Binah -->
+	<PassiveDesc ID="23001">
+		<Name>Audience of the Stage</Name>
+		<Desc>Speed Dice Slot +2. All pages of all allies cost 1 less.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="23002">
+		<Name>Onlooker Beyond</Name>
+		<Desc>Do not become targeted by Angelos even if the character has the highest Deterrence. Instead, all resistances become "Normal".</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="23003">
+		<Name>Binds of Fate</Name>
+		<Desc>If the character did not clash with Angelos during the Scene, all enemies take x1.5 more damage from page effects for the next Scene.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="23004">
+		<Name>An Arbiter</Name>
+		<Desc>Reduce incoming Stagger damage by half. (Including damage from non-attacks, Rounded up)</Desc>
+	</PassiveDesc>
+	<!-- Gebura -->
+	<PassiveDesc ID="24001">
+		<Name>Actor of the Stage</Name>
+		<Desc>Speed Dice Slot +2. At the start of each Scene, all allies restore 2 additional Light.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="24002">
+		<Name>Absolute Force</Name>
+		<Desc>Do not lose Deterrence upon losing a clash.
+If this character has the lowest Deterrence, all Speed dice roll maximum possible value.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="24003">
+		<Name>Wrath Incarnate</Name>
+		<Desc>Cannot lose 'E.G.O Manifested'. Instead, take double damage while Staggered.
+At the start of the Act, add a special Combat Page 'E.G.O Amplification' to the E.G.O hand.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="24004">
+		<Name>Legendary</Name>
+		<Desc>This passive has the effects of "The Strongest" and "The Red Mist" passives.</Desc>
+	</PassiveDesc>
+<!-- Secret -->
+	<PassiveDesc ID="27001">
+		<Name>Paradise in Full Bloom</Name>
+		<Desc>Speed Dice Slot +3. Max Light Capacity +1.
+Cannot use Floor E.G.O pages other than Midnight E.G.O.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="27002">
+		<Name>Da'at</Name>
+		<Desc>All positive statuses and status ailments applied to this character are shared with all other allies.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="27003">
+		<Name>Original Sin</Name>
+		<Desc>Whenever the character recovers HP/Stagger Resist, all allies recover HP/Stagger Resist by the same amount.
+Upon taking damage, if there are not-Suspended allis, reduce incoming damage to 0 and divide that damage between all not-Suspended allies.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="27004">
+		<Name>Apostle of Sin</Name>
+		<Desc>Speed Dice Slot +2, Uncontrollable.
+Does not take damage from page effects.
+Prioritize target that the Paradise in Full Blome attacked last.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="27005">
+		<Name>Recklessness, Ignorance, Arrogance, Hypocrisy</Name>
+		<Desc>All dice rolled by the characer gain additional effect depending on their type. (Up to 3 times per type per Scene)
+- Slash: [On Hit] Deal damage equal 1% of target's HP
+- Pierce: [On Hit] Inflict 1-2 Erosion
+- Blunt: [On Hit] Deal Stagger damage equal to 5% of target's Stagger Resist
+- Block: [On Clash Win] All allies recover 3 Hp and Stagger Resist</Desc>
+	</PassiveDesc>
+	
+<!-- Rewards -->
+	<!-- Binah -->
+	<PassiveDesc ID="11">
+		<Name>An Arbiter</Name>
+		<Desc>At the start of the Scene, draw until 5 pages are in hand.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="12">
+		<Name>Key</Name>
+		<Desc>Gain additional effect depending on the Tier 3 Abnormality page selected.
+(Does not activate if equipped on Floor of Gen. Works)</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="13">
+		<Name>Onlooker Beyond</Name>
+		<Desc>Speed Dice Slot +1. Gain an additional Speed die at Emotion Level 3. (Cannot Overlap)
+If no other allies are present at the start of the Scene, gain 1 Max Light Capacity and an additional Speed die for the Scene.</Desc>
+	</PassiveDesc>
+	<!-- Hokma -->
+	<PassiveDesc ID="14">
+		<Name>A Recordkeeper</Name>
+		<Desc>Speed Dice Slot +1. Gain an additional Speed die at Emotion Level 3. (Cannot Overlap)
+Draw 2 more pages at the start of the Act.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="15">
+		<Name>Faith</Name>
+		<Desc>When rolling a Block die, if it's not in a clash, add an Offensive die of a random type and with halved Block die's minimum and maximum roll values to the dice queue. (Rounded up)
+At the end of each Scene, activate the previous effect for the counter queue.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="16">
+		<Name>Protector</Name>
+		<Desc>Defensive Dice Power +2.
+If this character redirects an attack originally targeting another character, dice on the opponent's page lose 1 Power.</Desc>
+	</PassiveDesc>
+	<!-- Angela -->
+	<PassiveDesc ID="1008">
+		<Name>Secretary</Name>
+		<Desc>When setting up a Combat Pages, there is an additional deck that contorls the character's passive abilities.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="1">
+		<Name>Angela?</Name>
+		<Desc>At the start of the Act, all allies draw until 5 pages are in their hands.
+Pages used by this character, if they do not clash. will be used as pages with Special Range for order of use. (Type of the page does not change, and the page will be used after pages of other allies if they can be used without moving)</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="2">
+		<Name>Scenario</Name>
+		<Desc>When giving positive statuses through Combat Pages to other characters, apply +1 additional stack.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="3">
+		<Name>Unstable Emotions</Name>
+		<Desc>When giving positive statuses through Combat Pages to other characters, gain 1 Qliphoth Counter.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="4">
+		<Name>Fading Light</Name>
+		<Desc>When an ally gains Negative Emotion Points and their Emotion Point Slots are already full, Negative Emotion Points will be given to an ally with not filled Emotion Point Slots.</Desc>
+	</PassiveDesc>
+
+</PassiveDescRoot>

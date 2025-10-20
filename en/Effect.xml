@@ -1,0 +1,403 @@
+<BattleEffectTextRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <effectTextList>
+    <BattleEffectText ID="angelosSceneBuf_bleeding">
+      <Name>Bloody Tear</Name>
+      <Desc>All characters do not lose Bleed stacks after rolling Offensive dice for this Scene.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSceneBuf_fire">
+      <Name>Burning Tear</Name>
+      <Desc>Whenver a character takes Burn damage this Scene, all allies of that character take that damage too.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSceneBuf_power">
+      <Name>Rotting Tear</Name>
+      <Desc>All Power Increase effects are applied as Power Decrease effects for this Scene.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSceneBuf_decay">
+      <Name>Melting Tear</Name>
+      <Desc>All Protection's damage reduction effect is applied as damage increase effect for this Scene.
+When characters are hit, they take damage equal to Protection on them.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSceneBuf_asiyah">
+      <Name>Qliphoth - Asiyah</Name>
+      <Desc>Force clashes. Pages targeting this character cannot be removed from the Speed dice.
+Pages targeted by this character have their target changed to a random Speed die of their target.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosPersistAsiyah">
+      <Name>Qliphoth - Asiyah</Name>
+      <Desc>Pages targeting this character cannot be removed from the Speed dice.
+Pages targeted by this character have their target changed to a random Speed die of their target.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSceneBuf_briah">
+      <Name>Qliphoth - Briah</Name>
+      <Desc>Can clash only if the opponent's Speed is lower.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSceneBuf_atsilut">
+      <Name>Qliphoth - Atziluth</Name>
+      <Desc>Can clash only with the pages of the same Type (Melee/Ranged/Special).</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSephiraDiceBuf_malkuth">
+      <Name>Malkuth</Name>
+      <Desc>Whenever a librarian uses a page, increase the Cost of all copies of that page by 1 for the next Scene.
+
+Destruction Condition: Dice in this Speed die lose 5 times in a clash against pages whose original Cost is 2 or lower (Progress: {0}/5)</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="angelosSephiraDiceBuf_yesod">
+      <Name>Yesod</Name>
+      <Desc>"Endured" resistances of all librarians are changed to "Weak".
+
+Destruction Condition: Take 50 or more damage of the type this character is "Endured" to (Progress: {0}/50)</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSephiraDiceBuf_hod">
+      <Name>Hod</Name>
+      <Desc>Whenever a character is inflicted with a status ailment, the amount inflicted is doubled.
+
+Destruction Condition: This die is hit 5 times by a librarian with 5 or more positive statuses (Progress: {0}/5)
+
+Librarian that is currently able to fulfill condition: {1}</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSephiraDiceBuf_netzach">
+      <Name>Netzach</Name>
+      <Desc>Recovery effects of all librarians are reduced by {0}%. (10% for every hit taken by this Speed die in the previous Scene)
+If the reduction is higher than 100%, they take damage instead.
+
+Destruction Condition: Take 50 or more damage in a single Scene</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSephiraDiceBuf_tiphereth">
+      <Name>Tiphereth</Name>
+      <Desc>At the start of the Scene, if librarian has used 4 or more unique pages in the previous Scene, they are inflicted with 5 Feeble, Disarm, and Erosion.
+
+Destruction Condition: This die is hit by 5 or more unique pages (Progress: {0}/5)
+
+Already hit by: {1}</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="angelosSephiraDiceBuf_gebura">
+      <Name>Gebura</Name>
+      <Desc>Double the Power of the first die rolled by this character in a Scene. (Does not include responding to librarians' Mass Attacks)
+
+Destruction Condition: Lose a clash against a die that has +10 or more Power</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSephiraDiceBuf_binah">
+      <Name>Binah</Name>
+      <Desc>Become unable to be inflicted with status ailments, and take half as much damage from non-attacks.
+
+Destruction Condition: Lose 5 clashes against dice unaffected by Power gain or loss (Progress: {0}/5)</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="angelosSephiraDiceBuf_hokma">
+      <Name>Hokma</Name>
+      <Desc>Dice on the last page used by this character in a Scene gain '[On Hit] Deal damage equal to (Dice value)% of target's HP'
+
+Destruction Condition: Take 150 or more damage from a single die targeting this Speed die (Including damage from the ability of that die)</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="angelosSephiraDiceBuf_keter">
+      <Name>Keter</Name>
+      <Desc>This Speed die cannot be targetted.
+
+If HP is higher than 1 at the start of the Scene, recover HP to 500.
+
+Destruction Condition: Destroy all other Sephirah dice (Progress: {0}/9)</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="angelos_shadow_power">
+      <Name>Power Down</Name>
+      <Desc>Dice Power -{0}</Desc>
+    </BattleEffectText>
+	
+    <BattleEffectText ID="angelosSuppressBuf">
+      <Name>Deterrence</Name>
+      <Desc>Increases by 1 upon winning a clash.
+Decreases by 1 upon losing a clash.
+Increases by 20 on kill.
+Decreases by 10 upon becoming Staggered.
+If this character has the highest Deterrence among allies, all enemies will target this character at the start of the next Scene.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="angelosSuppressBufPreview">
+      <Name>Deterrence</Name>
+      <Desc>Increases upon winning a clash or on kill, reduces upon losing a clash or becoming Staggered.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosAsiyah">
+      <Name>Asiyah</Name>
+      <Desc>Defensive dice on all pages in deck of this character are changed to Offensive.
+On a successful hit, ignore target's resistances.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosYetsirah">
+      <Name>Yetzirah</Name>
+      <Desc>This effect affects all allies.
+Boost the minimum roll value of all dice to the middle value of the original dice roll values.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosBeriah">
+      <Name>Briah</Name>
+      <Desc>This effect affects all allies.
+On a successful hit, recover HP equal to 30% of damage dealt.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosResonance">
+      <Name>Resonance</Name>
+      <Desc>Activate addtional effects on combat start if there are other pages with [Resonance] effect being used.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosAsiyahPreview">
+      <Name>Asiyah</Name>
+      <Desc>Defensive dice on all pages in deck of this character are changed to Offensive.
+On a successful hit, ignore target's resistances.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosYetsirahPreview">
+      <Name>Yetzirah</Name>
+      <Desc>This effect affects all allies.
+Boost the minimum roll value of all dice to the middle value of the original dice roll values.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosBeriahPreview">
+      <Name>Briah</Name>
+      <Desc>This effect affects all allies.
+On a successful hit, recover HP equal to 30% of damage dealt.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosGeburaOverload">
+      <Name>Amplification</Name>
+      <Desc>Deal and take {0}% more damage and become unaffected by Power Reduction effects.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaAngelosGeburaOverloadPreview">
+      <Name>Amplification</Name>
+      <Desc>Deal and take more damage and become unaffected by Power Reduction effects.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="LCAngelaBenjamin_clock">
+      <Name>Fate</Name>
+      <Desc>Increases by 1 at the start of each Scene and every time the sum of rolls of dice rolled by this character reaches 13.
+
+Current sum: {0}</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="LCAngelaBenjamin_clock_reward">
+      <Name>Fate</Name>
+      <Desc>Increases by 1 at the start of each Scene and every time the sum of rolls of dice rolled by this character reaches 13.
+Take {0}% more damage and Stagger damage. (Up to 50%, including damage from non-attacks)</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="LCAngelaBenjamin_clock_reward_preview">
+      <Name>Fate</Name>
+      <Desc>Increases by 1 at the start of each Scene and every time the sum of rolls of dice rolled by this character reaches 13.
+Take more damage and Stagger damage. (1% per 1 stack, Up to 50%, including damage from non-attacks)</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaKeyword_gear1">
+      <Name>Cannot Win Clashes</Name>
+      <Desc>All Counter dice from this page always lose in a clash, but recycle regardless of the outcome of a clash.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="lcAngelaKeyword_gear2">
+      <Name>Deflect Nullify</Name>
+      <Desc>All Counter dice from this page, upon losing a clash, nullify incoming deflect damage.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_lcangela_binah">
+      <Name>Binah's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of An Arbiter's Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_lcangela_angela">
+      <Name>Incomplete Angela's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of Angela's Incomplete Key page.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="onlypage_lcangela_hokma">
+      <Name>Hokma's Exclusive Page</Name>
+      <Desc>Can only be set in the deck of A Recordkeeper's Key page.</Desc>
+    </BattleEffectText>
+    
+    <!-- REQUIRE RE_TRANSLATION -->
+
+    <BattleEffectText ID="lcAngelaQlipothCounterAngela">
+      <Name>Qliphoth Counter</Name>
+      <Desc><![CDATA[Value can be less than 0. And depending on whether it exceeds 0, Qliphoth Deterrence will be either in either <color=#00ff00>Stable</color> or <color=#ff0000>Overload</color> state.]]></Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaQliphothSuppression_stable_ch2">
+      <Name><![CDATA[Qliphoth Deterrence - <color=#00ff00>Stable</color>]]></Name>
+      <Desc>Upon becoming Staggered, lose all stacks of Qliphoth Counter.</Desc>
+    </BattleEffectText>
+    
+    <BattleEffectText ID="lcAngelaQliphothSuppression_overclock_ch2">
+      <Name><![CDATA[Qliphoth Deterrence - <color=#ff0000>Overload</color>]]></Name>
+      <Desc>At the start of the Scene, take Stagger damage equal to 2.5x Qliphoth Counter.
+If Staggered, do not recover from it until Qliphoth Counter becomes 1 or higher.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangela_qlipoth_meltdown_enemy_1_1">
+      <Name>Qliphoth Meltdown - Dawn (Enemy)</Name>
+      <Desc>Decreases by 1 upon losing a clash and when hit, increases by 1 upon winning a clash and on a successful hit.
+If at 0 at the end of the Scene, Angela's Qliphoth Counter increases by 2, and this character gains 2 Fragile next Scene.
+If at 1 or higher, Angela's Qliphoth Counter decreases by 3.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaOrdealRedCheer">
+      <Name>Parade</Name>
+      <Desc>Whenever Emotion Level rises, gain 2 Stagger Fragile next Scene. After using a Combat Page, if the character has enough Emotion Points to raise Emotion Level at the end of the Scene, do that immediately instead.
+If the character wins the clash, loses the clash, or makes a successful hit 3 times in a row against the same target, inflict 2 Parade to target. (Resets when used against another target or different result occurs)
+Lose 1 stack at the end of the Scene. When the amount of stacks reaches 0, purge this status.</Desc>
+    </BattleEffectText>
+
+    <!-- The Beast -->
+    <BattleEffectText ID="lcAngelaBinahKey1">
+      <Name>Key</Name>
+      <Desc>Ability of 'Small Beak' Combat Page changes to '[On Play,][Return to Hand] Take 5% of Max. HP as damage; lower the Cost of pages in hand whose Cost is 1 or higher by 1 until they're used'.</Desc>
+    </BattleEffectText> 
+
+    <!-- Guardians of the Forest -->
+    <BattleEffectText ID="lcAngelaBinahKey2">
+      <Name>Key</Name>
+      <Desc>If all five librarians have an Abnormality page, when using 'Twilight' E.G.O page, add a Blunt die (Roll: 1-4, Gain Power equal to Power Gain of all dice of all allies) to the dice queue.</Desc>
+    </BattleEffectText> 
+
+    <!-- Peace -->
+    <BattleEffectText ID="lcAngelaBinahKey3">
+      <Name>Key</Name>
+      <Desc>When inflicting Fairy to the character with 'Intruder', apply +1 additional stack.</Desc>
+    </BattleEffectText> 
+
+    <BattleEffectText ID="lcAngelaHokmaSinBuf">
+      <Name>Fanaticism</Name>
+      <Desc>When a librarian uses 'Fanaticism' Combat Page, they take 8 damage and gain 1 Strength. If they do not have Abnormality pages, they additionally gain 1 Damage Up.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangela_ordeal_green_dicebuf_1">
+      <Name></Name>
+      <Desc>[On Hit] effects of the librarian's page targeting Speed die activate twice. (Once per librarian)
+Lose this status at the end of the Scene.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangela_ordeal_green_dicebuf_2">
+      <Name></Name>
+      <Desc>[On Hit] effects of the librarian's page targeting this Speed die activate twice.
+Lose this status at the end of the Scene.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangela_ordeal_green_dicebuf_3">
+      <Name></Name>
+      <Desc>[On Clash Win] and [On Hit] effects of the librarian's page targeting this Speed die activate twice.
+Lose this status at the end of the Scene.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcangela_ordeal_green_dicebuf_4">
+      <Name></Name>
+      <Desc>[On Use], [On Clash Win], and [On Hit] effects of the librarian's page targeting this Speed die activate twice.
+Lose this status at the end of the Scene.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="keywordLcAngelaQliphoth">
+      <Name>Qliphoth X</Name>
+      <Desc>When used, lower Qliphoth Counter by X.</Desc>
+    </BattleEffectText>    
+
+    <BattleEffectText ID="keyword_lcangela_ketersin_1">
+      <Name>Bonus Effect - Changed by 0</Name>
+      <Desc>Change the Cost of this page to a rnadom value between 0 and 3 until it's used.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="keyword_lcangela_ketersin_2">
+      <Name>Bonus Effect - Changed by 1</Name>
+      <Desc>Whenever user gains a positive status, recover 2 Stagger Resist.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="keyword_lcangela_ketersin_3">
+      <Name>Bonus Effect - Changed by 2</Name>
+      <Desc>Whenever user gains a positive status, give the same status effect to a random other ally as well, and they and user recover 2 Stagger Resist.</Desc>
+    </BattleEffectText>
+    <BattleEffectText ID="keyword_lcangela_ketersin_4">
+      <Name>Bonus Effect - Changed by 3 or More</Name>
+      <Desc>Whenever user gains a positive status, give half of the same status effect (Rounded up) to all other allies, and all allies recover 2 HP and Stagger Resist.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="onlypage_lcangela_carmen_angela">
+      <Name>Exclusive Page</Name>
+      <Desc>Can only be set in the decks of Angela (Secretary) and Paradise in Full Bloom's Key pages.</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="buf_lcangela_dmg_down">
+      <Name>All Damage Down</Name>
+      <Desc>All Offensive dice the character plays deal {0} less damage and Stagger damage.
+Can stack up to {1}.</Desc>
+    </BattleEffectText>
+
+
+    <!-- #region 앤젤라 멀티덱 컴포넌트 -->
+    <BattleEffectText ID="lcAngelaMultiDeckComponent">
+      <Name>Flow Control Page</Name>
+      <Desc>By putting this page in the deck, corresponding effects will be obtained at the start of the reception.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentQlipothOverloadEnemy">
+      <Name>Qliphoth Meltdown (Enemy)</Name>
+      <Desc>For the Scene, response success and response failure effects activate depending on the number of times the character is hit.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentQlipothOverloadAlly">
+      <Name>Qliphoth Meltdown (Ally)</Name>
+      <Desc>For the Scene, response success and response failure effects activate depending on the number of times the character is hit.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent4_Add2">
+      <Name>Bonus Effect - 2 or More Copies in Deck</Name>
+      <Desc>Status is given to 1 more ally.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent4_Add3">
+      <Name>Bonus Effect - 3 or More Copies in Deck</Name>
+      <Desc>Status is given to 2 more allies, and the number of times required for response failure is increased.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent5_Add2">
+      <Name>Bonus Effect - 2 or More Copies in Deck</Name>
+      <Desc>Status is given to 2 more targets, and effect changes depending on whether or not response has occured.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent5_Add3">
+      <Name>Bonus Effect - 3 or More Copies in Deck</Name>
+      <Desc>Number of times required for response success is halved.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent6_Add2">
+      <Name>Bonus Effect - 2 or More Copies in Deck</Name>
+      <Desc>Increase Qliphoth Counter by this ability by 1 more.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent6_Add3">
+      <Name>Bonus Effect - 2 or More Copies in Deck and 3 or more Abnormality pages are selected</Name>
+      <Desc>When using Instant page, restore 1 Light. (If target is an ally, they restore 1 Light too)</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent6_Add4">
+      <Name>Bonus Effect - 3 or More Copies in Deck and 5 or more Abnormality pages are selected</Name>
+      <Desc>Lower the Cost of all pages by 1.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent7_Add2">
+      <Name>Bonus Effect - 2 or More Copies in Deck</Name>
+      <Desc>Give 1 Endurance to all allies at the start of each Scene.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponent7_Add3">
+      <Name>Bonus Effect - 3 or More Copies in Deck</Name>
+      <Desc>Give 1 Strength to all allies at the start of each Scene.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal">
+      <Name>Ordeal Combat Page</Name>
+      <Desc>Whenever Emotion Level rises, gain one of the Abnormality pages with the corresponding effect. Effect will be strengthened whenever the same page is gained. (Up to 2 times)</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal_Add2">
+      <Name>Bonus Effect - 2 or More Copies in Deck</Name>
+      <Desc>Effect of this page is automatically strengthened whenever Emotion Level rises.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal_Add3">
+      <Name>Bonus Effect - 3 or More Copies in Deck</Name>
+      <Desc>Increase the maximum amount of times the effect can be strengthened by 1.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentMidnight">
+      <Name>Midnight E.G.O</Name>
+      <Desc>At Emotion Level 4, obtain Combat Page with this effect. (Not treated as personal E.G.O page)</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentAngelosFix">
+      <Name>Fixed Effect</Name>
+      <Desc>If 'Memory of Torment' if in the deck, it will be converted to the corresponding version regardless of the current floor.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="lcAngelaMultiDeckComponentMyEgo">
+      <Name>Unique E.G.O Page</Name>
+      <Desc>At the start of the Act, this page will be moved to the alternative hand.</Desc>
+    </BattleEffectText>
+
+    <!-- #endregion -->
+
+  </effectTextList>
+</BattleEffectTextRoot>
