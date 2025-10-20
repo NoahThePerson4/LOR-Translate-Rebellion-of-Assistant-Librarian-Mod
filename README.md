@@ -16,7 +16,7 @@ Mod Page.
 https://steamcommunity.com/sharedfiles/filedetails/?id=3022468726
 
 How to Use.
-First dowload the zip file by clicking Code and then download zip. Then unzip it.
+First download the zip file by clicking Code and then download zip. Then unzip it.
 You will then have the en folder with the translations.
 After downloading the original mod on steam workshop go to
 Properties
@@ -25,8 +25,8 @@ Browse
 steamapps
 workshop
 content
-then find which one is the LOR folder.
-If you just downloaded the mod it should be near the top of your folder.
+then find which one is the Library of Ruina folder.
+If you just downloaded the mod it should be near the top of the folder.
 If you can't find it search for Angelos and it should be one of the only results. After Click open folder location.
 Now navigate to Assemblies and click on Localize.
 In Localize delete the old en folder and paste the new one from here.
