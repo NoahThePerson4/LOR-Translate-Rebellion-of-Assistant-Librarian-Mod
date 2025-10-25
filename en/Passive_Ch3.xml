@@ -4,58 +4,58 @@
 	<PassiveDesc ID="30001">
 		<Name>Sinking into Despair</Name>
 		<Desc>Unable to act
-Ends Stage 1 if your HP is 1.
-If a "Book Hunter's Page" exists in the library and your HP is still below 1 after Scene 6...</Desc>
+Ends Phase 1 if you are at 1 HP.
+If "Book Hunter's Page" is equipped on a Librarian in the library and your HP is still above 1 after Scene 6...</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30002">
 		<Name>Original Sin</Name>
-		<Desc>At the start of each Scene, all characters gain 1 stack of "Damage Up" and you gain 1 stack of "Fragile".
+		<Desc>At the start of each Scene, all characters gain 1 stack of "Damage Up" and this character gains 1 stack of "Fragile".
 Each trigger of this passive increases the number of stacks gained by 1.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30003">
 		<Name>Broken Heart</Name>
-		<Desc>At the start of each Scene, the Assistant Librarian with the fewest Abnormality Pages gains a special Abnormality Page and gains a +1 Speed ​​Dice for the duration of this Stage.
-If Scene 6 occurs, all Assistant Librarians gain Abnormality Pages.</Desc>
+		<Desc>At the start of each Scene, the Assistant Librarian with the fewest Abnormality Pages gains a special Abnormality Page (always gained in the same order) and gains +1 Speed ​​Dice for the duration of this Phase.
+If Scene 6 occurs, all Assistant Librarians gain the "Gaze" Combat Page.</Desc>
 	</PassiveDesc>
 	<PassiveDesc ID="30004">
 		<Name>Dying Light</Name>
-		<Desc>When the HP of any character other than yourself reaches 1 in this stage, restore their HP to full and reduce your HP by 50.</Desc>
+		<Desc>When the HP of any character other than yourself reaches 1 in this Phase, restore their HP to full and reduce your HP by 50.</Desc>
 	</PassiveDesc>
 	<PassiveDesc ID="30005">
 		<Name>Betrayal</Name>
-		<Desc>Target the librarian who attacked you with a page in the previous scene.
-If no target is found, attack "Angela."</Desc>
+		<Desc>Target the librarian who last attacked you in the previous scene.
+If no target attacked you, attack "Angela."</Desc>
 	</PassiveDesc>
 	<PassiveDesc ID="30006">
 		<Name>Frenzy</Name>
-		<Desc>If no damage is dealt in a scene, take 15% of your HP in damage and gain 1 stack of "Strength" and "Endurance" for the duration of this stage (this will not be triggered if you are Staggered at the start of the Scene).</Desc>
+		<Desc>If no damage is dealt in a scene, take 15% of your HP in damage and gain 1 stack of "Strength" and "Endurance" for the duration of this Phase (this will not be triggered if you are Staggered at the start of the Scene).</Desc>
 	</PassiveDesc>
 	<PassiveDesc ID="30007">
-		<Name>Flesh-Eating Hatred</Name>
-		<Desc>At the start of Scene 6, all passive abilities are removed and the Abnormality Page "Gaze" is gained.</Desc>
+		<Name>Corroding Hatred</Name>
+		<Desc>At the start of Scene 6, all passive abilities are removed and the Combat Page "Gaze" is played.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30009">
 		<Name>Understanding</Name>
-		<Desc>Rolling an offensive dice against a Staggered target destroys that dice.</Desc>
+		<Desc>When you Roll Offensive dice against a Staggered target destroys the Offensive Dice.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30010">
-		<Name>Recorder</Name>
-		<Desc>At the start of each Scene, remove one positive effect from a target with "Fate" that was Staggered in the previous Scene for every 2 stacks of "Fate" it possesses.</Desc>
+		<Name>Record Keeper</Name>
+		<Desc>At the start of each Scene, remove one Positive Status Effect from a target with "Fate" that was Staggered in the previous Scene for every 2 stacks of "Fate" they possess.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30011">
 		<Name>The Eye Embracing the Past - Building the Future</Name>
-		<Desc>Immune to Negative Status Effect Damage
-Damage dealt by the player is not reduced by the value of the offensive dice.</Desc>
+		<Desc>Immune to Damage from Negative Status Effects.
+Stagger Damage dealt by this character is not reduced by the value of the opponent's Offensive dice.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30012">
 		<Name>Faith</Name>
-		<Desc>When rolling a "Defense" dice, if there is no clashing dice, place a random "Offense" dice with a maximum and minimum value equal to half of the dice (rounded up).
+		<Desc>When rolling a "Defense" dice, if there is no clashing dice, play a random "Offense" dice with a maximum and minimum value equal to half of the Defensive dice (rounded up).
 Dice rolled this way do not cause physical damage.</Desc>
 	</PassiveDesc>
 
@@ -64,12 +64,12 @@ Dice rolled this way do not cause physical damage.</Desc>
 	<!-- #region 침식루트 -->
 	<PassiveDesc ID="30101">
 		<Name>Pulsation</Name>
-		<Desc>At the end of each Scene, if all surviving Assistant Librarians have "Mark," the book page will be changed.</Desc>
+		<Desc>At the end of each Scene, if all surviving Assistant Librarians have "Mark," Move to the next Phase.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30102">
 		<Name>Whispering</Name>
-		<Desc>When attacked, applies 1 "Mark" to the attacker. At the start of the 5th Scene, all characters will be marked 6 times.</Desc>
+		<Desc>When attacked, applies 1 "Mark" to the attacker. At the start of the 5th Scene, all characters will gain 6 'Mark'.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30103">
@@ -89,40 +89,40 @@ Dice rolled this way do not cause physical damage.</Desc>
 
 	<PassiveDesc ID="30111">
 		<Name>Serpent of Original Sin</Name>
-		<Desc>Damage taken by you is shared among characters with a "Mark." Your dice are not destroyed by this effect.</Desc>
+		<Desc>Damage and Stagger Damage you would have taken by is shared by all characters with "Mark" instead. Your dice can't be destroyed by effect.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30112">
 		<Name>False Salvation</Name>
-		<Desc>At the end of each Scene, if you have no remaining dice, remove all characters' Whisper and reduce their "Brand" by 1. If the character is a librarian, restore an additional 20 points of health and Stagger Resist.</Desc>
+		<Desc>At the end of each Scene, if you have no remaining dice, remove all characters' Whisper and reduce their "Brand" by 1. If the character is a librarian, they also restore 20 points of health and Stagger Resist.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30113">
 		<Name>Whisper</Name>
-		<Desc>When rolling the dice on the Scene, if neither the user nor the target includes you, apply 1 stack of Whisper to all characters except yourself.</Desc>
+		<Desc>Whenever dice are rolled in the Scene, if you are neither the user nor the target of those dice, apply 1 stack of Whisper to all characters except yourself.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30114">
-		<Name>Slumber</Name>
-		<Desc>At the end of using a card, if you do not lose clashes with the card, Stagger the target.
+		<Name>Silent Slumber</Name>
+		<Desc>After using a card, if you did not lose clashes with the card, Stagger the target.
 If the target is already Staggered, kill the target.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30115">
-		<Name>Erosion of Light</Name>
+		<Name>Erosion of Light/Shimmering</Name>
 		<Desc>At the start of each Scene, remove the page from your hand and place the page you intend to use in your hand. Page cost is 0.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30116">
 		<Name>A Moment of Rest</Name>
 		<Desc>If you take fatal damage while not possessing a "Brand," you lose all "Whispers" and enter a state of suspended animation.
-Sudden animation ends at the end of the Scene you acquire a "Brand."</Desc>
+Suspended animation ends at the end of the Scene you acquire a "Brand."</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30117">
 		<Name>Follower</Name>
 		<Desc>When you take fatal damage or become Staggered while possessing a "Brand," you consume 1 stack of "Brand" and restore all your health and Stagger Resist.
-Each time this effect is triggered, you gain 1 stack of "Strength" and "Endurance" on this Scene (initialized when you suspend your own death).</Desc>
+Each time this effect is triggered, you gain 1 stack of "Strength" and "Endurance" for the rest of the Scene (resets when you are in suspended animation).</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30201">
@@ -145,7 +145,7 @@ When rolling dice, increase the Power of all dice on the current page by +1 for 
 	<PassiveDesc ID="30204">
 		<Name> The Courage to Protect Others</Name>
 		<Desc>On Combat Start, gain 2 Slash Counter dice (4-8).
-If you have Counter dice, if "Hokma" is the target of a one-sided attack, redirect the attack to you. Your Counter dice are not consumed upon completion of use.</Desc>
+While you have Counter dice, if "Hokma" is the target of a one-sided attack, redirect the attack to you. Your Counter dice are not consumed upon completion of use.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30206">
@@ -157,13 +157,13 @@ If you have Counter dice, if "Hokma" is the target of a one-sided attack, redire
 	<!-- #region 에고 루트 -->
 	<PassiveDesc ID="30301">
 		<Name>Guilt</Name>
-		<Desc>Gain 70 stacks of "Self-Collapse" upon starting the stage. Stagger damage from dice is converted to Stagger Resist.</Desc>
+		<Desc>Gain 70 stacks of "E.G.O. Collapse" upon starting the stage. Stagger damage taken from dice is converted to Stagger Resist recovery.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30302">
 		<Name>Self-destructive Impulse</Name>
-		<Desc>At the start of the "Self-destructive Impulse" act, you inflict Stagger damage proportional to your "Self-Collapse" status.
-If "Self-Collapse" reaches 100 or your character on stage becomes Staggered or dies, the reception fails.</Desc>
+		<Desc>At the start of the "Self-destructive Impulse" act, you inflict Stagger damage proportional to your "E.G.O. Collapse" status.
+If "E.G.O. Collapse" reaches 100 or your character becomes Staggered or dies, the reception fails.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30303">
@@ -183,41 +183,40 @@ If "Self-Collapse" reaches 100 or your character on stage becomes Staggered or d
 
 	<PassiveDesc ID="30313">
 		<Name>Continued Trust</Name>
-		<Desc>Winning a clash 3/6 times in each Scene causes one Cocoon to use a special page instead of an area damage page in the next "Gubura" stage.</Desc>
+		<Desc>Winning a clash 3/6 times in each Scene causes one Cocoon to use a special page instead of a mass attack page in the next "Gubura" stage.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30321">
 		<Name>Pulsation</Name>
-		<Desc>Using a Ranged Page inflicts 20 Stagger Damage to all Assistant Librarians and causes them to Panic.</Desc>
+		<Desc>Using a Mass Attack Page inflicts 20 Stagger Damage to all Assistant Librarians and causes them to Panic.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30322">
 		<Name>Whispering</Name>
-		<Desc>When struck, increases Angela's Self-Collapse by an amount equal to the die value, and causes all characters on stage to take Stagger Damage equal to twice the die value.</Desc>
+		<Desc>When hit, increases Angela's E.G.O. Collapse by an amount equal to the die value, and causes all characters on stage to take Stagger Damage equal to twice the die value.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30323">
 		<Name>Self-destructive Impulse</Name>
-		<Desc>Summons two Assistant Librarians at the start of each act.
-When an Assistant Librarian dies, increases Angela's Self-Collapse by 20.</Desc>
+		<Desc>Summons two Assistant Librarians at the start of each scene.
+When an Assistant Librarian dies, increases Angela's E.G.O. Collapse by 20.</Desc>
 	</PassiveDesc>
-
 
 	<PassiveDesc ID="30331">
 		<Name>Broken Rationality</Name>
-		<Desc>Stagger damage taken by the designated librarian is converted to Stagger Resist.
+		<Desc>Stagger damage taken by the designated librarian is converted to Stagger Resist recovery.
 Die if you become Staggered.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30332">
 		<Name>Sweeping Madness</Name>
-		<Desc>Start the stage after gaining a random "Panic" status.
-If Stagger Resist is fully restored, Angela's "Self-Collapse" stacks are reduced by 5 and her "Panic" progress is reset (limited to once per Scene).</Desc>
+		<Desc>Start the stage with a random "Panic" status.
+If Stagger Resist is fully restored, Angela's "E.G.O. Collapse" stacks are reduced by 5 and the "Panic" progress is reset (limited to once per Scene).</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30333">
 		<Name>Gearwheel</Name>
-		<Desc>At the end of each Scene, if Stagger Resist is at least 30%, your own Stagger Resist is reduced to 30%, Panic levels are increased by 2, and Angela's "Self-Collapse" stacks are increased.</Desc>
+		<Desc>At the end of each Scene, if Stagger Resist is above 30%, your own Stagger Resist is reduced to 30%, and Angela's "E.G.O. Collapse" stacks are increased by 2 times her own Panic Level?.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30341">
@@ -227,8 +226,8 @@ Offensive dice deal no damage.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30342">
-		<Name>Actor on Stage</Name>
-		<Desc>When the Assistant Librarian initiates the "Panic" state due to its own attacks, it restores 50% Stagger Resist and restores the maximum number of Emotional Coins in one of its own E.G.O. pages.</Desc>
+		<Name>Actor on the Stage</Name>
+		<Desc>Whenever the assistant librarian's Panic State is reset by your own attack, your Stagger Resist is restored by 50% and the emotion coins of one of your E.G.O pages is fully restored.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30351">
@@ -238,7 +237,7 @@ Offensive dice deal no damage.</Desc>
 
 	<PassiveDesc ID="30352">
 		<Name>Recorder</Name>
-		<Desc>When Rolling a defensive dice, gains +2 power. If the dice wins a clash, they can be used again (limited to one roll per dice).</Desc>
+		<Desc>When Rolling a defensive dice, gains +2 power. If the dice wins a clash, they are used again (limited to one roll per dice).</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30401">
@@ -253,7 +252,7 @@ If "Blooming Light" is less than 5, lose control of Speed dice inversely proport
 	</PassiveDesc>
 
 	<PassiveDesc ID="30403">
-		<Name>Wish of Mutual Growth</Name>
+		<Name>Wish for Mutual Growth</Name>
 		<Desc>Gain 1 stack of "Blooming Light" each time you grant "Book Hunter" a positive status.</Desc>
 	</PassiveDesc>
 
@@ -281,7 +280,7 @@ This effect changes at the end of the Scene when all other allies die.</Desc>
 
 	<PassiveDesc ID="30423">
 		<Name>Blooming Paradise</Name>
-		<Desc>Each time Angela fails to respond (hit/fail to roll) her own dice, she loses 1 stack of "Blooming Light" and is inflicted with 1 stack of "Paralysis" for the current and next acts.</Desc>
+		<Desc>Each time Angela fails to respond (hit/fail to roll) her own dice, she loses 1 stack of "Blooming Light" and is inflicted with 1 stack of "Paralysis" for the current and next scene.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30431">
@@ -305,24 +304,24 @@ This effect changes at the end of the Scene when all other allies die.</Desc>
 		<Name>Legend of the Red Mist</Name>
 		<Desc>+1 Speed Dice
 Additional +1 after reaching Emotion Level 3 (unique passive)
-Gain the E.G.O. Page "Blood Mist" upon starting a stage
-If Emotion Level has reached Level 4 at the start of each Act, place "E.G.O. Manifestation" in your hand (can be triggered once per stage)</Desc>
+Gain the E.G.O. Page "Great Split Vertical" upon starting a stage
+If Emotion Level has reached Level 4 at the start of each Act, place "E.G.O. Manifestation" in your hand (once per act)</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="18">
 		<Name>The Courage to Protect Others</Name>
-		<Desc>Gain 2 Slash Counterattack Dice (4-8) when commanding a battle
-If you have Counterattack Dice, if another friendly character is the target of a unilateral attack, redirect their attack to you for a counterattack. Your Counterattack Dice are not consumed upon use.</Desc>
+		<Desc>Gain 2 Slash Counter Dice (4-8) On Combat start
+While you have Counter Dice, if another ally is the target of a one-sided attack, redirect that attack to you. Your Counter Dice are not consumed upon use.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="20">
 		<Name>Red Mist</Name>
 		<Desc>All dice gain +2 power
-Can use the E.G.O. page "Corpse"
-Give 1 stack of "Blood Mist" when killing an enemy character
-For each stack of "Blood Mist," all dice gain +1 power (up to +5)
-If there are targetable enemies during an act and the player has not dealt at least 50 points of damage, at the end of the act, they will take 40% of their maximum Stagger Resist damage.
-If they become confused, their "E.G.O. Manifestation" status will be removed.</Desc>
+Can use the E.G.O. page "Great Split Horizontal"
+Give 1 stack of "Red Mist" when killing an enemy character
+For each stack of "Red Mist," all dice gain +1 power (up to +5)
+If there are targetable enemies during the scene and the you have not dealt at least 50 points of damage, at the end of the scene, take 40% of your maximum Stagger Resist as Stagger damage.
+If you become Staggered, the "E.G.O. Manifestation" status will be removed.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="21">
@@ -333,23 +332,23 @@ If all allied characters possess their own Abnormality pages, the maximum and mi
 
 	<PassiveDesc ID="51">
 		<Name>Angela</Name>
-		<Desc>When the stage starts, all friendly characters draw 2 pages.</Desc>
+		<Desc>When the stage starts, all allies draw 2 pages.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="52">			
 		<Name>Qliphoth Tree</Name>
-		<Desc>When this character grants a positive status to another friendly character, the number of stacks gained increases by 1.
-If this character grants a positive status to another friendly character using a battle page, this character gains an additional "Qliphoth" point.</Desc>
+		<Desc>When this character grants a positive status to another ally, the number of stacks gained increases by 1.
+If this character grants a positive status to another ally using a combat page, this character gains an additional "Qliphoth" point.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="53">
 		<Name>Pure Heart</Name>
-		<Desc>Reduces the cost of all friendly characters' personal E.G.O. pages by 1 and reduces the required Emotion by half.</Desc>
+		<Desc>Reduces the cost of all allies' personal E.G.O. pages by 1 and reduces the required Emotion by half.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="54">
 		<Name>Rising Star</Name>
-		<Desc>When a full Emotion Coin is gained by a friendly character, it will be distributed to an unfilled friendly character.</Desc>
+		<Desc>When Emotion Coins are gained by an ally already at full Emotion Coins, they will be distributed to an unfilled ally.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="61">
@@ -360,13 +359,13 @@ If this character grants a positive status to another friendly character using a
 
 	<PassiveDesc ID="62">
 		<Name>Whispering</Name>
-		<Desc>When an uncontrolled friendly character uses a page, the player's "Qliphoth" counter is reduced by 1.</Desc>
+		<Desc>When an uncontrolled ally uses a page, this characters's "Qliphoth" counter is reduced by 1.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="63">
 		<Name>Slumber</Name>
-		<Desc>At the start of each act, the player applies "Pale Hand" to a random enemy character (prioritizing the target last used by the player).
-(Pale Hand - Speed -1-3, and damage and confusion damage received are proportional to the speed of the reduction.)</Desc>
+		<Desc>At the start of each scene, this character applies "Pale Hand" to a random enemy character (prioritizing the last target attacked).
+(Pale Hand - Speed -1-3, and damage and Stagger damage received are proportional to the speed reduction.)</Desc>
 	</PassiveDesc>
 
 
@@ -374,7 +373,7 @@ If this character grants a positive status to another friendly character using a
 
 	<PassiveDesc ID="1004">
 		<Name>False Wish</Name>
-		<Desc>(Only available for designated librarians)
+		<Desc>(Only available for patron librarians)
 When equipped with a Combat Page, you can equip a second deck that controls your passive ability.</Desc>
 	</PassiveDesc>
 
@@ -387,14 +386,14 @@ When equipped with a Combat Page, you can equip a second deck that controls your
 		<Name>Gebura</Name>
 		<Desc>
 			Only available for the following characters:
--Language-level designated librarian
--General-level assistant librarian when Ain is a general-level designated librarian.</Desc>
+-Language-level patron librarian
+-General-level assistant librarian when Ayin is the general-level patron librarian.</Desc>
 	</PassiveDesc>
 
 
 	<PassiveDesc ID="1007">
 		<Name>Assistant Librarian</Name>
-		<Desc>All passive abilities of this character will not trigger if no other designated librarians are alive.</Desc>
+		<Desc>All passive abilities of this character will not trigger if no other patron librarians are alive.</Desc>
 	</PassiveDesc>
 
 	<!-- 아군 사도 -->

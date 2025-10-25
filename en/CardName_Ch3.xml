@@ -11,7 +11,7 @@
 			<LocalizedName>Loneliness</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3004">
-			<LocalizedName>Shun</LocalizedName>
+			<LocalizedName>Shunned</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3005">
 			<LocalizedName>Void</LocalizedName>
@@ -20,7 +20,7 @@
 			<LocalizedName>Fear</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3007">
-			<LocalizedName>Mourning</LocalizedName>
+			<LocalizedName>Gaze</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3008">
 			<LocalizedName>Pocket Watch</LocalizedName>
@@ -64,7 +64,7 @@
 
 		<!-- #region 침식 루트 -->
 		<BattleCardDesc ID="3101">
-			<LocalizedName>Distortion</LocalizedName>
+			<LocalizedName>Distort</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3102">
 			<LocalizedName>Advent</LocalizedName>
@@ -109,13 +109,13 @@
 			<LocalizedName>Deception</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3128">
-			<LocalizedName>Coercion</LocalizedName>
+			<LocalizedName>Overbearing</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3129">
 			<LocalizedName>Fanaticism</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3130">
-			<LocalizedName>Overbearing</LocalizedName>
+			<LocalizedName>Coercion</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="3131">
 			<LocalizedName>Egotism</LocalizedName>
@@ -162,7 +162,7 @@
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3302">
-			<LocalizedName>Powerless</LocalizedName>
+			<LocalizedName>Powerlessness</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3303">
@@ -209,7 +209,7 @@
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3503">
-			<LocalizedName>Destroy</LocalizedName>
+			<LocalizedName>Violence</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3504">
@@ -261,7 +261,7 @@
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3614">
-			<LocalizedName>Return</LocalizedName>
+			<LocalizedName>Regression</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3615">
@@ -313,7 +313,7 @@
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="3803">
-			<LocalizedName>Return</LocalizedName>
+			<LocalizedName>Regression</LocalizedName>
 		</BattleCardDesc>
 
 
@@ -331,7 +331,7 @@
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="13003">
-			<LocalizedName>Return</LocalizedName>
+			<LocalizedName>Regression</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="13005">
@@ -355,7 +355,7 @@
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="14001">
-			<LocalizedName>Destroy</LocalizedName>
+			<LocalizedName>Violence</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="14002">
@@ -373,7 +373,7 @@
 
 
 		<BattleCardDesc ID="14101">
-			<LocalizedName>Destination</LocalizedName>
+			<LocalizedName>Terminus</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="15001">
@@ -436,7 +436,7 @@
 			<LocalizedName>Prophet</LocalizedName>
 		</BattleCardDesc>
 		<BattleCardDesc ID="1000403">
-			<LocalizedName>Distortion</LocalizedName>
+			<LocalizedName>Distort</LocalizedName>
 		</BattleCardDesc>
 
 		<BattleCardDesc ID="2000001">

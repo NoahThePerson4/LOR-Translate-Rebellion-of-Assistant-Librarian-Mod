@@ -13,7 +13,7 @@
 		<Desc>Each time this page's dice deals damage, [Angela] takes damage equal to half the damage dealt.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Wave1Emotion3">
-		<Desc>When this page's dice deals damage, both players take damage.</Desc>
+		<Desc>When using this card damage taken is dealt to the attacker as well.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Wave1Emotion4">
 		<Desc>[On Combat Start] Inflict 3 stacks of [Erosion] on all characters.</Desc>
@@ -34,10 +34,10 @@
 		<Desc>[On Use] For every 3 stacks of [Fate] the target has, increase the maximum and minimum rolls of all dice on this Page by 1.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Hokma3">
-		<Desc>[On Combat Start] In this Scene and the next, grant all allied characters 2 stacks of [Protection] and [Stagger Protection], and grant you an additional 2 stacks of [Endurance].</Desc>
+		<Desc>[On Combat Start] In this Scene and the next, grant all allied characters 2 stacks of [Protection] and [Stagger Protection], and grant you 2 stacks of [Endurance].</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Hokma4">
-		<Desc>[On Clash Win] If the target has [Fate], roll all dice on the target's page and deal Stagger Damage equal to the roll value and destroy the dice.</Desc>
+		<Desc>[On Clash Win] If the target has [Fate], roll all dice on the target's page and deal Stagger Damage equal to the sum of roll values and then destroy the dice.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3Hokma5">
@@ -54,7 +54,7 @@
 		<Desc>[Instinct] Restore 2 Light and gain 3 stacks of [Damage Up] in the next Scene.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Gebura4">
-		<Desc>[Combat Start] -3 the maximum and minimum dice rolls of the target character you are battling against in this Scene</Desc>
+		<Desc>[Combat Start] -3 the maximum and minimum dice rolls of the target character you are clashing against in this Scene</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Gebura5">
 		<Desc>If an offensive dice roll of this Page hits and is not clashing, Use this Page again (up to 2 times).
@@ -101,14 +101,14 @@ If all dice hit the target, gain 1 stack of [Red Mist].</Desc>
 
 	<!-- #region 침식루트 -->
 	<BattleCardAbility ID="lcAngelaDistortPhase1FarArea1">
-		<Desc>If the dice roll against this page becomes 0, no damage or stagger damage will be dealt.</Desc>
+		<Desc>The dice rolled against this page becomes 0, no damage or stagger damage will be dealt.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaDistortPhase1FarArea2">
-		<Desc>[After use] Immediately end this scene and switch scenes.</Desc>
+		<Desc>[After use] Immediately end this scene and switch phases.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortPhase1Dice">
-		<Desc>[On hit] If the target is staggered, remove Staggered and use the page on yourself.</Desc>
+		<Desc>[On hit] If the target is staggered, remove Staggered and they then play a page on you.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice1">
@@ -136,31 +136,31 @@ If all dice hit the target, gain 1 stack of [Red Mist].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage1">
-		<Desc>[On Clash Lose] If the target dice is an offensive dice, for every 5 points, gain 1 [Strength] on the next Scene.</Desc>
+		<Desc>[On Clash Lose] If the target dice is an offensive dice, for every 5 points of its value, gain 1 [Strength] on the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage2">
-		<Desc>[On Use] If the target page is not a counterattack page, for every 3 points of the combined speed of self and target, increase the power of this page dice by 1 (maximum +10).</Desc>
+		<Desc>[On Use] If the target page is not a counter dice from the counter queue, for every 3 points of the combined speed of self and target, increase the power of this page's dice by 1 (maximum +10).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage3">
-		<Desc>[On Use] If the target does not have an negative status effect, the damage and stagger damage dealt by this page are doubled (including the counter-stagger damage).</Desc>
+		<Desc>[On Use] If the target does not have any negative status effect, the damage and stagger damage dealt by this page are doubled (including the deflect stagger damage).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage4">
-		<Desc>[On Use] If you fail to win a clash this scene, for every 5 points on your dice, you apply 1 stack of [Feeble] and [Fragile] to the target in this scene and the next scene.</Desc>
+		<Desc>[On Use] If you fail to win a clash this scene, for every 5 points of the dice's value, you apply 1 stack of [Feeble] and [Disarm] to the target in this scene and the next scene. </Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage5">
-		<Desc>When winning against a Mass Attack page, the dice roll of this page is doubled.</Desc>
+		<Desc>When rolling against a Mass Attack page, the dice roll of this page is doubled.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage6">
-		<Desc>[On Use] For every 3 layers of [Brand] on the stage, increase the power of all dice in this page by 1.</Desc>
+		<Desc>[On Use] For every 3 stacks of [Brand] on characters, increase the power of all dice in this page by 1.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage7">
-		<Desc>[On Combat Start] Reverse the target's power increase or decrease for this Scene (this effect is considered a negative status)</Desc>
+		<Desc>[On Combat Start] Reverse the target's power gain and loss for this Scene (this effect is considered a negative status)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage8">
@@ -168,11 +168,11 @@ If all dice hit the target, gain 1 stack of [Red Mist].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage9">
-		<Desc>[Failed to roll] You cannot be targeted in the next Scene</Desc>
+		<Desc>[On Clash] Replace all dice on this page with dice on the target's page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostlePage10">
-		<Desc>[On Hit] Inflict 1 stack of [Feeble] on the target in the next Scene</Desc>
+		<Desc>[On Use] Reduce the target's emotion level by 1 each time you win a clash with this page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice6">
@@ -180,15 +180,15 @@ If all dice hit the target, gain 1 stack of [Red Mist].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice7">
-		<Desc>This dice can be reused if it is not destroyed (up to 7 times).</Desc>
+		<Desc>This dice will be reused unless it is destroyed (up to 7 times).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice8">
-		<Desc>Power +10 when rolling with a Defensive Dice</Desc>
+		<Desc>Power +10 when clashing against a Defensive Dice</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice9">
-		<Desc>[Failed to roll] You cannot be targeted in the next scene</Desc>
+		<Desc>[On Clash Lose] You cannot be targeted in the next scene</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice10">
@@ -204,7 +204,7 @@ If all dice hit the target, gain 1 stack of [Red Mist].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice13">
-		<Desc>If the target's Speed or Power is 10 or higher, increase the dice by that amount.</Desc>
+		<Desc>If the target's Speed or Power is 10 or higher, increase the dice's value by the target's Speed and Power.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice14">
@@ -212,11 +212,11 @@ If all dice hit the target, gain 1 stack of [Red Mist].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice15">
-		<Desc>[On Hit] Inflict 3 stacks of [Paralysis] on the target in the next Scene.</Desc>
+		<Desc>[On Hit] Inflict Powernull next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice16">
-		<Desc>[On Hit] If the target die is a Defensive Dice die, add deal Stagger Damage equal to your dice's value.</Desc>
+		<Desc>[On Hit] If the target dice is a Defensive Dice, deal Damage equal to the target's dice value.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDistortApostleDice17">
@@ -233,7 +233,7 @@ If all dice miss, restore 30 HP and Stagger Damage to all librarians.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenPage3">
-		<Desc>This page's dice gain power equal to the number of [Brand] stacks on the stage x 8.
+		<Desc>This page's dice gain power equal to the number of [Brand] stacks on characters x 8.
 If all librarians win the clash, all characters' [Brand] stacks are reduced by 1.</Desc>
 	</BattleCardAbility>
 
@@ -262,19 +262,19 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice4">
-		<Desc>[On Hit] Inflicts 10 stacks of [Whisper] on all other characters (triggers 3 times)</Desc>
+		<Desc>[On Hit] Inflicts 10 stacks of [Whisper] on all other characters (triggers 3 times).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice5">
-		<Desc>[On Clash Win] Inflicts 3 stacks of [Whisper] on all other characters</Desc>
+		<Desc>[On Clash Win] Inflicts 3 stacks of [Whisper] on all other characters.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice6">
-		<Desc>[On Clash Win] Adds additional damage equal to the sum of the dice roll of the character and the target</Desc>
+		<Desc>[On Clash Win] Deals additional damage equal to the sum of this character and the target dice values.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice7">
-		<Desc>[On Clash Lose] Reduce the target's maximum dice roll by 2.</Desc>
+		<Desc>[On Clash Lose] Reduce all the target's maximum dice rolls by 2.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice8">
@@ -282,7 +282,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice9">
-		<Desc>[On Hit] Restore 10 HP/Stagger Resist to all allied characters and add an equal amount of Damage and Stagger Damage to the target.</Desc>
+		<Desc>[On Hit] Restore 10 HP/Stagger Resist to all allied characters and deal Damage and Stagger Damage to the target equal to the amount recovered.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenDice10">
@@ -297,7 +297,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 
 	<!-- #region 에고루트 -->
 	<BattleCardAbility ID="lcAngelaCh3BookHunterPage1">
-		<Desc>[On Use] Restores 1 Light Draws a random [Knowledge] page and reduces its cost by 1</Desc>
+		<Desc>[On Use] Restores 1 Light and Draw a random [Knowledge] page and reduces its cost by 1</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3BookHunterPage2">
@@ -314,11 +314,11 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3BookHunterPage5">
-		<Desc>[On Use] Each [Knowledge] page used in this scene increases the Power of all dice in this page by 1.</Desc>
+		<Desc>[On Use] Each [Knowledge] page used in this scene increases the Power of all dice on this page by 1.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3BookHunterPage6">
-		<Desc>[On Use] Reduces your maximum Stamina and Stagger Resist by half in this stage.</Desc>
+		<Desc>[On Use] Reduces your maximum Hp and Stagger Resist by half in this stage.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3BookHunterPage2Dice1">
@@ -346,30 +346,30 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage1">
-		<Desc>[On Clash Win] Gain 3 stacks of [Self-Collapse]
-[On Clash Lose] Lose 2 stacks of [Self-Collapse]</Desc>
+		<Desc>[On Clash Win] Gain 3 stacks of [E.G.O. Collapse]
+[On Clash Lose] Lose 2 stacks of [E.G.O. Collapse]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage2">
-		<Desc>At the end of this scene, for each unused die in this Page, gain 10 stacks of [Self-Collapse]. If all dice are used, lose 5 stacks of [Self-Collapse].</Desc>
+		<Desc>At the end of this scene, for each unused die on this Page, gain 10 stacks of [E.G.O. Collapse]. If all dice are used, lose 5 stacks of [E.G.O. Collapse].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage3">
-		<Desc>[On Use] For every 10 stacks of [Self-Collapse] you have, increase the power of all dice on this page by 1.
-[If the match fails] lose 3 stacks of [Self-Collapse]</Desc>
+		<Desc>[On Use] For every 10 stacks of [E.G.O. Collapse] you have, increase the power of all dice on this page by 1.
+[On Clash Lose] lose 3 stacks of [E.G.O. Collapse]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage4">
-		<Desc>[After use] If the dice on this page do not hit the target, lose 10 stacks of [Self-Collapse]</Desc>
+		<Desc>[After use] If the dice on this page do not hit the target, lose 10 stacks of [E.G.O. Collapse]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage5">
 		<Desc>This page will be combined with the sum of all other characters' dice rolls, and the Assistant Librarian's dice roll will be considered a negative number.
-[If hit] The target page will not be destroyed, but the power of all dice on the target page will be increased by 5.</Desc>
+[On hit] The target page will not be destroyed, but the power of all dice on the target page will be increased by 5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage6">
-		<Desc>At the end of this Scene, if the Counterattack dice for this Page have not been fully used, lose 5 stacks of [Self-Collapse] and grant [Book Hunter] 1 stack of [Strength] and [Endurance].</Desc>
+		<Desc>At the end of this Scene, if any Counter dice from this page remain, lose 5 stacks of [E.G.O. Collapse] and grant [Book Hunter] 1 stack of [Strength] and [Endurance].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage1">
@@ -381,7 +381,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage3">
-		<Desc>[On Use] Grants all allied characters 2 stacks of [Haste] and [Defense] in the next Scene.</Desc>
+		<Desc>[On Use] Grants all allied characters 2 stacks of [Haste] and [Protection] in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage5">
@@ -389,7 +389,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage6">
-		<Desc>[On Play][Select an allied character] Removes all abnormal status effects from the designated allied character (increases their current speed by the same amount when [Bind] are removed). During this Scene, the cost of all their pages is reduced by 1, and they gain 2 stacks of [Strength] and [Endurance].</Desc>
+		<Desc>[On Play][Select an allied character] Removes all negative status effects from the designated allied character (increases their current speed by the same amount when [Bind] are removed). During this Scene, the cost of all their pages is reduced by 1, and they gain 2 stacks of [Strength] and [Endurance].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage1">
@@ -397,12 +397,12 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage2">
-		<Desc>[At the start of battle] During this Scene, dice rolled against [Angela] gain +10 power.</Desc>
+		<Desc>[On Combat Start] During this Scene, dice rolled against [Angela] gain +10 power.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage3">
 		<Desc>The target of this page cannot be changed.
-[On Use] Deals Stagger damage equal to 50% of the target's Stagger Resist limit in Taiyuan.</Desc>
+[On Use] Deals Stagger damage equal to 50% of the target's Max Stagger Resist.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage4">
@@ -415,7 +415,7 @@ If the target does not have [Bind], increase the power of all dice on the target
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage6">
-		<Desc>[On Combat Start] In the next Scene, gain 1 stack of [Strength], [Endurance], and [Haste] to the target.</Desc>
+		<Desc>[On Combat Start] In the next Scene, give 1 stack of [Strength], [Endurance], and [Haste] to the target.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage7">
@@ -436,16 +436,16 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage2">
-		<Desc>[On Combat Start] During this scene, gain 1 stack of [Blooming Sin] and grant 2 stacks of [Feeble] to all allied characters.</Desc>
+		<Desc>[On Combat Start] During this scene, gain 1 stack of [Blooming Sin] and grant 2 stacks of [Feeble] to all allies.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage3">
-		<Desc>[On Combat Start] During this scene, each valid throw (win/hit) by the [Book Hunter] grants 1 stack of [Blooming Light]. Each time an allied character is hit, they lose 1 stack of [Blooming Light].</Desc>
+		<Desc>[On Combat Start] During this scene, each valid roll (win/hit) by the [Book Hunter] grants 1 stack of [Blooming Light]. Each time an allied character is hit, lose 1 stack of [Blooming Light].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage4">
 		<Desc>This scene cannot be targeted and cannot Act.</Desc>
-		<Desc>[At the end of the Scene] If [Blooming Light] is at least 2 stacks, remove all [Blooming Sins] from this player. If it is at least 1 stack, remove [Blooming Light] as well.</Desc>
+		<Desc>[At the end of the Scene] If [Blooming Light] is at least 2 stacks, remove all [Blooming Sins] from this character. If [Blooming Light] is at 1 stack, remove [Blooming Light] instead.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage5">
@@ -454,23 +454,23 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2EnemyPage1">
-		<Desc>[On Use] If the target is [Angela], apply 1 stack of [Blooming Sins] to both players.</Desc>
+		<Desc>[On Use] If the target is [Angela], apply 1 stack of [Blooming Sins] to both characters.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage1Dice1">
-		<Desc>[On Hit] Gain 3 stacks of [Self Collapse] on this card.</Desc>
+		<Desc>[On Hit] Gain 3 stacks of [E.G.O. Corruption] on this card.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage3Dice1">
-		<Desc>[On Hit] Adds Stagger Damage to both players equal to the number of stacks of [Self Collapse] on this card.</Desc>
+		<Desc>[On Hit] Adds Stagger Damage to both players equal to the number of stacks of [E.G.O. Corruption] on this card.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage4Dice1">
-		<Desc>[On Hit] Gain 25 stacks of [Self Collapse] on this card.</Desc>
+		<Desc>[On Hit] Gain 25 stacks of [E.G.O. Corruption] on this card.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage6Dice1">
-		<Desc>[Failed to roll] Gain 10 stacks of [Self-Destruction] and grant [Book Hunter] 1 stack of [Paralysis]</Desc>
+		<Desc>[Failed to roll] Gain 10 stacks of [E.G.O. Corruption] and grant [Book Hunter] 1 stack of [Paralysis]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage1">
@@ -490,7 +490,7 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage2Dice3">
-		<Desc>If both first 2 dice fail to match, power +10</Desc>
+		<Desc>If both first 2 dice lose the clash, power +10</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage1Dice">
@@ -514,7 +514,7 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2EnemyPage1Dice">
-		<Desc>[On Hit] Inflicts 1 stack of [Flaw] and [Bound] on the target in the next Scene.</Desc>
+		<Desc>[On Hit] Inflicts 1 stack of [Bind] and [Disarm] on the target in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2EnemyPage2Dice">
@@ -554,7 +554,7 @@ If all allies are uncontrollable, recover an additional 1 Light.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenPaleHandDice">
-		<Desc>[On Hit] During this Scene, the target gains 1 stack of [Frightening Hand] when using a Tome.</Desc>
+		<Desc>[On Hit] During this Scene, the target gains 1 stack of [Pale Hand] when using a page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBlessFake">
@@ -574,15 +574,15 @@ If all allies are uncontrollable, recover an additional 1 Light.</Desc>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBloodFake">
 		<Desc>Move this page to the Special Page Deck when the stage starts.</Desc>
-		<Desc>[Qliphoth 12][On Hit] Adds damage equal to the target's maximum Health x "3% of the target's [Frightening White Hand] stacks."</Desc>
+		<Desc>[Qliphoth 12][On Hit] Adds damage equal to the target's maximum Health x "3% of the target's [Pale Hand] stacks."</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBlood">
-		<Desc>[Qliphoth 12][When Hit] Adds damage equal to the target's maximum HP x "target's [Frightening White Hand] stacks x 3%"</Desc>
+		<Desc>[Qliphoth 12][When Hit] Adds damage equal to the target's maximum HP x "target's [Pale Hand] stacks x 3%"</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBloodDice">
-		<Desc>Increases power equal to the total number of [Frightening White Hand] stacks in the stage</Desc>
+		<Desc>Increases power equal to the total number of [Pale Hand] stacks in the stage</Desc>
 	</BattleCardAbility>
 
 	<!-- #endregion -->
@@ -863,8 +863,8 @@ If the Battle Page [Harmony] is also equipped, this effect is only triggered whe
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen2">
-		<Desc>[Paradox 5] When applying [Frightening White Hand], apply 2 layers of [Bound] to the target in the next Scene. During a battle, for every 3 layers of [Frightening White Hand], the target's power is reduced by 1 (rounded up).</Desc>
-		<Desc>If the player's Emotion Level is at least 3, applying [Frightening White Hand] removes 2 additional layers of [Positive Status] from the target.</Desc>
+		<Desc>[Paradox 5] When applying [Pale Hand], apply 2 layers of [Bound] to the target in the next Scene. During a battle, for every 3 layers of [Pale Hand], the target's power is reduced by 1 (rounded up).</Desc>
+		<Desc>If the player's Emotion Level is at least 3, applying [Pale Hand] removes 2 additional layers of [Positive Status] from the target.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen3">

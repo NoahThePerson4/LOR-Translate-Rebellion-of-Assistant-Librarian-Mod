@@ -9,20 +9,20 @@
     <!-- #region 침식 루트-->
     <BattleEffectText ID="lcangelaDistortCarmenBufPhase1">
       <Name>Mark</Name>
-      <Desc>Speed and power increase by {0}. Effects vary depending on whether the Librarian is present at the phase transition.</Desc>
+      <Desc>Speed and power increase by {0}. Effects changes depending on whether the Librarian is present at the phase transition.</Desc>
     </BattleEffectText>
     <BattleEffectText ID="lcangelaDistortCarmenBufPhase2Ally">
       <Name>Brand</Name>
-      <Desc>Dice power for Blooming Paradise is reduced by {0}, and Blooming Paradise takes damage and Disarray damage split evenly. At the end of an act, if Blooming Paradise has no stored dice, it is reduced by 1.</Desc>
+      <Desc>Dice power when targeting Blooming Paradise is reduced by {0}, and all characters with Brand take damage and stagger damage Blooming Paradise would have taken split evenly. At the end of the scene, if Blooming Paradise has no remaining dice, it is reduced by 1.</Desc>
     </BattleEffectText>
     <BattleEffectText ID="lcangelaDistortCarmenBufPhase2Enemy">
       <Name>Brand</Name>
-      <Desc>Dice power increases by {0} and Blooming Paradise takes damage and Stagger damage divided equally. At the end of an act, if Blooming Paradise has no stored dice, it is reduced by 1.</Desc>
+      <Desc>Dice power increases by {0} and all characters with Brand take damage and stagger damage Blooming Paradise would have taken split evenly. At the end of the scene, if Blooming Paradise has no remaining dice, it is reduced by 1.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaDistortCarmenEnemyWhisper">
       <Name>Whisper</Name>
-      <Desc>Each time you are granted, you receive 1-2 damage and Stagger damage. (For Apostles, this applies as Recovery.) When this value reaches 40, it disappears and you gain 1 Brand. When the Blooming Paradise's stored dice are no longer present at the end of the battle, they disappear.</Desc>
+      <Desc>Each time this is gained, you receive 1-2 damage and Stagger damage. (For Apostles, this applies as Recovery.) When this value reaches 40, it disappears and you gain 1 Brand. if Blooming Paradise has no remaining dice at the end of the Scene, lose all Whispers.</Desc>
     </BattleEffectText>
 
     <!-- #endregion -->
@@ -31,7 +31,7 @@
     <!-- #region 에고 루트 -->
     <BattleEffectText ID="lcangelaInvitationEgoCollapse">
       <Name>E.G.O. Collapse</Name>
-      <Desc>At the start of each stage of the Book Hunters' Stage, Angela takes {0}% of her maximum Stagger Resistance as Stagger damage. If this value reaches 100, she loses the encounter.
+      <Desc>At the start of each stage of the Book Hunters' Stage, Angela takes {0}% of her maximum Stagger Resistance as Stagger damage. If this value reaches 100, you lose the encounter.
 Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.</Desc>
     </BattleEffectText>
 
@@ -96,22 +96,22 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaCarmenSinBloom">
       <Name>Blooming Sin</Name>
-      <Desc>The sum of the "Stagger Damage" effects activated by the Flow Control pages. If you are not Staggered at the end of an act, your Qlipoth Counter increases by the amount.</Desc>
+      <Desc>The sum of the "Stagger Damage" effects activated by the Flow Control pages. If you are not Staggered at the end of an scene, your Qlipoth Counter increases by the amount.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcAngelaQlipothCounterCarmen">
       <Name>Qlipoth Counter</Name>
-      <Desc>Reduced by Battle Page usage or persistent abilities. If it is 1 or higher at the start of an act, you become Staggered for the duration of that act.</Desc>
+      <Desc>Reduced by Battle Page usage or persistent abilities. If it is 1 or higher at the start of the scene, you become Staggered for the duration of that scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaCarmenBless">
       <Name>Mark</Name>
-      <Desc>Gains additional effects based on the Flow Control settings of the designated librarian. Destroys at the end of the act.</Desc>
+      <Desc>Gains additional effects based on the Flow Control settings of the designated librarian. Destroys at the end of the scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaCarmenPaleHand">
       <Name>Pale Hands</Name>
-      <Desc>Speed is reduced and damage taken from dice and Disorientation is increased (once per die). Destroys at the end of the act.</Desc>
+      <Desc>Speed is reduced and damage taken from dice and Stagger damage is increased (once per die). Destroys at the end of the scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenObedience">
@@ -126,12 +126,12 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaCarmenAwe">
       <Name>Awe</Name>
-      <Desc>Each time you make a valid roll (total win/hit) against the designated librarian, decrease by 1. At the start of an act, reduce the designated librarian's Qliphoth counter by {0}, and you take {0}% of your maximum Stagger Resistance as Stagger damage.</Desc>
+      <Desc>Each time you make a valid roll (total win/hit) against the designated librarian, decrease by 1. At the start of an scene, reduce the designated librarian's Qliphoth counter by {0}, and you take {0}% of your maximum Stagger Resistance as Stagger damage.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenPaleHand">
       <Name>Pale Hands</Name>
-      <Desc>This hand has a value equal to its reduced speed in this act, and its damage taken from dice and Stagger increases by {0}. It disappears at the end of the act.</Desc>
+      <Desc>This hand has a value equal to its reduced speed in this scene, and its damage taken from dice and Stagger increases by {0}. It disappears at the end of the scene.</Desc>
     </BattleEffectText>
 
 
@@ -147,15 +147,15 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
 		<BattleEffectText ID="lcAngelaQliphothSuppression_ego">
 			<Name>Qliphoth Suppression : Blooming</Name>
-			<Desc>Maximum Light increases by 1, and applies the "Protection" effect to all allies at the start of the act. Qliphoth Counters are reduced by the number of allies affected by the Protection effect.
+			<Desc>Maximum Light increases by 1, and applies the "Protection" effect to all allies at the start of the scene. Qliphoth Counters are reduced by the number of allies affected by the Protection effect.
 If the Qliphoth Counter is 0 or higher when Staggered, it is reduced to 0 and this ability is lost. If the Qliphoth Counter is less than 0 when Staggered...</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="lcAngelaQliphothSuppression_distort">
 			<Name><![CDATA[Qliphoth Suppression : <color=#ff0000>Distortion</color>]]></Name>
 			<Desc>Cannot be acted upon. Unspecified. When an ally ends using a Battle Page, if no invalid rolls (sum draw/defeat) occur, the Qliphoth Counter increases by 1. For each ally's sum loss/hit, the Qliphoth Counter decreases by 1.
-This effect disappears if your Qliphoth Counter is 1 or higher at the end of an act. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
-At the end of an act when this effect reaches 3...</Desc>
+This effect disappears if your Qliphoth Counter is 1 or higher at the end of an scene. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
+At the end of an scene when this effect reaches 3...</Desc>
 		</BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaAngelaBlessStack1">
@@ -180,12 +180,12 @@ At the end of an act when this effect reaches 3...</Desc>
 
 	  <BattleEffectText ID="keywordLcAngelaAngelaBinahSin2">
 		  <Name>Small Beak</Name>
-		  <Desc>Increase damage by the cost of the cards used in this act.</Desc>
+		  <Desc>Increase damage by the cost of the cards used in this scene.</Desc>
 	  </BattleEffectText>
 
 	  <BattleEffectText ID="keywordLcAngelaAngelaBinahSin3">
 		  <Name>Long Arms</Name>
-		  <Desc>At the end of an act, apply status effects to all targets and yourself using the cards in the next act.</Desc>
+		  <Desc>At the end of an scene, apply status effects to all targets and yourself using the cards in the next scene.</Desc>
 	  </BattleEffectText>
 
 
@@ -202,14 +202,14 @@ At the end of an act when this effect reaches 3...</Desc>
 		<BattleEffectText ID="lcangela_qlipoth_meltdown_ally_1">
 			<Name>Qlipoth Meltdown: Dawn (Ally)</Name>
 			<Desc>When Angela uses a Bookshelf on a target (all targetable when using an area-of-effect Bookshelf), the value decreases by 1, and when she uses a Bookshelf on any other target, the value increases by 1.
-If this effect is 0 at the end of the act, Angela's Qlipoth counter increases by 2 and the cost of a random Bookshelf with a cost of 3 or more is reduced by 1.
+If this effect is 0 at the end of the scene, Angela's Qlipoth counter increases by 2 and the cost of a random Bookshelf with a cost of 3 or more is reduced by 1.
 			</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="lcangela_qlipoth_meltdown_ally_2">
 			<Name>Qlipoth Meltdown: Noon (Ally)</Name>
 			<Desc>When Angela uses a Bookshelf on a target (all targets that can be designated when using an area-of-effect Bookshelf), the value decreases by 1, and when she uses a Bookshelf on any other target, the value increases by 1.
-At the end of the act, if this effect is 0, Angela's Qlipoth Counter is increased by 2, and the cost of a random Bookshelf with a cost of 3 or higher is reduced by 1. (Resets when used)
+At the end of the scene, if this effect is 0, Angela's Qlipoth Counter is increased by 2, and the cost of a random Bookshelf with a cost of 3 or higher is reduced by 1. (Resets when used)
 If this effect is 1 or higher, Angela's Qlipoth Counter is reduced by 5, and you gain 1 Strength.
 			</Desc>
 		</BattleEffectText>
@@ -217,7 +217,7 @@ If this effect is 1 or higher, Angela's Qlipoth Counter is reduced by 5, and you
 		<BattleEffectText ID="lcangela_qlipoth_meltdown_ally_3">
 			<Name>Qlipoth Meltdown: Dusk (Ally)</Name>
 			<Desc>When Angela uses a bookshelf on a target (all targets that can be designated when using an area-of-effect bookshelf), the value decreases by 1, and when she uses a bookshelf on any other target, the value increases by 1.
-At the end of the act, if this effect is 0, Angela's Qlipoth Counter increases by 2 and the cost of 2 random bookshelves with their original cost of 3 or more is reduced by 1. (Resets when used.)
+At the end of the scene, if this effect is 0, Angela's Qlipoth Counter increases by 2 and the cost of 2 random bookshelves with their original cost of 3 or more is reduced by 1. (Resets when used.)
 If this effect is 1 or more, Angela's Qlipoth Counter decreases by 10 and she gains 2 Strength.
 			</Desc>
 		</BattleEffectText>
@@ -225,7 +225,7 @@ If this effect is 1 or more, Angela's Qlipoth Counter decreases by 10 and she ga
 		<BattleEffectText ID="lcangela_qlipoth_meltdown_midnight">
 			<Name>Qlipoth Meltdown: Midnight (Ally)</Name>
 			<Desc>When activated, marks are applied to two random bookshelves. If no invalid judgment (draw/joint loss) occurs when the target bookshelf is finished using, its value decreases by 1. (If the bookshelf is "Triggered When Equipped," the value decreases upon use.)
-If this value is 0 at the end of the act, Angela's Blooming Sin decreases by 1. If it is 1 or higher, Angela's Blooming Sin increases by 1.
+If this value is 0 at the end of the scene, Angela's Blooming Sin decreases by 1. If it is 1 or higher, Angela's Blooming Sin increases by 1.
 If Angela is distracted or dies while under this effect, Angela's Blooming Sin is fixed at 3.</Desc>
 		</BattleEffectText>
 
@@ -248,7 +248,7 @@ If Angela is distracted or dies while under this effect, Angela's Blooming Sin i
     </BattleEffectText>
 	  <BattleEffectText ID="lcAngelaMultiDeckComponentQliphothParadox">
 		  <Name>Paradox X</Name>
-		  <Desc>If the Emotion Level at the end of the act is higher than the cost of the corresponding card, the Qliphoth Counter increases by that amount.</Desc>
+		  <Desc>If the Emotion Level at the end of the scene is higher than the cost of the corresponding card, the Qliphoth Counter increases by that amount.</Desc>
 	  </BattleEffectText>
 
 	  <BattleEffectText ID="lcAngelaMultiDeckComponentOrdeal1_1">
