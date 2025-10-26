@@ -57,7 +57,7 @@
 		<Desc>[Combat Start] -3 the maximum and minimum dice rolls of the target character you are clashing against in this Scene</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Gebura5">
-		<Desc>If an offensive dice roll of this Page hits and is not clashing, Use this Page again (up to 2 times).
+		<Desc>If target is defeated or Staggered, use this page again on a random enemy. (up to 2 times).
 Each time you reuse this Page, the maximum roll of all dice in this Page is reduced by 3.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Gebura6">
@@ -242,7 +242,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenPage5">
-		<Desc>[On Combat Start] If the target uses a combat page for this Scene that specifies a target other than themselves, all dice values on that page will be set to 0.</Desc>
+		<Desc>[On Combat Start] If the target uses a combat page for this Scene on a target other than Blooming Paradise, all dice values on the target's page will be set to 0.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenPage6">
