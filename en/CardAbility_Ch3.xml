@@ -41,7 +41,7 @@
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3Hokma5">
-		<Desc>[On Scene End] For each stack of [Fate] gained during this Scene, deal 2 damage to all enemy characters and restore 2 HP and Stagger Resist to yourself and [Gebura].</Desc>
+		<Desc>[On Scene End] For each stack of [Fate] gained during this Scene, deal 2 Stagger damage to all enemy characters and restore 2 HP and Stagger Resist to yourself and [Gebura].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3Gebura1">
@@ -57,7 +57,7 @@
 		<Desc>[Combat Start] -3 the maximum and minimum dice rolls of the target character you are clashing against in this Scene</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Gebura5">
-		<Desc>If target is defeated or Staggered, use this page again on a random enemy. (up to 2 times).
+		<Desc>On hit if their are other one-sided attacks that would occur this Scene play this Page again and clash those attacks. (up to 2 times).
 Each time you reuse this Page, the maximum roll of all dice in this Page is reduced by 3.</Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="lcAngelaCh3Gebura6">
@@ -242,7 +242,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenPage5">
-		<Desc>[On Combat Start] If the target uses a combat page for this Scene on a target other than Blooming Paradise, all dice values on the target's page will be set to 0.</Desc>
+		<Desc>[On Combat Start] If the target uses a combat page for this Scene on a target other than Blooming Paradise, all dice values on the target's page clashing this page will be set to 0.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3DistortCarmenPage6">
