@@ -49,7 +49,7 @@ If no target attacked you, attack "Angela."</Desc>
 
 	<PassiveDesc ID="30011">
 		<Name>The Eye Embracing the Past - Building the Future</Name>
-		<Desc>Immune to Damage from Negative Status Effects.
+		<Desc>Immune to Negative Status Effects.
 Stagger Damage dealt by this character is not reduced by the value of the opponent's Offensive dice.</Desc>
 	</PassiveDesc>
 
@@ -216,12 +216,12 @@ If Stagger Resist is fully restored, Angela's "E.G.O. Collapse" stacks are reduc
 
 	<PassiveDesc ID="30333">
 		<Name>Gearwheel</Name>
-		<Desc>At the end of each Scene, if Stagger Resist is above 30%, your own Stagger Resist is reduced to 30%, and Angela's "E.G.O. Collapse" stacks are increased by 2 times her own Panic Level?.</Desc>
+		<Desc>At the end of each Scene, if your Stagger Resist is above 30%, your own Stagger Resist is reduced to 30%, and Angela's "E.G.O. Collapse" stacks are increased by 2 times your Panic Level.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30341">
 		<Name>Actor on the Stage</Name>
-		<Desc>E.G.O. manifests and all of your "Instinct" pages have a activation cost of 0.
+		<Desc>E.G.O. manifests and all of your "Instinct" pages have a cost of 0.
 Offensive dice deal no damage.</Desc>
 	</PassiveDesc>
 
@@ -247,7 +247,7 @@ Offensive dice deal no damage.</Desc>
 
 	<PassiveDesc ID="30402">
 		<Name>Prologue</Name>
-		<Desc>Gain 4 stacks of "Blooming Light" upon opening the stage.
+		<Desc>Gain 4 stacks of "Blooming Light" upon starting the Act.
 If "Blooming Light" is less than 5, lose control of Speed dice inversely proportional to the number of stacks.</Desc>
 	</PassiveDesc>
 
@@ -280,12 +280,12 @@ This effect changes at the end of the Scene when all other allies die.</Desc>
 
 	<PassiveDesc ID="30423">
 		<Name>Blooming Paradise</Name>
-		<Desc>Each time Angela fails to respond (hit/fail to roll) her own dice, she loses 1 stack of "Blooming Light" and is inflicted with 1 stack of "Paralysis" for the current and next scene.</Desc>
+		<Desc>Each time Angela is hit or loses a clash to this character, she loses 1 stack of "Blooming Light" and is inflicted with 1 stack of "Paralysis" for the current and next scene.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30431">
 		<Name>Scale of Sin</Name>
-		<Desc>When the stage starts, you gain one of four "Trial" Abnormality pages and "Blooming Sin."</Desc>
+		<Desc>When the Act starts, you gain one of four "Trial" Abnormality pages and "Blooming Sin."</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30432">
@@ -303,8 +303,8 @@ This effect changes at the end of the Scene when all other allies die.</Desc>
 	<PassiveDesc ID="17">
 		<Name>Legend of the Red Mist</Name>
 		<Desc>+1 Speed Dice
-Additional +1 after reaching Emotion Level 3 (unique passive)
-Gain the E.G.O. Page "Great Split Vertical" upon starting a stage
+Additional +1 Speed Dice after reaching Emotion Level 3 (unique passive)
+Gain the E.G.O. Page "Great Split Vertical" upon starting an Act
 If Emotion Level has reached Level 4 at the start of each Act, place "E.G.O. Manifestation" in your hand (once per act)</Desc>
 	</PassiveDesc>
 
@@ -353,7 +353,7 @@ If this character grants a positive status to another ally using a combat page, 
 
 	<PassiveDesc ID="61">
 		<Name>Serpent of Original Sin</Name>
-		<Desc>When using a page, applies "Mark" to the target.
+		<Desc>When using a page, apply "Mark" to the target.
 (Mark - increases or decreases the power of the designated target.)</Desc>
 	</PassiveDesc>
 
@@ -365,7 +365,7 @@ If this character grants a positive status to another ally using a combat page, 
 	<PassiveDesc ID="63">
 		<Name>Slumber</Name>
 		<Desc>At the start of each scene, this character applies "Pale Hand" to a random enemy character (prioritizing the last target attacked).
-(Pale Hand - Speed -1-3, and damage and Stagger damage received are proportional to the speed reduction.)</Desc>
+(Pale Hand: Speed is reduced by 1-3, and damage and Stagger damage received is increased by the speed reduction value.)</Desc>
 	</PassiveDesc>
 
 
@@ -398,7 +398,7 @@ When equipped with a Combat Page, you can equip a second deck that controls your
 
 	<!-- 아군 사도 -->
 	<PassiveDesc ID="661">
-		<Name>Apostle</Name>
+		<Name>Apostle/ Shimmering</Name>
 		<Desc>At the start of each act, remove the page in your hand and place the page you intend to use in your hand.
 The cost of your own page is 0.
 When assimilation is removed, restore 30% of your maximum HP and Stagger Resist.</Desc>

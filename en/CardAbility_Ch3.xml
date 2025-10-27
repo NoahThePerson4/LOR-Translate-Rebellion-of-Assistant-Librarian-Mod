@@ -913,7 +913,7 @@ The effect is enhanced at Affection Level 2/3/5.</Desc>
 
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen8">
-		<Desc>[Paradox 3] When an uncontrolled allied character uses a Page on a designated target, the cost of that Page is reduced by an amount equal to the number of [Marks] on that target (restored upon use).</Desc>
+		<Desc>[Paradox 3] When an uncontrolled allied character uses a Page on a designated target, the cost of that Page is reduced by an amount equal to the number of [Marks] on that target (cost returns to normal after being used).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen9">
@@ -929,7 +929,7 @@ The effect is enhanced at Affection Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen12">
-		<Desc>[Paradox 10] Each time you obtain a [Crash] Abnormality Page on the current floor, all allied characters trigger the "Trigger when other allied characters die" effect once.</Desc>
+		<Desc>[Paradox 10] Each time you obtain a [Breakdown] Abnormality Page on the current floor, all allied characters trigger the "Trigger when other allied characters die" effect once.</Desc>
 		<Desc>If you possess at least 5 Abnormality Pages on the current floor, the effect is changed to trigger each time you use an E.G.O. Page.</Desc>
 	</BattleCardAbility>
 
@@ -938,7 +938,7 @@ The effect is enhanced at Affection Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen14">
-		<Desc>[Paradox] 6] If your Radiance is less than 6 at the start of each Scene, restore it to 6. Based on the amount of Radiance restored, trigger the "One other friendly character loses 1 Radiance and takes damage equal to 10% of their maximum HP" effect.</Desc>
+		<Desc>[Paradox] 6] If your Light is less than 6 at the start of each Scene, restore it to 6. Based on the amount of Light restored, trigger the "One other friendly character loses 1 Light and takes damage equal to 10% of their maximum HP" effect.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen15">

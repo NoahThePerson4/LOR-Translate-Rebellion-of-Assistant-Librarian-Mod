@@ -37,32 +37,32 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaInvitationPanic1">
       <Name>Panic - Fortitude</Name>
-      <Desc>Attacks allies other than Cocoon. Gain {0} Strength at the start of the act and increase damage dealt with attack dice by {1}%. </Desc>
+      <Desc>Attacks allies other than Cocoon. Gain {0} Strength at the start of the Scene and increase damage dealt with attack dice by {1}%. </Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationPanic2">
       <Name>Panic - Prudence</Name>
-      <Desc>Uses a bookshelf on a random character. Each time the dice is rolled, inflicts {0} Disorientation damage to all characters. If Disorientation Resistance is less than {1} at the end of the act, inflict {2} Disorientation damage to all Assistant Librarians and they die.</Desc>
+      <Desc>Uses a card on a random character. Each time the dice is rolled, inflicts {0} Stagger damage to all characters. If Stagger Resistance is less than {1} at the end of the Scene, inflict {2} Stagger damage to all Assistant Librarians and then die.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationPanic3">
       <Name>Panic - Temperance</Name>
-      <Desc>Uses a bookshelf on a random character. When using a bookshelf, inflicts {0} Disorientation damage to the target. At the end of the act, inflict Disorientation damage to Angela equal to the number of dice remaining * {1}.</Desc>
+      <Desc>Uses a card on a random character. When using a card, inflicts {0} Stagger damage to the target. At the end of the scene, inflict Stagger damage to Angela equal to the number of dice remaining * {1}.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationPanic4">
       <Name>Panic - Justice</Name>
-      <Desc>Attacks the cocoon. When combined with a non-cocoon target, the dice power increases by {0}.</Desc>
+      <Desc>Attacks the Cocoon. When Clashing with a target that is not the Cocoon, the dice power increases by {0}.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationEgoLight">
       <Name>Blooming Light</Name>
-      <Desc>When it becomes 0, you lose the reception, and if it is less than 5, you lose control of the speed dice by the difference. At the start of the game, all allies recover {0}% of their health.</Desc>
+      <Desc>If this becomes 0, you lose the reception, and if this is less than 5, you lose control of Speed Dice by the difference from 5 (so 3 would be 2 dice loss). At the start of the Scene, all allies recover {0}% of their health.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationEgoSin">
       <Name>Blooming Sin</Name>
-      <Desc>When Angela dies, the value is granted to Angela. If Angela has this effect, the Light of Blooming decreases by the value of this effect at the start of the act, and when responding to the ???'s Bookshelf, the dice value becomes 0. (This effect triggers up to the maximum number per act.)</Desc>
+      <Desc>When this character dies, the same amount of Blooming Sin is granted to Angela. If Angela has this effect, Blooming Light decreases by the value of this effect at the start of the Scene, and when responding to the ???'cards, your dice value becomes 0. (This effect triggers up to the Blooming Sin stacks per Scene.)</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationEgoCorruption">
@@ -76,42 +76,42 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
     <!-- #region 보상 -->
 	  <BattleEffectText ID="lcAngelaOrdealRedCheer2">
 		  <Name>March</Name>
-		  <Desc>If the Emotion Coins are full when the bookshelf is used, immediately raise the Emotion level and grant March 2 to two random characters. (Priority given to non-march targets) Reduces by 1 at the end of an act.</Desc>
+		  <Desc>If the Emotion Coins are full when a card is used, immediately raise the Emotion level and grant March 2 to two random characters. (Priority given to non-march targets) Reduces by 1 at the end of each Scene.</Desc>
 	  </BattleEffectText>
 
 		<BattleEffectText ID="onlypage_lcangela_angela_stable">
 			<Name>Angela's Exclusive</Name>
-			<Desc>Can only be equipped on Angela (Secretary)'s core bookshelf.</Desc>
+			<Desc>Can only be equipped on Angela (Secretary)'s core page.</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="onlypage_lcangela_carmen_angela">
 			<Name>Angela's Exclusive (Blooming Paradise)</Name>
-			<Desc>Can only be equipped on Angela (Secretary)'s core bookshelf in Blooming Paradise.</Desc>
+			<Desc>Can only be equipped on Angela (Secretary)'s core page in Blooming Paradise.</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="onlypage_lcangela_carmen">
 			<Name>Blooming Paradise's Exclusive</Name>
-			<Desc>Can only be equipped on the core bookshelf in Blooming Paradise.</Desc>
+			<Desc>Can only be equipped on the core page in Blooming Paradise.</Desc>
 		</BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenSinBloom">
       <Name>Blooming Sin</Name>
-      <Desc>The sum of the "Stagger Damage" effects activated by the Flow Control pages. If you are not Staggered at the end of an scene, your Qlipoth Counter increases by the amount.</Desc>
+      <Desc>X equals the sum of all the "Stagger Damage" effects activated by your Flow Control pages. If you are not Staggered at the end of an scene, your Qlipoth Counter increases by X.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcAngelaQlipothCounterCarmen">
       <Name>Qlipoth Counter</Name>
-      <Desc>Reduced by Battle Page usage or persistent abilities. If it is 1 or higher at the start of the scene, you become Staggered for the duration of that scene.</Desc>
+      <Desc>Reduced by card usage or passive abilities. If it is 1 or higher at the start of the scene, you become Staggered for the duration of that scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaCarmenBless">
       <Name>Mark</Name>
-      <Desc>Gains additional effects based on the Flow Control settings of the designated librarian. Destroys at the end of the scene.</Desc>
+      <Desc>Gains additional effects based on the Flow Control settings of the designated librarian. Removed at the end of the scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaCarmenPaleHand">
       <Name>Pale Hands</Name>
-      <Desc>Speed is reduced and damage taken from dice and Stagger damage is increased (once per die). Destroys at the end of the scene.</Desc>
+      <Desc>Speed is reduced and damage and stagger damage taken from dice is increased (once per die). Removed at the end of the scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenObedience">
@@ -131,7 +131,7 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaCarmenPaleHand">
       <Name>Pale Hands</Name>
-      <Desc>This hand has a value equal to its reduced speed in this scene, and its damage taken from dice and Stagger increases by {0}. It disappears at the end of the scene.</Desc>
+      <Desc>This ability has a value equal to the amount of reduced speed in this scene, and damage and stagger damage taken from dice increases by {0}. This is removed at the end of the scene.</Desc>
     </BattleEffectText>
 
 
@@ -153,9 +153,9 @@ If the Qliphoth Counter is 0 or higher when Staggered, it is reduced to 0 and th
 
 		<BattleEffectText ID="lcAngelaQliphothSuppression_distort">
 			<Name><![CDATA[Qliphoth Suppression : <color=#ff0000>Distortion</color>]]></Name>
-			<Desc>Cannot be acted upon. Unspecified. When an ally ends using a Battle Page, if no invalid rolls (sum draw/defeat) occur, the Qliphoth Counter increases by 1. For each ally's sum loss/hit, the Qliphoth Counter decreases by 1.
-This effect disappears if your Qliphoth Counter is 1 or higher at the end of an scene. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
-At the end of an scene when this effect reaches 3...</Desc>
+			<Desc>You can't Act. Unspecified. After an ally uses a card, each time a clash is lost or a tie occurs, the Qliphoth Counter increases by 1. For each ally's loses a clash or is hit, the Qliphoth Counter decreases by 1.
+This effect is removed if your Qliphoth Counter is 1 or higher at the end of an scene. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
+At the end of the scene when this effect reaches 3...</Desc>
 		</BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaAngelaBlessStack1">
