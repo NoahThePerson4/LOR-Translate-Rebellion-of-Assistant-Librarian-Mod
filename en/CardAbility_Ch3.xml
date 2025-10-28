@@ -373,15 +373,15 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage1">
-		<Desc>[On Use] At the start of the next Scene, restore 1 Light to all allied characters and draw 1 Page.</Desc>
+		<Desc>[On Use] At the start of the next Scene, restore 1 Light to all allies and draw 1 Page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage2">
-		<Desc>[On Use] Lose 5 points of HP and Stagger Resist. During this Scene, all allied characters gain 1 stack of [Protection], [Stagger Protection], [Damage Up] and draw 1 Page.</Desc>
+		<Desc>[On Use] Lose 5 points of HP and Stagger Resist. During this Scene, all allies gain 1 stack of [Protection], [Stagger Protection], [Damage Up] and draw 1 Page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage3">
-		<Desc>[On Use] Grants all allied characters 2 stacks of [Haste] and [Protection] in the next Scene.</Desc>
+		<Desc>[On Use] Grants all allies 2 stacks of [Haste] and [Protection] in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage5">
@@ -393,7 +393,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage1">
-		<Desc>[On Use] During this Scene, all allied characters who roll dice against [Angela] gain +2 power.</Desc>
+		<Desc>[On Use] During this Scene, all allies who roll dice against [Angela] gain +2 power.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage2">
@@ -440,12 +440,12 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage3">
-		<Desc>[On Combat Start] During this scene, each valid roll (win/hit) by the [Book Hunter] grants 1 stack of [Blooming Light]. Each time an allied character is hit, lose 1 stack of [Blooming Light].</Desc>
+		<Desc>[On Combat Start] During this scene, each valid roll (On Clash Win/On Hit) by the [Book Hunter] grants 1 stack of [Blooming Light]. Each time an allied character is hit, lose 1 stack of [Blooming Light].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage4">
 		<Desc>This scene cannot be targeted and cannot Act.</Desc>
-		<Desc>[At the end of the Scene] If [Blooming Light] is at least 2 stacks, remove all [Blooming Sins] from this character. If [Blooming Light] is at 1 stack, remove [Blooming Light] instead.</Desc>
+		<Desc>[At the end of the Scene] If [Blooming Light] is at 2 stacks or more, remove all [Blooming Sins] from this character. If [Blooming Light] is at 1 stack, remove [Blooming Light] instead.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CorruptionPage5">
@@ -458,31 +458,31 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage1Dice1">
-		<Desc>[On Hit] Gain 3 stacks of [E.G.O. Corruption] on this card.</Desc>
+		<Desc>[On Hit] Gain 3 stacks of [E.G.O. Corruption].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage3Dice1">
-		<Desc>[On Hit] Adds Stagger Damage to both players equal to the number of stacks of [E.G.O. Corruption] on this card.</Desc>
+		<Desc>[On Hit] Deal Stagger Damage to each other equal to the number of stacks of [E.G.O. Corruption] on self.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage4Dice1">
-		<Desc>[On Hit] Gain 25 stacks of [E.G.O. Corruption] on this card.</Desc>
+		<Desc>[On Hit] Gain 25 stacks of [E.G.O. Corruption].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage6Dice1">
-		<Desc>[Failed to roll] Gain 10 stacks of [E.G.O. Corruption] and grant [Book Hunter] 1 stack of [Paralysis]</Desc>
+		<Desc>[On Clash Lose] Gain 10 stacks of [E.G.O. Corruption] and inflict [Book Hunter] with 1 stack of [Paralysis]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage1">
-		<Desc>When using this page, if the dice do not fail to roll, use this page again on a random friendly character (up to 2 times)</Desc>
+		<Desc>When using this page, if the dice on this page do not lose a clash, use this page again on a random ally (up to 2 times)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage2">
-		<Desc>[On Use] If the target is a [Cocoon], increase the power by 2</Desc>
+		<Desc>[On Use] If the target is [Cocoon], increase the power by 2</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage2Dice1">
-		<Desc>[When hit] Gain 2 stacks of [Strength] to all allies in the next Scene</Desc>
+		<Desc>[On Hit] Give 2 stacks of [Strength] to all allies in the next Scene</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage2Dice2">
@@ -494,15 +494,15 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage1Dice">
-		<Desc>[On Hit] Lose 1 stack of [Blooming Light]</Desc>
+		<Desc>[On Hit] Angela Loses 1 stack of [Blooming Light]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage3Dice">
-		<Desc>[On Hit] Adds Stagger Damage equal to 50% of the Stagger Resist Limit</Desc>
+		<Desc>[On Hit] Deals Stagger Damage equal to 50% of the Max Stagger Resist</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage6Dice">
-		<Desc>[On Hit] Inflicts 1 stack of [Bound] on the target in the next scene</Desc>
+		<Desc>[On Hit] Inflicts 1 stack of [Bind] on the target in the next scene</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage7Dice">
@@ -510,7 +510,7 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage8Dice">
-		<Desc>[On Hit] Inflicts Staggered on the target in this scene</Desc>
+		<Desc>[On Hit] Staggers the target this Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2EnemyPage1Dice">
@@ -518,7 +518,7 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2EnemyPage2Dice">
-		<Desc>[On Hit] If the target is [Angela], lose 1 stack of [Blooming Light].</Desc>
+		<Desc>[On Hit] If the target is [Angela], Angela loses 1 stack of [Blooming Light].</Desc>
 	</BattleCardAbility>
 	<!-- #endregion -->
 
