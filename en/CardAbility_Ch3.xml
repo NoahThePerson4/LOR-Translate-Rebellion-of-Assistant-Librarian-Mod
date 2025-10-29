@@ -608,7 +608,7 @@ For each allied character that triggered this effect, reduce this player's [Qlip
 	
 	<BattleCardAbility ID="lcAngelaAngelaInjectEmotion">
 		<Desc>Only selects allied characters who do not possess the Abnormality Page (if targeting an enemy character, it is considered to be selected).
-[Death][When equipped] Allows the target to obtain this Abnormality Page and reduces this player's [Qliphoth] counter by [this Abnormality Page's Level x 4].</Desc>
+[Death][On Play] Allows the target to obtain this Abnormality Page and reduces this player's [Qliphoth] counter by [this Abnormality Page's Level x 4].</Desc>
 	</BattleCardAbility>
 
 	<!-- TODO 3챕 번역 완료후 교체할것-->
@@ -696,14 +696,14 @@ When the revived allied character uses a Page on the target of this Page, they w
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardGeburaFake">
-		<Desc>When the stage starts, this page will be moved to the Special Page Deck and can only be used in the [E.G.O. Reveal] state.</Desc>
-		<Desc>When this page is available, the cost of [Breach of the Array] is reduced by 1.</Desc>
-		<Desc>[After use], if the dice of this page hit at least once, [Breach of the Array] can be used twice more during this Scene, regardless of its conditions.</Desc>
+		<Desc>When the Act starts, this page will be moved to the Special Page Deck and can only be used in the [E.G.O. Manifested] state.</Desc>
+		<Desc>When this page is available, the cost of [Onrush] is reduced by 1.</Desc>
+		<Desc>[After use], if the dice of this page hit at least once, [Onrush] can be used twice more during this Scene, regardless of its conditions.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardGebura">
-		<Desc>Only available in the [E.G.O. Reveal] state and when this page is available, the cost of [Breach of the Array] is reduced by 1.</Desc>
-		<Desc>[After use], if the dice of this page hit at least once, [Breach of the Array] can be used twice more during this Scene, regardless of its conditions.</Desc>
+		<Desc>Only available in the [E.G.O. Manifested] state and when this page is available, the cost of [Onrush] is reduced by 1.</Desc>
+		<Desc>[After use], if the dice of this page hit at least once, [Onrush] can be used twice more during this Scene, regardless of its conditions.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardGeburaDice1">
@@ -719,12 +719,12 @@ When the revived allied character uses a Page on the target of this Page, they w
 
 	<!-- #region 3챕터 보상 : 보조사서 패닉 -->
 	<BattleCardAbility ID="lcAngelaRewardPanicWhite">
-		<Desc>[After Use] When using this page while uncontrolled, the target loses Stagger Resist equal to their Stagger Resist (minimum 1%)</Desc>
+		<Desc>[After Use] When using this page while in an uncontrollable state, the target loses Stagger Resist equal to the same percentage of Stagger Resist you lost while using this page (minimum 1%) (if you lost 10% target would lose 10% as well)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardPanicBlack">
 		<Desc>[On Use] Restores 3 points of light
-[After use] If a page from this book is used while in an uncontrollable state and no invalid roll occurs (failed/tied), use this page again on another target (up to 2 times)</Desc>
+[On use] If in an uncontrollable state and no dice on this page lose or tie, use this page again on another target (up to 2 times)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardPanicPale">
@@ -736,15 +736,15 @@ When the revived allied character uses a Page on the target of this Page, they w
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardPanicWhiteDice1">
-		<Desc>[Lose/Tie] Apply 1 layer of [Paralysis] to the target in the next Scene.</Desc>
+		<Desc>[Clash Lose/Tie] Apply 1 stack of [Paralysis] to the target in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardPanicWhiteDice2">
-		<Desc>[Lose/Tie] Inflict 1 stack of [Feeble] on the target in the next Scene.</Desc>
+		<Desc>[Clash Lose/Tie] Inflict 1 stack of [Feeble] on the target in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardPanicBlackDice">
-		<Desc>Adds 3 points of Stagger Damage.</Desc>
+		<Desc>Deal 3 Stagger Damage to the target.</Desc>
 	</BattleCardAbility>
 	<!-- #endregion -->
 
@@ -752,7 +752,7 @@ When the revived allied character uses a Page on the target of this Page, they w
 
 	<!-- 카르멘 기본 -->
 	<BattleCardAbility ID="lcAngelaDeckComponent2">
-		<Desc>Add +1 Speed Dice and +1 additional Dice after reaching Affection Level 3.</Desc>
+		<Desc>Add +1 Speed Dice and +1 additional Dice after reaching Emotion Level 3.</Desc>
 		<Desc>allies that meet certain conditions will become uncontrollable. If all allies are uncontrollable, gain +1 to your Speed dice, Light limit, and Light recovery.</Desc>	
 		<Desc>At the start of each Scene, if your [Qliphoth] count is greater than 1, you will be staggered.</Desc>	
 	</BattleCardAbility>
@@ -782,12 +782,12 @@ If the [Qliphoth Rampage] counter is successful, gain [Qliphoth] counts to this 
 
 	<BattleCardAbility ID="lcAngelaDeckComponent403">
 		<Desc>Ignoring [Qliphoth] points, they remain in [Qliphoth Suppression - Awakening], but receive increased Stagger damage from [Qliphoth] points.</Desc>
-		<Desc>While in disarray, ignores the effects of the [Qliphoth] counter when the counter is below 0.</Desc>
+		<Desc>While Staggered, ignores the effects of the [Qliphoth] counter when the counter is below 0.</Desc>
 	</BattleCardAbility>
 
 	<!-- 공통 -->
 	<BattleCardAbility ID="lcAngelaDeckComponent301">
-		<Desc>When using a page with the [When Equipped] and [On Use] effects, lose a [Qliphoth] counter equal to its initial cost (minimum 1) and restore 1 Light.</Desc>
+		<Desc>When using a page with the [On Play] and [On Use] effects, lose a [Qliphoth] counter equal to its initial cost (minimum 1) and restore 1 Light.</Desc>
 		<Desc>If the target is a friendly character, restore 1 additional Light to the targeted friendly character.</Desc>	
 	</BattleCardAbility>
 
@@ -808,7 +808,7 @@ If the [Qliphoth Rampage] counter is successful, gain [Qliphoth] counts to this 
 
 	<BattleCardAbility ID="lcAngelaDeckComponent104">
 		<Desc>[Melee - Cost 3 - Qliphoth 4]</Desc>
-		<Desc>[On Combat Start] During this scene, if the target is attacked unilaterally and cannot use a page, restore 1 Light to the attacker and increase the damage dealt by their page by 2-5</Desc>
+		<Desc>[On Combat Start] During this scene, if the target is attacked one-sided and cannot use a page, restore 1 Light to the attacker and increase the damage dealt by their page by 2-5</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent105">
@@ -819,7 +819,7 @@ If the [Qliphoth Rampage] counter is successful, gain [Qliphoth] counts to this 
 	<BattleCardAbility ID="lcAngelaDeckComponent106">
 		<Desc>[Ranged - Cost 4 - Qliphoth 10]</Desc>
 		<Desc>[Battle Start] Revive 2 dead allied characters with a level 3 emotion during this Scene.
-When the revived allied character uses a page on the target of this page, they will take 1 single-sided attack page originally directed at them.</Desc>
+When the revived allied character uses a page on the target of this page, they will take 1 one-sided attack page originally directed at them.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent107">
@@ -843,18 +843,18 @@ When the revived allied character uses a page on the target of this page, they w
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent111">
-		<Desc>[Melee - Cost 3 - Qliphoth 4] Can only be used when the Affection level is at least 1 and there are at least 2 other allied characters.</Desc>
-		<Desc>[On Use] Instantly raises the Affection level of the player and reduces the Affection level of the other 2 allied characters by 1 level. (The light does not recover the Affection level increased by this method.)</Desc>
+		<Desc>[Melee - Cost 3 - Qliphoth 4] Can only be used when the Emotion level is at least 1 and there are at least 2 other allied characters.</Desc>
+		<Desc>[On Use] Instantly raises the Emotion level of the player and reduces the Emotion level of the other 2 allied characters by 1 level. (The light does not recover on the Emotion level increased by this method.)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent151">
-		<Desc>Changes the Emotion Coins shared by the passive [Nova] to [Positive Emotion].
-If the Battle Page [Contempt] is also equipped, this effect is only triggered when the [Qliphoth] counter is at least 1.</Desc>
+		<Desc>Changes the Emotion Coins shared by the passive [Rising Star] to [Positive Emotion].
+If the Control Flow Page [Hate] is also equipped, this effect is only triggered when the [Qliphoth] counter is at 1 or more.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent152">
-		<Desc>Changes the Emotion Coins shared by the passive [Nova] to [Negative Emotion].
-If the Battle Page [Harmony] is also equipped, this effect is only triggered when the [Qliphoth] counter is at least 0.</Desc>
+		<Desc>Changes the Emotion Coins shared by the passive [Rising Star] to [Negative Emotion].
+If the Control Flow Page [Harmony] is also equipped, this effect is only triggered when the [Qliphoth] counter is at 0 or less.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen1">
@@ -903,12 +903,12 @@ This effect is enhanced at Emotion Levels 2/3/5.</Desc>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal3">
 		<Desc>When you activate Reception, you gain an Abnormality Page that negates the effects of enemy Battle Pages.
-The effect is enhanced at Affection Level 2/3/5.</Desc>
+The effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal4">
 		<Desc>When you activate Reception, you gain an Abnormality Page that allows allied characters to attack with support after the first Speed Die's Page is used.
-The effect is enhanced at Affection Level 2/3/5.</Desc>
+The effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 

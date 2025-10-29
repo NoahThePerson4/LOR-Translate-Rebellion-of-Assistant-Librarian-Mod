@@ -226,7 +226,7 @@ Offensive dice deal no damage.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30342">
-		<Name>Actor on the Stage</Name>
+		<Name>Actors on the Stage</Name>
 		<Desc>Whenever the assistant librarian's Panic State is reset by your own attack, your Stagger Resist is restored by 50% and the emotion coins of one of your E.G.O pages is fully restored.</Desc>
 	</PassiveDesc>
 
@@ -285,7 +285,7 @@ This effect changes at the end of the Scene when all other allies die.</Desc>
 
 	<PassiveDesc ID="30431">
 		<Name>Scale of Sin</Name>
-		<Desc>When the Act starts, you gain one of four "Trial" Abnormality pages and "Blooming Sin."</Desc>
+		<Desc>When the Act starts, you gain one of four "Ordeal" Abnormality pages and "Blooming Sin."</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30432">
