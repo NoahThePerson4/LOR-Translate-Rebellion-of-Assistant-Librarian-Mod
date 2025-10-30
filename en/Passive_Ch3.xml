@@ -268,19 +268,19 @@ If "Blooming Light" is less than 5, lose control of Speed dice inversely proport
 
 	<PassiveDesc ID="30421">
 		<Name>Serpent of Original Sin</Name>
-		<Desc>If there are other surviving allies, this character cannot be selected.
+		<Desc>If there are other surviving allies, this character cannot be targeted.
 This effect changes at the end of the Scene when all other allies die.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30422">
 		<Name>Postscript</Name>
-		<Desc>If no clashes are lost in a Scene, apply 2 stacks of "Paralysis" to all librarians and cause Angela to lose 1 stack of "Blooming Light."
+		<Desc>If no allies lose clashes in a Scene, apply 2 stacks of "Paralysis" to all librarians and cause Angela to lose 1 stack of "Blooming Light."
 This effect changes at the end of the Scene when all other allies die.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30423">
 		<Name>Blooming Paradise</Name>
-		<Desc>Each time Angela is hit or loses a clash to this character, she loses 1 stack of "Blooming Light" and is inflicted with 1 stack of "Paralysis" for the current and next scene.</Desc>
+		<Desc>Each time Angela is hit or loses a clash, she loses 1 stack of "Blooming Light" and is inflicted with 1 stack of "Paralysis" for the current scene and next scene.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="30431">
@@ -326,19 +326,19 @@ If you become Staggered, the "E.G.O. Manifestation" status will be removed.</Des
 
 	<PassiveDesc ID="21">
 		<Name>Blessing</Name>
-		<Desc>The number of Abnormality pages you possess increases the minimum value of all dice by +1.
-If all allied characters possess their own Abnormality pages, the maximum and minimum values of all dice will be increased by +1.</Desc>
+		<Desc>If you have an Abnormality page you increases the minimum value of all dice by +1.
+If all allied characters possess the same Abnormality page, the maximum and minimum values of all dice will be increased by +1.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="51">
 		<Name>Angela</Name>
-		<Desc>When the stage starts, all allies draw 2 pages.</Desc>
+		<Desc>When the Act starts, all allies draw 2 pages.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="52">			
 		<Name>Qliphoth Tree</Name>
 		<Desc>When this character grants a positive status to another ally, the number of stacks gained increases by 1.
-If this character grants a positive status to another ally using a combat page, this character gains an additional "Qliphoth" point.</Desc>
+When this character grants a positive status to another ally using a combat page, this character gains 1 "Qliphoth" point.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="53">
@@ -348,18 +348,18 @@ If this character grants a positive status to another ally using a combat page, 
 
 	<PassiveDesc ID="54">
 		<Name>Rising Star</Name>
-		<Desc>When Emotion Coins are gained by an ally already at full Emotion Coins, they will be distributed to an unfilled ally.</Desc>
+		<Desc>When Emotion Coins are gained by an ally already at full Emotion Coins, they will be distributed to an ally not at full Emotion Coins.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="61">
 		<Name>Serpent of Original Sin</Name>
-		<Desc>When using a page, apply "Mark" to the target.
+		<Desc>When using a combat page, apply "Mark" to the target.
 (Mark - increases or decreases the power of the designated target.)</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="62">
 		<Name>Whispering</Name>
-		<Desc>When an uncontrolled ally uses a page, this characters's "Qliphoth" counter is reduced by 1.</Desc>
+		<Desc>When an uncontrolled ally uses a combat page, this characters's "Qliphoth" counter is reduced by 1.</Desc>
 	</PassiveDesc>
 
 	<PassiveDesc ID="63">
@@ -373,7 +373,7 @@ If this character grants a positive status to another ally using a combat page, 
 
 	<PassiveDesc ID="1004">
 		<Name>False Wish</Name>
-		<Desc>(Only available for patron librarians)
+		<Desc>(Only available for Patron Librarians)
 When equipped with a Combat Page, you can equip a second deck that controls your passive ability.</Desc>
 	</PassiveDesc>
 
@@ -386,21 +386,21 @@ When equipped with a Combat Page, you can equip a second deck that controls your
 		<Name>Gebura</Name>
 		<Desc>
 			Only available for the following characters:
--Language-level patron librarian
--General-level assistant librarian when Ayin is the general-level patron librarian.</Desc>
+-Floor of Language Patron Librarian
+-Floor of General Works Assistant Librarian when Ayin is the Floor of General Works Patron Librarian.</Desc>
 	</PassiveDesc>
 
 
 	<PassiveDesc ID="1007">
 		<Name>Assistant Librarian</Name>
-		<Desc>All passive abilities of this character will not trigger if no other patron librarians are alive.</Desc>
+		<Desc>All passive abilities of this character will not trigger if no other Patron Librarians are alive.</Desc>
 	</PassiveDesc>
 
 	<!-- 아군 사도 -->
 	<PassiveDesc ID="661">
 		<Name>Apostle/ Shimmering</Name>
-		<Desc>At the start of each act, remove the page in your hand and place the page you intend to use in your hand.
-The cost of your own page is 0.
+		<Desc>At the start of each act, remove the pages in your hand and place the pages you intend to use in your hand.
+The cost of your own pages is 0.
 When assimilation is removed, restore 30% of your maximum HP and Stagger Resist.</Desc>
 	</PassiveDesc>
 

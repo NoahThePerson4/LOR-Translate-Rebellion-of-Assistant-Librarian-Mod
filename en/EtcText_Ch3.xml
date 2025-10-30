@@ -17,8 +17,8 @@
 	<Key name="LCANGELA_CHAPTER3_BOOKHUNTER">Book Hunter</Key>
 	<Key name="LCANGELA_CHAPTER3_APOSTLE">Apostle of Sin</Key>
 
-	<Key name="LCANGELA_CHAPTER3_FINAL_PASSIVE_1_DESC">While Angela is unable to act, she takes no damage or stagger damage. Each scene uses a special card that staggers Angela. Every three scenes, she uses a mass attack card that permanently erodes Angela's speed dice.</Key>
-	<Key name="LCANGELA_CHAPTER3_FINAL_PASSIVE_2_DESC">At the start of the scene, Angela's Blooming Sin increases by 1. As long as I live, Angela cannot receive any beneficial effects.</Key>
+	<Key name="LCANGELA_CHAPTER3_FINAL_PASSIVE_1_DESC">While Angela is unable to act, ??? takes no damage or stagger damage. Each scene uses a special card that staggers Angela. Every three scenes, ??? uses a mass attack card that permanently corrupts one of Angela's speed dice.</Key>
+	<Key name="LCANGELA_CHAPTER3_FINAL_PASSIVE_2_DESC">At the start of the scene, Angela's Blooming Sin increases by 1. As long as ??? lives, Angela cannot receive any beneficial effects.</Key>
 
 	<!-- 침식루트 환상체 문구 -->
 	<Key name="LC_ANGELA_DISTORT_CARMEN_DIALOG_1">A time when everyone lived in a paradise where sin did not exist.</Key>

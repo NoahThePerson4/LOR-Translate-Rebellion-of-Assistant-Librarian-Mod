@@ -381,7 +381,7 @@ If all librarians win the clash, all characters' [Brand] stacks are reduced by 1
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage3">
-		<Desc>[On Use] Grants all allies 2 stacks of [Haste] and [Protection] in the next Scene.</Desc>
+		<Desc>[On Use] Grants all allies 2 stacks of [Haste] and [Resilience] in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2AngelaPage5">
@@ -415,7 +415,7 @@ If the target does not have [Bind], increase the power of all dice on the target
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage6">
-		<Desc>[On Combat Start] In the next Scene, give 1 stack of [Strength], [Endurance], and [Haste] to the target.</Desc>
+		<Desc>[On Combat Start] Gain 1 [Strength], [Endurance], and [Haste] next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage7">
@@ -454,7 +454,7 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2EnemyPage1">
-		<Desc>[On Use] If the target is [Angela], apply 1 stack of [Blooming Sins] to both characters.</Desc>
+		<Desc>[On Use] If the target is [Angela], apply 1 stack of [Blooming Sins] to each other.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1AngelaPage1Dice1">
@@ -490,7 +490,7 @@ If the target does not have [Blooming Sins], reduce the power of all dice in thi
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave1EnemyPage2Dice3">
-		<Desc>If both first 2 dice lose the clash, power +10</Desc>
+		<Desc>If the first 2 dice lose the clash, power +10</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCh3EgoWave2CarmenPage1Dice">

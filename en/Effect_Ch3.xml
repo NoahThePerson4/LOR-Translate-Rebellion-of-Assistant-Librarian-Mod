@@ -62,7 +62,7 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaInvitationEgoSin">
       <Name>Blooming Sin</Name>
-      <Desc>When this character dies, the same amount of Blooming Sin is granted to Angela. If Angela has this effect, Blooming Light decreases by the value of this effect at the start of the Scene, and when responding to the ???'cards, your dice value becomes 0. (This effect triggers up to the Blooming Sin stacks per Scene.)</Desc>
+      <Desc>When this character dies, the same amount of Blooming Sin is granted to Angela. If Angela has this effect, Blooming Light decreases by the value of this effect at the start of the Scene, and when clashing with ???' combat pages or when responding to ???'s Mass Attacks, your dice value becomes 0. (This effect triggers up to the Blooming Sin stacks per Scene.)</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaInvitationEgoCorruption">
@@ -80,13 +80,13 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 	  </BattleEffectText>
 
 		<BattleEffectText ID="onlypage_lcangela_angela_stable">
-			<Name>Angela's Exclusive</Name>
+			<Name>Angela Secretary's Exclusive</Name>
 			<Desc>Can only be equipped on Angela (Secretary)'s core page.</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="onlypage_lcangela_carmen_angela">
-			<Name>Angela's Exclusive (Blooming Paradise)</Name>
-			<Desc>Can only be equipped on Angela (Secretary)'s core page in Blooming Paradise.</Desc>
+			<Name>Angela's Exclusive</Name>
+			<Desc>Can only be equipped on Angela (Secretary)'s core page or Blooming Paradise's core page.</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="onlypage_lcangela_carmen">
@@ -106,7 +106,7 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="keywordLcAngelaCarmenBless">
       <Name>Mark</Name>
-      <Desc>Gains additional effects based on the Flow Control settings of the designated librarian. Removed at the end of the scene.</Desc>
+      <Desc>Gains additional effects based on the Flow Control settings of the Patron Librarian. Removed at the end of the scene.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaCarmenPaleHand">
@@ -116,7 +116,7 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaCarmenObedience">
       <Name>Obedience</Name>
-      <Desc>Uncontrollable. When acquiring an emotion coin, share that emotion with the designated librarian and one other ally with this effect. It merges with a compatible bookshelf, and otherwise attacks the last target attacked by the designated librarian. If the designated librarian dies, you die.</Desc>
+      <Desc>Uncontrollable. When acquiring an emotion coin (might just be positive?), share that emotion coin with the Patron Librarian and one other ally with this effect. This character will try to clash if able, but otherwise attacks the last target attacked by the Patron Librarian. If the Patron Librarian dies, you die.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenBless">
@@ -126,12 +126,12 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
     <BattleEffectText ID="lcangelaCarmenAwe">
       <Name>Awe</Name>
-      <Desc>Each time you make a valid roll (total win/hit) against the designated librarian, decrease by 1. At the start of an scene, reduce the designated librarian's Qliphoth counter by {0}, and you take {0}% of your maximum Stagger Resistance as Stagger damage.</Desc>
+      <Desc>Each time you win a clash or hit the Patron Librarian, decrease by 1. At the start of the Scene, reduce the Patron Librarian's Qliphoth counter by {0}, and you take {0}% of your maximum Stagger Resistance as Stagger damage.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenPaleHand">
       <Name>Pale Hands</Name>
-      <Desc>This ability has a value equal to the amount of reduced speed in this scene, and damage and stagger damage taken from dice increases by {0}. This is removed at the end of the scene.</Desc>
+      <Desc>Pale Hands has a stack equal to the amount of reduced speed in the scene, and damage and stagger damage taken from dice increases by {0}. This is removed at the end of the scene.</Desc>
     </BattleEffectText>
 
 
