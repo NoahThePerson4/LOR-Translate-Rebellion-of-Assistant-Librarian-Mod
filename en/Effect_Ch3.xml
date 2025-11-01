@@ -120,7 +120,7 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
     </BattleEffectText>
 
     <BattleEffectText ID="lcangelaCarmenBless">
-      <Name>Token</Name>
+      <Name>Blessing</Name>
       <Desc/>
     </BattleEffectText>
 

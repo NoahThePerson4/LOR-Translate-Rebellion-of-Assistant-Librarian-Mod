@@ -531,58 +531,58 @@ If all allies are uncontrollable, recover an additional 1 Light.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenSentence">
-		<Desc>[Qliphoth 1][On Use] Inflict 1 [Mark] on the next uncontrollable friendly character of the designated target (up to 2 characters) in the next Scene.</Desc>
+		<Desc>[Qliphoth 1][On Use] Give 1 [Mark] to the next uncontrollable ally that targets the target of this card (up to 2 allies) in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenBorn">
-		<Desc>[Qliphoth 3][On Use] Increase the power of all dice in this Page by the number of [Marks] on the target.</Desc>
+		<Desc>[Qliphoth 3][On Use] Increase the power of all dice on this Page by the amount of [Mark] on the target.</Desc>
 	</BattleCardAbility>
 
 
 	<BattleCardAbility ID="lcAngelaCarmenPaleHand">
 		<Desc>[Qliphoth 6] Can only be used against a target with [Pale Hand].</Desc>
-		<Desc>[On Use] Increase the power of all dice in this page by the number of stacks of the target's [Pale Hand].</Desc>
-		<Desc>[At the end of the Scene] Lose a number of [Qliphoth] counts equal to the number of stacks of the target's [Pale Hand].</Desc>
+		<Desc>[On Use] Increase the power of all dice on this page by the number of stacks of the target's [Pale Hand].</Desc>
+		<Desc>[At the end of the Scene] Lose [Qliphoth] equal to the number of stacks of the target's [Pale Hand].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenSentenceDice">
-		<Desc>[When hit] Apply 2 stacks of [Mark] to the target in the next Scene.</Desc>
+		<Desc>[On Hit] Apply 2 stacks of [Mark] to the target in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenBornDice">
-		<Desc>[When hit] Apply 2 stacks of [Mark] to the target in the next two Scenes.</Desc>
+		<Desc>[On Hit] Apply 2 stacks of [Mark] to the target in the next two Scenes.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenPaleHandDice">
-		<Desc>[On Hit] During this Scene, the target gains 1 stack of [Pale Hand] when using a page.</Desc>
+		<Desc>[On Hit] During this Scene, the target gains 1 stack of [Pale Hand] whenever they use a combat page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBlessFake">
-		<Desc>Move this Card to the Special Card Deck when the stage starts.</Desc>
-		<Desc>[Qliphoth 6][On Use] Inflict 1 stack of [Mark] on all other characters.</Desc>
-		<Desc>[After use] If this Card's offensive dice hit the target at least once, all allies gain 1 stack of [Strong] during this Scene.</Desc>
+		<Desc>At the start of the Act, this Card is moved to the Personal EGO Deck.</Desc>
+		<Desc>[Qliphoth 6][On Use] Inflict 1 stack of [Mark] to all other characters.</Desc>
+		<Desc>[On Use] If this Card's offensive dice hit the target at least once, all allies gain 1 stack of [Strength] during this Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBless">
-		<Desc>[Qliphoth 6][On Use] Inflict 1 stack of [Mark] on all other characters.</Desc>
-		<Desc>[After use] If this page's offensive dice hit the target at least once, all allied characters gain 1 stack of [Strength] during this Scene.</Desc>
+		<Desc>[Qliphoth 6][On Use] Inflict 1 stack of [Mark] to all other characters.</Desc>
+		<Desc>[On use] If this Card's offensive dice hit the target at least once, all allies gain 1 stack of [Strength] during this Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBlessDice">
-		<Desc>[On Hit] This Scene applies 1 stack of [Feeble] to the target and restores 2 points of Health and Stagger Resist to all allied characters.</Desc>
+		<Desc>[On Hit] This Scene applies 1 stack of [Feeble] to the target and restores 2 points of HP and Stagger Resist to all allied characters.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBloodFake">
-		<Desc>Move this page to the Special Page Deck when the stage starts.</Desc>
-		<Desc>[Qliphoth 12][On Hit] Adds damage equal to the target's maximum Health x "3% of the target's [Pale Hand] stacks."</Desc>
+		<Desc>At the start of the Act, this Card is moved to the Personal EGO Deck.</Desc>
+		<Desc>[Qliphoth 12][On Hit] Deals damage equal to (3 * Target's Pale Hand)% of the target's maximum HP to the target.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBlood">
-		<Desc>[Qliphoth 12][When Hit] Adds damage equal to the target's maximum HP x "target's [Pale Hand] stacks x 3%"</Desc>
+		<Desc>[Qliphoth 12][On Hit] Deals damage equal to (3 * Target's Pale Hand)% of the target's maximum HP to the target.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaCarmenFarAreaBloodDice">
-		<Desc>Increases power equal to the total number of [Pale Hand] stacks in the stage</Desc>
+		<Desc>Gains power equal to the total number of [Pale Hand] stacks on all characters.</Desc>
 	</BattleCardAbility>
 
 	<!-- #endregion -->
@@ -594,60 +594,60 @@ For this and the next Scene, grant all other allies 1 stack of [Strength] and [E
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaAngelaBless">
-		<Desc>[On Play][Returns to hand after use][Select a friendly character][Qliphoth 3] Restores 6 HP and Stagger Resist to the target and grants 1 stack of [Strength] (Limit 1 per target per Scene)</Desc>
+		<Desc>[On Play][Returns to hand after use][Select an ally][Qliphoth 3] Restores 6 HP and Stagger Resist to the target and grants 1 stack of [Strength] (Once per target per Scene)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaAngelaHarmony">
-		<Desc>[Qliphoth 3] [At battle start] Grants 1 stack of [Strength] to the target's other two allies and draws a Page at the end of this Scene.</Desc>
+		<Desc>[Qliphoth 3] [On Combat Start] Grants 1 stack of [Strength] to two other allies that attack this target, those allies also draw a Page at the end of this Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaAngelaHate">
-		<Desc>[Qliphoth 0][On Scene End] This Scene restores 2 Light to 2 other allied characters who used pages on the target dice designated by this page.
-For each allied character that triggered this effect, reduce this player's [Qliphoth] counter by 2 points.</Desc>
+		<Desc>[Qliphoth 0][On Scene End] This Scene restores 2 Light to 2 other allied characters who did not use pages on the target dice designated by this page.
+For each allied character that triggered this effect, reduce this character's [Qliphoth] Counter by 2.</Desc>
 	</BattleCardAbility>
 	
 	<BattleCardAbility ID="lcAngelaAngelaInjectEmotion">
-		<Desc>Only selects allied characters who do not possess the Abnormality Page (if targeting an enemy character, it is considered to be selected).
-[Death][On Play] Allows the target to obtain this Abnormality Page and reduces this player's [Qliphoth] counter by [this Abnormality Page's Level x 4].</Desc>
+		<Desc>Only selects allied characters who do not possess your Abnormality Page (if targeting an enemy character, it is considered to be targeting self).
+[Single Use][On Play] Allows the target to obtain this Abnormality Page and reduces this character's [Qliphoth] Counter by [this Abnormality Page's Level x 4].</Desc>
 	</BattleCardAbility>
 
 	<!-- TODO 3챕 번역 완료후 교체할것-->
 	<BattleCardAbility ID="lcAngelaMalkuthSin2">
-		<Desc>[Qliphoth 2][Battle Starts] During this Scene, all allied characters inflict 2 stacks of [Burn] on both sides, gain 1 [Negative Emotion], and reroll the dice (limited to 1 per dice).</Desc>
+		<Desc>[Qliphoth 2][On Combat Start] This Scene, Whenever an ally rolls minimum with a dice inflict 2 [Burn] to each other, gain 1 [Negative Emotion Coin], and reroll the dice (limited to once per dice).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaYesodSin2">
-		<Desc>[Qliphoth 4][Battle Starts] Grant all enemy characters 3 stacks of [Damage Enhancement] and [Fragile], and 1 stack of [Strength].
-Give this character 2 stacks of [Strength] and [Damage Enhancement], and 1 stack of [Fragile] in the next Scene.</Desc>
+		<Desc>[Qliphoth 4][On Combat Start] Give all enemies 3 stacks of [Damage Up] and [Fragile], and 1 stack of [Strength].
+Give this character 2 stacks of [Strength] and [Damage Up], and 1 stack of [Fragile] in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaNetzachSin2">
-		<Desc>[Qliphoth 4] [Battle Start] During this Scene, if the target is attacked by a unilateral attack and cannot use a Page, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5.</Desc>
+		<Desc>[Qliphoth 4] [On Combat Start] During this Scene, if the target is attacked by a one-sided attack and the attacker is untargetable?, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaTipherithSin2">
-		<Desc>[Qliphoth 4] [Battle Start] If you possess a [Level III] Abnormality Page on the current floor, discard all pages and draw 2 pages at the start of the next Scene.</Desc>
+		<Desc>[Qliphoth 4] [On Combat Start] If you possess a [Level III] Abnormality Page on the current floor, discard all pages and draw 2 pages at the start of the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaGeburaSin2">
 		<Desc>[Qliphoth 8]</Desc>
-		<Desc>[Battle Start] Revive 2 dead allied characters at level 3 emotion during this Scene.
-When the revived allied character uses a Page on the target of this Page, they will take 1 unilateral attack Page originally directed at them.</Desc>
+		<Desc>[On Combat Start] Revive 2 dead allies at Emotion Level 3 for this Scene (they die at the end of the Scene).
+When you would be targeted for a one-sided attack one of the revived allies will take the attack instead (one attack redirected per ally).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaChesedSin2">
 		<Desc>[Qliphoth 5]</Desc>
-		<Desc>[At the end of the Scene] Restore 2 Light to the allied character with the most Abnormality Pages and gain 1 additional Speed Dice in the next Scene. However, all other allied characters gain 1 stack of [Erosion], [Paralysis], and 3 stacks of [Fragile] in the next Scene.</Desc>
+		<Desc>[At the end of the Scene] Restore 2 Light to the ally with the most Abnormality Pages and they gain 1 additional Speed Dice next Scene. However, all other allied characters gain 1 [Disarm], [Paralysis], and 3 [Fragile] next Scene. (Has no effect if no allies have Abnormality pages, but will buff self if tied)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaBinahSin2">
 		<Desc>[Qliphoth 6]</Desc>
-		<Desc>[At the start of the battle] Grant the librarian with the Abnormality Pages [Big Eyes], [Long Arms], or [Small Beak] the corresponding additional effects.</Desc>
+		<Desc>[On Combat Start] Gives the librarian with the Abnormality Pages [Big Eyes], [Long Arms], or [Small Beak] the corresponding additional effects.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaHokmaSin2">
 		<Desc>[Qliphoth 0]</Desc>
-		<Desc>[Battle Point Victory] Use a random [Equip] page from your deck (cost is considered 0 On Use) and reduce the [Qliphoth] counter by 3.</Desc>
+		<Desc>[On Clash Win] Use a random [On Play] card from your deck (cost is considered 0 On Use) and reduce the [Qliphoth] counter by 3.</Desc>
 	</BattleCardAbility>
 
 
@@ -670,7 +670,7 @@ When the revived allied character uses a Page on the target of this Page, they w
 
 
 	<BattleCardAbility ID="lcAngelaGeburaSinDice">
-		<Desc>Increases power by the number of characters killed in this stage.</Desc>
+		<Desc>Increases power by the number of characters killed in this Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaBinahSinDice1">
@@ -696,7 +696,7 @@ When the revived allied character uses a Page on the target of this Page, they w
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardGeburaFake">
-		<Desc>When the Act starts, this page will be moved to the Special Page Deck and can only be used in the [E.G.O. Manifested] state.</Desc>
+		<Desc>At the start of the Act, this Card is moved to the Personal EGO Deck. This card can only be used in the [E.G.O. Manifested] state.</Desc>
 		<Desc>When this page is available, the cost of [Onrush] is reduced by 1.</Desc>
 		<Desc>[After use], if the dice of this page hit at least once, [Onrush] can be used twice more during this Scene, regardless of its conditions.</Desc>
 	</BattleCardAbility>
@@ -793,12 +793,13 @@ If the [Qliphoth Rampage] counter is successful, gain [Qliphoth] counts to this 
 
 	<BattleCardAbility ID="lcAngelaDeckComponent101">
 		<Desc>[Melee - Cost 2 - Qliphoth 2]</Desc>
-		<Desc>[Combat Starts] If all allies roll the minimum dice during this Scene, inflict 2 stacks of [Burn] to both players, gain 1 [Negative Emotion], and reroll the dice (limited to 1 per dice).</Desc>
+		<Desc>[On Combat Start] This Scene, Whenever an ally rolls minimum with a dice inflict 2 [Burn] to each other, gain 1 [Negative Emotion Coin], and reroll the dice (limited to once per dice).</Desc>
 	</BattleCardAbility>
 
 <BattleCardAbility ID="lcAngelaDeckComponent102">
 		<Desc>[Ranged - Cost 4 - Qliphoth 4]</Desc>
-		<Desc>[Combat Starts] Grant all enemy characters 3 stacks of [Damage Boost] and [Fragile], and 1 stack of [Strength], and grant this Scene to you 2 stacks of [Strength] and [Damage Boost], and 1 stack of [Fragile] in the next Scene.</Desc>
+		<Desc>[On Combat Start] Give all enemies 3 stacks of [Damage Up] and [Fragile], and 1 stack of [Strength].
+Give this character 2 stacks of [Strength] and [Damage Up], and 1 stack of [Fragile] in the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent103">
@@ -808,43 +809,43 @@ If the [Qliphoth Rampage] counter is successful, gain [Qliphoth] counts to this 
 
 	<BattleCardAbility ID="lcAngelaDeckComponent104">
 		<Desc>[Melee - Cost 3 - Qliphoth 4]</Desc>
-		<Desc>[On Combat Start] During this scene, if the target is attacked one-sided and cannot use a page, restore 1 Light to the attacker and increase the damage dealt by their page by 2-5</Desc>
+		<Desc>[On Combat Start] During this Scene, if the target is attacked by a one-sided attack and the attacker is untargetable?, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent105">
 		<Desc>[Ranged - Cost 2 - Qliphoth 2]</Desc>
-		<Desc>[Qliphoth 4] [Battle Start] If you have [Level III] Abnormality Pages, discard all pages and draw 2 pages at the start of the next Scene.</Desc>
+		<Desc>[On Combat Start] If you possess a [Level III] Abnormality Page on the current floor, discard all pages and draw 2 pages at the start of the next Scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent106">
 		<Desc>[Ranged - Cost 4 - Qliphoth 10]</Desc>
-		<Desc>[Battle Start] Revive 2 dead allied characters with a level 3 emotion during this Scene.
-When the revived allied character uses a page on the target of this page, they will take 1 one-sided attack page originally directed at them.</Desc>
+		<Desc>[On Combat Start] Revive 2 dead allies at Emotion Level 3 for this Scene (they die at the end of the Scene).
+When you would be targeted for a one-sided attack one of the revived allies will take the attack instead (one attack redirected per ally).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent107">
 		<Desc>[Melee - Cost 2 - Qliphoth 5]</Desc>
-		<Desc>[At the end of the Scene] Restore 2 Light Points to the allied character with the most Abnormality Pages and gain 1 additional Speed Dice in the next Scene. However, all other allied characters gain 1 stack of [Flaw], [Paralysis], and 3 stacks of [Fragile].</Desc>
+		<Desc>[At the end of the Scene] Restore 2 Light to the ally with the most Abnormality Pages and they gain 1 additional Speed Dice next Scene. However, all other allied characters gain 1 [Disarm], [Paralysis], and 3 [Fragile] next Scene. (Has no effect if no allies have Abnormality pages, but will buff self if tied)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent108">
 		<Desc>[Melee - Cost 3 - Qliphoth 6]</Desc>
-		<Desc>[At the start of the battle] During this Scene, allied characters with the Abnormality Pages [Giant Eyes], [Small Beak], or [Long Arms] gain the corresponding additional effects (stacking).</Desc>
+		<Desc>[On Combat Start] Gives the librarian with the Abnormality Pages [Big Eyes], [Long Arms], or [Small Beak] the corresponding additional effects (stacking).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent109">
 		<Desc>[Melee - Cost 2 - Qliphoth 0]</Desc>
-		<Desc>[On Clash Win] Use a random [On Play] Page for 0 cost and reduce the [Qliphoth] counter by 3.</Desc>
+		<Desc>[On Clash Win] Use a random [On Play] card from your deck (cost is considered 0 On Use) and reduce the [Qliphoth] counter by 3.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent110">
 		<Desc>[Melee - Cost 3 - Qliphoth 0]</Desc>
-		<Desc>[At Battle Start] Reduce the [Qliphoth] counter by an amount equal to the change in the Page's cost and gain additional effects during this scene.</Desc>
+		<Desc>[On Combat Start] Reduce the [Qliphoth] counter by an amount equal to the change in the Page's cost and gain additional effects during this scene.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent111">
-		<Desc>[Melee - Cost 3 - Qliphoth 4] Can only be used when the Emotion level is at least 1 and there are at least 2 other allied characters.</Desc>
-		<Desc>[On Use] Instantly raises the Emotion level of the player and reduces the Emotion level of the other 2 allied characters by 1 level. (The light does not recover on the Emotion level increased by this method.)</Desc>
+		<Desc>[Melee - Cost 3 - Qliphoth 4] Can only be used when the Emotion level is at least 1 and there are at least 2 other allies.</Desc>
+		<Desc>[On Use] Instantly raises the Emotion level of this character and reduces the Emotion level of the other 2 allies by 1 level. (Light does not recover on the Emotion level increasing by this method.)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent151">
