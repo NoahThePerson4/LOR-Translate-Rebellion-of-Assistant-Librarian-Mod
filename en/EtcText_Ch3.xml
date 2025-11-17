@@ -99,7 +99,7 @@
 	
 	
 	<!-- #region 그 외 -->
-	<Key name="ANGELA_EGO_QLIPHOTH">Increases when granting a positive status effect to an ally or successfully countering a Qliphoth meltdown. Decreases when using a 'Qliphoth' card or failing to suppress a Qliphoth meltdown. If the count is less than 0 at the start of the scene, you will receive {0} damage per count.</Key>
-	<Key name="ANGELA_EGO_TOTAL_QLIPHOTH">At the end of the scene with {0} more Qliphoth counters, the Qliphoth suppression status will become "Blooming."</Key>
+	<Key name="ANGELA_EGO_QLIPHOTH">Increases when granting a positive status effect to an ally or successfully countering a Qliphoth Meltdown. Decreases when using a 'Qliphoth' card or failing to suppress a Qliphoth Meltdown. If the count is less than 0 at the start of the scene, you will receive {0} Stagger damage equal to the count.</Key>
+	<Key name="ANGELA_EGO_TOTAL_QLIPHOTH">When you end a Scene with {0} more Qliphoth counter, the Qliphoth suppression status will become "Blooming."</Key>
 	<!-- #endregion -->
 </Root>

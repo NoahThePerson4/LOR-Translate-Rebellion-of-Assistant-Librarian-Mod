@@ -147,15 +147,15 @@ Decreases each time the Assistant Librarian's Panic is reset on Gebura's Stage.<
 
 		<BattleEffectText ID="lcAngelaQliphothSuppression_ego">
 			<Name>Qliphoth Suppression : Blooming</Name>
-			<Desc>Maximum Light increases by 1, and applies the "Protection" effect to all allies at the start of the scene. Qliphoth Counters are reduced by the number of allies affected by the Protection effect.
-If the Qliphoth Counter is 0 or higher when Staggered, it is reduced to 0 and this ability is lost. If the Qliphoth Counter is less than 0 when Staggered...</Desc>
+			<Desc>Maximum Light increases by 1, and applies "Protection" to all allies at the start of each scene. Qliphoth Counters is reduced by the number of allies given Protection by this effect.
+If the Qliphoth Counter is 0 or higher when Staggered, it is reduced to 0 and you lose this ability. If the Qliphoth Counter is less than 0 when Staggered change your Qliphoth state.</Desc>
 		</BattleEffectText>
 
 		<BattleEffectText ID="lcAngelaQliphothSuppression_distort">
 			<Name><![CDATA[Qliphoth Suppression : <color=#ff0000>Distortion</color>]]></Name>
-			<Desc>You can't Act. Unspecified. After an ally uses a card, each time a clash is lost or a tie occurs, the Qliphoth Counter increases by 1. For each ally's loses a clash or is hit, the Qliphoth Counter decreases by 1.
-This effect is removed if your Qliphoth Counter is 1 or higher at the end of an scene. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
-At the end of the scene when this effect reaches 3...</Desc>
+			<Desc>You can't Act or be targeted. After an ally uses a card if no clashes are lost or tied, the Qliphoth Counter increases by 1. When an ally loses a clash or is hit, the Qliphoth Counter decreases by 1.
+This effect is removed if your Qliphoth Counter is 1 or higher at the end of the Scene. Otherwise, it increases by 1, and if another ally dies, it is fixed at 3.
+At the end of the Scene when this effect reaches 3 Lose the Reception.</Desc>
 		</BattleEffectText>
 
     <BattleEffectText ID="keywordLcAngelaAngelaBlessStack1">

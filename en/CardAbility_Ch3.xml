@@ -622,7 +622,7 @@ Give this character 2 stacks of [Strength] and [Damage Up], and 1 stack of [Frag
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaNetzachSin2">
-		<Desc>[Qliphoth 4] [On Combat Start] During this Scene, if the target is attacked by a one-sided attack and the attacker is untargetable?, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5.</Desc>
+		<Desc>[Qliphoth 4] [On Combat Start] During this Scene, if the target is attacked by a one-sided attack and the target is untargetable to the attacker or the target is Staggered, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5. (This doesn't seem to work.)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaTipherithSin2">
@@ -652,19 +652,19 @@ When you would be targeted for a one-sided attack one of the revived allies will
 
 
 	<BattleCardAbility ID="lcAngelaYesodSin2Dice">
-		<Desc>[On Hit] Add damage equal to the damage dealt to 2 other characters and use this die again (up to 3 times)</Desc>
+		<Desc>[On Hit] Deal damage equal to the damage dealt by this die to 2 other characters and use this die again (up to 3 times)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaTipherithSin2Dice1">
-		<Desc>[On Hit] Restore 5 Stagger Resist to an allied character with the Abnormality Book</Desc>
+		<Desc>[On Hit] Restore 5 Stagger Resist to a random ally with an Abnormality Page</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaTipherithSin2Dice2">
-		<Desc>[On Clash Win] In the next Scene, grant an allied character with the Abnormality Book 1 stack of [Strength], [Guard], and [Invigoration]</Desc>
+		<Desc>[On Clash Win] Next Scene, give a random ally with an Abnormality Page 1 stack of [Strength], [Protection], and [Stagger Protection]</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaTipherithSin2Dice3">
-		<Desc>This die increases power by the amount gained when rolled by an allied character with the Abnormality Page.</Desc>
+		<Desc>This die's power is also affected by the amount of power it would have gained or lost if rolled by a random ally with an Abnormality Page.</Desc>
 	</BattleCardAbility>
 
 
@@ -674,15 +674,15 @@ When you would be targeted for a one-sided attack one of the revived allies will
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaBinahSinDice1">
-		<Desc>[On Clash Win] If an allied character with the Abnormality Page [Big Eyes] survives, destroy the target's next die.</Desc>
+		<Desc>[On Clash Win] If a Librarian with the Abnormality Page [Big Eyes] is alive, destroy the target's next die.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaBinahSinDice2">
-		<Desc>[On Hit] Restore 5 HP and Stagger Resist to the allied character with the Abnormality Page [Small Beak].</Desc>
+		<Desc>[On Hit] Restore 5 HP and Stagger Resist to the Librarian with the Abnormality Page [Small Beak].</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaBinahSinDice3">
-		<Desc>[On Hit] Grants a friendly character possessing the Abnormality Page [Long Arms] 1 stack of [Strength] and [Endurance] in the next Scene.</Desc>
+		<Desc>[On Hit] Give the Librarian possessing the Abnormality Page [Long Arm] 1 stack of [Strength] and [Endurance] next Scene.</Desc>
 	</BattleCardAbility>
 
 
@@ -707,11 +707,11 @@ When you would be targeted for a one-sided attack one of the revived allies will
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardGeburaDice1">
-		<Desc>[On Hit] This Scene receives +30% Stagger Damage from Slash Dice</Desc>
+		<Desc>[On Hit] This Scene the target receives +30% Damage from Slash Dice</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaRewardGeburaDice2">
-		<Desc>[On Hit] This Scene applies 5 stacks of [Bleeding] to the target</Desc>
+		<Desc>[On Hit] This Scene applies 5 stacks of [Bleed] to the target</Desc>
 	</BattleCardAbility>
 
 
@@ -763,32 +763,33 @@ When you would be targeted for a one-sided attack one of the revived allies will
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent4">
-		<Desc>At the start of each Scene, cause two other allied characters to [Qliphoth Rampage].
-If the [Qliphoth Rampage] counter is successful, gain [Qliphoth] counts to this character and reduce the cost of one of their pages with a cost of 3 or more by 1.</Desc>
+		<Desc>At the start of each Scene, give two other allies [Qliphoth Meltdown].
+If the [Qliphoth Meltdown] is successfully resolved (counter was reduced to 0) by attacking the target's designated by Angela, Angela gains [Qliphoth] count and all Librarians that resolved their Qliphoth Meltdown reduce the cost of 1 of their pages with a cost of 3 or more by 1. 
+Angela loses Qliphoth on failing to handle the Meltdown.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent6">
-		<Desc>At the end of each Scene, gain [Qliphoth] counts equal to 25% of the [Qliphoth] counts lost that Scene.</Desc>
+		<Desc>At the end of each Scene, gain [Qliphoth] count equal to 25% of the [Qliphoth] count lost in the Scene.</Desc>
 	</BattleCardAbility>0
 
 	<!-- 앤젤라 에고 분기 -->
 	<BattleCardAbility ID="lcAngelaDeckComponent401">
-		<Desc>When an allied character obtains an Abnormality Page from [Select 1 Librarian], they can consume Light and [Qliphoth] points to obtain a special Page that can be used to copy that Abnormality Page to another allied character.</Desc>
+		<Desc>When an ally obtains an Abnormality Page (that is not given to all Librarians), Angela can consume Light and [Qliphoth] count to use a special Page that gives a copy of that Abnormality Page to another chosen ally.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent402">
-		<Desc>If a cumulative total of 15 or more [Qliphoth] points is accumulated during a reception, at the start of each Scene, they restore all HP and Stagger Resist, remove Staggered, and ignore [Qliphoth] points while remaining in [Qliphoth Suppression - Awakening].</Desc>
+		<Desc>At the start of the Scene when a cumulative total of 15 or more [Qliphoth] Counter is accumulated during a reception, Angela restore all HP and Stagger Resist, Unstaggers, and she will gain [Qliphoth Suppression - Blooming]. However if Angela is Staggered while she has [Qliphoth Suppression - Blooming] and Qliphoth is negative...</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent403">
-		<Desc>Ignoring [Qliphoth] points, they remain in [Qliphoth Suppression - Awakening], but receive increased Stagger damage from [Qliphoth] points.</Desc>
-		<Desc>While Staggered, ignores the effects of the [Qliphoth] counter when the counter is below 0.</Desc>
+		<Desc>Angela will start in the [Qliphoth Suppression - Blooming] and stay in that state regardless of your [Qliphoth] Counter, but receive increased Stagger damage from [Qliphoth] Counter being negative.</Desc>
+		<Desc>However Blooming will always treat your Qliphoth Counter as negative for the effect that activates on becoming Staggered.</Desc>
 	</BattleCardAbility>
 
 	<!-- 공통 -->
 	<BattleCardAbility ID="lcAngelaDeckComponent301">
-		<Desc>When using a page with the [On Play] and [On Use] effects, lose a [Qliphoth] counter equal to its initial cost (minimum 1) and restore 1 Light.</Desc>
-		<Desc>If the target is a friendly character, restore 1 additional Light to the targeted friendly character.</Desc>	
+		<Desc>When using a page with an [On Play] effect, lose [Qliphoth] Counter equal to its original cost (minimum 1) and restore 1 Light.</Desc>
+		<Desc>If the target is an ally, restore 1 Light to the targeted ally as well.</Desc>	
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent101">
@@ -804,12 +805,12 @@ Give this character 2 stacks of [Strength] and [Damage Up], and 1 stack of [Frag
 
 	<BattleCardAbility ID="lcAngelaDeckComponent103">
 		<Desc>[Melee - Cost 4 - Qliphoth 4]</Desc>
-		<Desc>Each repeated use of this page's offensive dice increases the damage dealt by 1 (only applicable to targets with 5 or more negative statuses)</Desc>
+		<Desc>Each repeated use of this page's offensive dice increases the damage dealt by 1 (only activates against targets with 5 or more negative statuses)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent104">
 		<Desc>[Melee - Cost 3 - Qliphoth 4]</Desc>
-		<Desc>[On Combat Start] During this Scene, if the target is attacked by a one-sided attack and the attacker is untargetable?, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5.</Desc>
+		<Desc>[On Combat Start] During this Scene, if the target is attacked by a one-sided attack and the target is untargetable to the attacker or the target is Staggered, restore 1 Light to the attacker and increase the damage dealt by their Page by 2-5. (This doesn't seem to work.)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent105">
@@ -830,7 +831,7 @@ When you would be targeted for a one-sided attack one of the revived allies will
 
 	<BattleCardAbility ID="lcAngelaDeckComponent108">
 		<Desc>[Melee - Cost 3 - Qliphoth 6]</Desc>
-		<Desc>[On Combat Start] Gives the librarian with the Abnormality Pages [Big Eyes], [Long Arms], or [Small Beak] the corresponding additional effects (stacking).</Desc>
+		<Desc>[On Combat Start] Gives the Librarians with the Abnormality Pages [Big Eyes], [Long Arms], or [Small Beak] the corresponding additional effects (stacking).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent109">
@@ -840,7 +841,7 @@ When you would be targeted for a one-sided attack one of the revived allies will
 
 	<BattleCardAbility ID="lcAngelaDeckComponent110">
 		<Desc>[Melee - Cost 3 - Qliphoth 0]</Desc>
-		<Desc>[On Combat Start] Reduce the [Qliphoth] counter by an amount equal to the change in the Page's cost and gain additional effects during this scene.</Desc>
+		<Desc>[On Combat Start] Reduce the [Qliphoth] counter by an amount equal to the change in the Page's cost and gain additional effects during this scene based on the cost of this page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponent111">
@@ -860,7 +861,10 @@ If the Control Flow Page [Harmony] is also equipped, this effect is only trigger
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen1">
 		<Desc>At the start of this Scene, other uncontrollable allies gain [Marks] equal to the number of Abnormality Pages they possess.</Desc>
-		<Desc>Replaces a specific [Level II] Abnormality Page and E.G.O. Page on the current character's floor.</Desc>
+		<Desc>Replaces a special [Level II] Abnormality Page and E.G.O. Page on the current character's floor.</Desc>
+		<Desc>(Servitude - [All Allies]
+Remove all status ailments and Stagger Resistance is fully restored (including if Staggered).
+If you have "Mark" but are controllable die, otherwise if you take fatal damage, your Mark is reduced by 2 during this Scene and you become in a state of stasis until the next Scene. Upon recovering from stasis, you recover 50% of your maximum health.)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen2">
