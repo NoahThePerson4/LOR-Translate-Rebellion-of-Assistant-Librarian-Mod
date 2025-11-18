@@ -860,7 +860,7 @@ If the Control Flow Page [Harmony] is also equipped, this effect is only trigger
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen1">
-		<Desc>At the start of this Scene, other uncontrollable allies gain [Marks] equal to the number of Abnormality Pages they possess.</Desc>
+		<Desc>At the start of Every Scene, other uncontrollable allies gain [Marks] equal to the number of Abnormality Pages they possess.</Desc>
 		<Desc>Replaces a special [Level II] Abnormality Page and E.G.O. Page on the current character's floor.</Desc>
 		<Desc>(Servitude - [All Allies]
 Remove all status ailments and Stagger Resistance is fully restored (including if Staggered).
@@ -868,99 +868,99 @@ If you have "Mark" but are controllable die, otherwise if you take fatal damage,
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen2">
-		<Desc>[Paradox 5] When applying [Pale Hand], apply 2 layers of [Bound] to the target in the next Scene. During a battle, for every 3 layers of [Pale Hand], the target's power is reduced by 1 (rounded up).</Desc>
-		<Desc>If the player's Emotion Level is at least 3, applying [Pale Hand] removes 2 additional layers of [Positive Status] from the target.</Desc>
+		<Desc>[Paradox 5] When inflicting [Pale Hand], apply 2 stacks of [Bind] to the target next Scene. When Clashing, for every 3 stacks of [Pale Hand], the target's power is reduced by 1 (rounded up).</Desc>
+		<Desc>At Emotion Level 3 or higher, Inflicting [Pale Hand] also removes 2 stacks of [Positive Status Effects] from the target.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen3">
-		<Desc>[Paradox 10] When gaining a positive effect or an abnormal status that benefits you, gain an additional stack and increase your [Qliphoth] counter by the number of stacks of the effect gained.</Desc>
+		<Desc>[Paradox 10] When you gain a positive status effect or a negative status effect, gain an additional stack and increase your [Qliphoth] counter by the number of stacks of the effect gained.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen4">
-		<Desc>[Paradox 5] When you gain a positive status, all uncontrollable allies with [Mark] gain the same effect.
-When a friendly character gains a positive status due to this effect, increase your [Qliphoth] counter.</Desc>
+		<Desc>[Paradox 5] When you gain a positive status effect, all uncontrollable allies with [Mark] gain the same effect.
+When an ally gains a positive status effect due to this effect, increase your [Qliphoth] counter by the amount gained.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen5">
-		<Desc>[Paradox 5] When applying an abnormal status to a target, if the target has [Mark], copy the abnormal status to the target and apply it in the next Scene (abnormal status copied in this way is not considered to be applied by you).</Desc>
+		<Desc>[Paradox 5] When applying a negative status effect to a target, if the target has [Mark], apply the negative status effect to the target next Scene as well (negative status effects inflicted by this effect are not treated as having been inflicted by you).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen6">
-			<Desc>[Paradox 3] Reduces damage and Stagger damage taken by allied characters by "number of allied character's [Mark] stacks x 1.5"</Desc>
-			<Desc>Reduces damage and Stagger damage taken by yourself by "sum of all allied character's [Mark] stacks x 0.5"</Desc>
-			<Desc>Damage reduction is rounded up, and if the damage reduced by this effect is greater than the damage taken, it will be restored instead</Desc>
+			<Desc>[Paradox 3] All allies Reduce damage and Stagger damage taken by "their [Mark] stacks x 1.5"</Desc>
+			<Desc>You Reduce damage and Stagger damage taken by "the sum of all allies' [Mark] stacks x 0.5"</Desc>
+			<Desc>Damage reduction is rounded up, and if the damage reduced by this effect is greater than the damage taken, you heal by the excess amount.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen7">
-		<Desc>If an enemy character with a [Mark] does not trigger a valid roll against you during this Scene (win a battle/hit), the [Mark] will be converted to [Awe] at the end of the Scene</Desc>
-		<Desc>([Awe] - At the start of each Scene, the designated librarian's [Qliphoth] counter is reduced, and the player receives Stagger Damage equal to their Stagger Resist limit.)</Desc>
+		<Desc>If an enemy with [Mark] does not Win a Clash against you or Hit you, the [Mark] will be converted to [Awe] at the end of the Scene</Desc>
+		<Desc>([Awe] - At the start of each Scene, the Patron Librarian's [Qliphoth] counter is reduced, and this character receives Stagger Damage equal to stack % of Max Stagger Resist.)</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal1">
-		<Desc>When a Reception is activated, this player gains an Abnormality Page that accelerates the enemy's Emotion Level increase.
-This effect is enhanced at Emotion Levels 2/3/5.</Desc>
+		<Desc>At the start of the Reception, you will gain an Abnormality Page that accelerates the enemy's Emotion Level gain.
+This effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal2">
-		<Desc>When a Reception is activated, this player gains an Abnormality Page that additionally triggers the [On Hit] effect of allied characters' Battle Pages.
-This effect is enhanced at Emotion Levels 2/3/5.</Desc>
+		<Desc>At the start of the Reception, you will gain an Abnormality Page that triggers the [On Hit] effect of allied characters' Combat Pages additional times.
+This effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal3">
-		<Desc>When you activate Reception, you gain an Abnormality Page that negates the effects of enemy Battle Pages.
+		<Desc>At the start of the Reception, you will gain an Abnormality Page that negates the effects of enemy Combat Pages.
 The effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal4">
-		<Desc>When you activate Reception, you gain an Abnormality Page that allows allied characters to attack with support after the first Speed Die's Page is used.
+		<Desc>At the start of the Reception, you will gain an Abnormality Page that allows allies to do a follow up attack after your first Speed Die's Page is used.
 The effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen8">
-		<Desc>[Paradox 3] When an uncontrolled allied character uses a Page on a designated target, the cost of that Page is reduced by an amount equal to the number of [Marks] on that target (cost returns to normal after being used).</Desc>
+		<Desc>[Paradox 3] When an uncontrolled ally uses a Page on a target designated by the Patron Librarian, the cost of that Page is reduced by an amount equal to the number of [Marks] on that target (cost returns to normal after being used).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen9">
-		<Desc>[Paradox 8] Reduces the resistance of all characters with [Mark] by 1 level.</Desc>
+		<Desc>[Paradox 8] Reduces the Resistances of all characters with [Mark] by 1 level.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen10">
-		<Desc>[Paradox 8] Doubles the damage and stagger damage taken by all characters with [Mark] from Battle Page effects and abnormal statuses.</Desc>
+		<Desc>[Paradox 8] Doubles the damage and stagger damage taken by all characters with [Mark] from Combat Page effects and negative status effects.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen11">
-		<Desc>[Paradox 3] At the end of this Scene, if all enemy characters have [Mark], restore 3-6 points of stagger resist to all allied characters and make this character unselectable in the next Scene (does not work if no other allied characters are alive).</Desc>
+		<Desc>[Paradox 3] At the end of each Scene, if all enemy characters have [Mark], all allies restore 3-6 Stagger Resist and you become untargetable next Scene (does not work if no other allies are alive).</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen12">
-		<Desc>[Paradox 10] Each time you obtain a [Breakdown] Abnormality Page on the current floor, all allied characters trigger the "Trigger when other allied characters die" effect once.</Desc>
-		<Desc>If you possess at least 5 Abnormality Pages on the current floor, the effect is changed to trigger each time you use an E.G.O. Page.</Desc>
+		<Desc>[Paradox 10] Each time you obtain a [Breakdown] Abnormality Page from the current floor, all allies activate all "on ally death" effects once.</Desc>
+		<Desc>If you possess at least 5 Abnormality Pages from the current floor, the effect is changed to trigger each time you use an E.G.O. Page.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen13">
-		<Desc>If all other allied characters are dead and uncontrollable, the [Qliphoth] counter increase effect of [Paradox] will not be triggered during this reception, and your Speed dice and the number of pages drawn per Scene will be increased by 1.</Desc>
+		<Desc>If all other allied characters are dead and were uncontrollable, the [Qliphoth] counter increase effect of [Paradox] will not be triggered for this reception, and your number of Speed dice and the number of pages drawn each Scene will be increased by 1.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen14">
-		<Desc>[Paradox] 6] If your Light is less than 6 at the start of each Scene, restore it to 6. Based on the amount of Light restored, trigger the "One other friendly character loses 1 Light and takes damage equal to 10% of their maximum HP" effect.</Desc>
+		<Desc>[Paradox] 6] If your Light is less than 6 at the start of each Scene, restore it to 6. The following effect then activates (Amount of Light restored by this effect) times, "One other ally loses 1 Light and takes damage equal to 10% of their maximum HP".</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen15">
-		<Desc>[Paradox 12] When an enemy character with [Mark] rolls a dice against a friendly character, they take damage equal to the number of [Mark] stacks. If the target is yourself, reduce your [Qliphoth] count by 1.</Desc>
+		<Desc>[Paradox 12] When an enemy with [Mark] rolls a dice against an ally, they take damage equal to their [Mark] stacks. If you are the target of the attack, reduce your [Qliphoth] count by 1.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen16">
-		<Desc>[Paradox 6] When a character with [Mark] is staggered, they take damage equal to their maximum HP x the number of [Mark] stacks.</Desc>
+		<Desc>[Paradox 6] When a character with [Mark] is staggered, they take damage equal to ([Mark] stacks)% of their maximum HP.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen17">
-		<Desc>[Paradox 3] When you use an E.G.O. Page, you inflict [Pale Hand] on the target and increase its power by the sum of [Pale Hand] stacks/number of enemies on the stage.</Desc>
+		<Desc>[Paradox 3] When you use an E.G.O. Page, you inflict [Pale Hand] on the target and increase the E.G.O. Page's power by the sum of [Pale Hand] stacks/number of enemies.</Desc>
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmen18">
 		<Desc>[Paradox 12] When you use an E.G.O. Page, you inflict 1-3 stacks of [Mark] on the target.
-At the end of this Scene, each E.G.O. Page you use restores 1 Light to all allied characters and draws a page.</Desc>
+At the end of each Scene, for every E.G.O. Page you used restore 1 Light to all allied characters and draw a page.</Desc>
 	</BattleCardAbility>
 	<!-- #endregion -->
 
