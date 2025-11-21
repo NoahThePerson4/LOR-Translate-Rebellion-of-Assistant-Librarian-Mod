@@ -897,7 +897,7 @@ When an ally gains a positive status effect due to this effect, increase your [Q
 	</BattleCardAbility>
 
 	<BattleCardAbility ID="lcAngelaDeckComponentCarmenOrdeal1">
-		<Desc>At the start of the Reception, you will gain an Abnormality Page that accelerates the enemy's Emotion Level gain.
+		<Desc>At the start of the Reception, you will gain an Abnormality Page that accelerates Emotion Level gain of enemies.
 This effect is enhanced at Emotion Level 2/3/5.</Desc>
 	</BattleCardAbility>
 
